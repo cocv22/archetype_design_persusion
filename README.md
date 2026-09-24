@@ -7,12 +7,9 @@
 
 ### - First Assignment
 Put each group members name, archetype, and a link to their page that explains why that archetype was chosen and if they agree
-1. [Keith Williams](keith_williams.md)
-2. [Thomas Vivas](thomas_vivas.md)
 
 ## Archtypes 1-12
-- [Explorer](explorer.md)
-- [Ruler - Thomas](ruler.md)
+- 
 ## Methods of Persusion 1-7 Cialdini
 ## Design Styles within modernism and postmodernism
 ### Modernism - 6 styles
