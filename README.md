@@ -14,10 +14,10 @@ Put each group members name, archetype, and a link to their page that explains w
 4. [Cesar Carrillo]([cesar_carrillo].md)
 
 ## Archtypes 1-12
-- [Hero].md
-- [Innocent].md
-- [Sage].md
-- [Architect].md
+- [Hero]([hero]).md
+- [Innocent]([innocent].md)
+- [Sage]([sage].md)
+- [Architect]([architect].md)
 ## Methods of Persusion 1-7 Cialdini
 ## Design Styles within modernism and postmodernism
 ### Modernism - 6 styles
