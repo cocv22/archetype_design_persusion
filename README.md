@@ -14,7 +14,7 @@ Put each group members name, archetype, and a link to their page that explains w
 4. [Cesar Carrillo]([cesar_carrillo].md)
 
 ## Archtypes 1-12
-- [Hero]([hero]).md
+- [Hero]([hero].md)
 - [Innocent]([innocent].md)
 - [Sage]([sage].md)
 - [Architect]([architect].md)
