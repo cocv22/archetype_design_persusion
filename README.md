@@ -8,10 +8,10 @@
 ### - First Assignment
 Put each group members name, archetype, and a link to their page that explains why that archetype was chosen and if they agree
 
-1. shakti_anandkumar
-2. aswath_manikandan
-3. rija_kharel
-4. cesar_carrillo
+1. [Shakti Anandkumar]([shakti_anandkumar].md)
+2. [Aswath Manikandan]([aswath_manikandan].md)
+3. [Rija Kharel]([rija_kharel].md)
+4. [Cesar Carrillo]([cesar_carrillo].md)
 
 ## Archtypes 1-12
 - [Hero].md
