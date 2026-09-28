@@ -15,17 +15,18 @@ Put each group members name, archetype, and a link to their page that explains w
 
 ## Archtypes 1-12
 - [Hero](hero.md)
-- [Explorer](explorer.md)
-- [Innocent](innocent.md)
-- [Sage](sage.md)
+- [Explorer](explorer.md) Rija
+- [Innocent](innocent.md) Rija
+- [Sage](sage.md) Rija
 - [Architect](architect.md)
-- [Ruler](ruler.md)
+- [Ruler](ruler.md) 
 - [Creator](creator.md) Aswath
 - [Lover](lover.md) Aswath
 - [Jester](jester.md) Shakti
 - [Everyman](everyman.md) Aswath
 - [Outlaw](outlaw.md) Shakti
 - [Magician](magician.md) Shakti
+
 ## Methods of Persusion 1-7 Cialdini
 ## Design Styles within modernism and postmodernism
 ### Modernism - 6 styles
