@@ -20,12 +20,12 @@ Put each group members name, archetype, and a link to their page that explains w
 - [Sage](sage.md)
 - [Architect](architect.md)
 - [Ruler](ruler.md)
-- [Creator](creator.md)
-- [Lover](lover.md)
-- [Jester](jester.md)
-- [Everyman](everyman.md)
-- [Outlaw](outlaw.md)
-- [Magician](magician.md)
+- [Creator](creator.md) Aswath
+- [Lover](lover.md) Aswath
+- [Jester](jester.md) Shakti
+- [Everyman](everyman.md) Aswath
+- [Outlaw](outlaw.md) Shakti
+- [Magician](magician.md) Shakti
 ## Methods of Persusion 1-7 Cialdini
 ## Design Styles within modernism and postmodernism
 ### Modernism - 6 styles
