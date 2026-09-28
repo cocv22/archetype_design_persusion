@@ -23,6 +23,3 @@ Put each group members name, archetype, and a link to their page that explains w
 ### Modernism - 6 styles
 ### Post Modernism - 6 styles 
 
-### HEY
-### Herooo
-### Testing Hero - Shakti Branch
