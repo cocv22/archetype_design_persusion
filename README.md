@@ -15,9 +15,17 @@ Put each group members name, archetype, and a link to their page that explains w
 
 ## Archtypes 1-12
 - [Hero](hero.md)
+- [Explorer](explorer.md)
 - [Innocent](innocent.md)
 - [Sage](sage.md)
 - [Architect](architect.md)
+- [Ruler](ruler.md)
+- [Creator](creator.md)
+- [Lover](lover.md)
+- [Jester](jester.md)
+- [Everyman](everyman.md)
+- [Outlaw](outlaw.md)
+- [Magician](magician.md)
 ## Methods of Persusion 1-7 Cialdini
 ## Design Styles within modernism and postmodernism
 ### Modernism - 6 styles
