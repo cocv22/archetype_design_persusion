@@ -14,12 +14,12 @@ Put each group members name, archetype, and a link to their page that explains w
 4. [Cesar Carrillo](cesar_carrillo.md)
 
 ## Archtypes 1-12
-- [Hero](hero.md)
-- [Explorer](explorer.md) Rija
+- [Hero](hero.md) Shakti
+- [Explorer](explorer.md) Already done
 - [Innocent](innocent.md) Rija
 - [Sage](sage.md) Rija
-- [Architect](architect.md)
-- [Ruler](ruler.md) 
+- [Architect](architect.md) Rija
+- [Ruler](ruler.md) Aswath
 - [Creator](creator.md) Aswath
 - [Lover](lover.md) Aswath
 - [Jester](jester.md) Shakti
@@ -27,10 +27,23 @@ Put each group members name, archetype, and a link to their page that explains w
 - [Outlaw](outlaw.md) Shakti
 - [Magician](magician.md) Shakti
 
-## Methods of Persusion 1-7 Cialdini
+## Methods of Persuasion 1-7 Cialdini
+- [Reciprocity](reciprocity.md)
+- [Commitment-and-consistency](commitment_consistency.md)
+- [Social-proof](social_proof.md)
+- [Authority](authority.md)
+- [Liking](liking.md)
+- [Scarcity](scarcity.md) Shakti
+- [Unity](unity.md) Shakti
+
 ## Design Styles within modernism and postmodernism
+
+
 ### Modernism - 6 styles
+
+
 ### Post Modernism - 6 styles 
+
 
 ### HEY
 ### Herooo
