@@ -16,10 +16,10 @@ Put each group members name, archetype, and a link to their page that explains w
 ## Archtypes 1-12
 - [Hero](hero.md) Shakti
 - [Explorer](explorer.md) Already done
-- [Innocent](innocent.md) Rija
+- [Innocent](innocent.md) Aswath
 - [Sage](sage.md) Rija
 - [Architect](architect.md) Rija
-- [Ruler](ruler.md) Aswath
+- [Ruler](ruler.md) Rija
 - [Creator](creator.md) Aswath
 - [Lover](lover.md) Aswath
 - [Jester](jester.md) Shakti
