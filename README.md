@@ -40,9 +40,21 @@ Put each group members name, archetype, and a link to their page that explains w
 
 
 ### Modernism - 6 styles
+- [Bauhaus](bauhaus.md)
+- [International Style](international_style.md)
+- [De Stijl](de_stijl.md)
+- [Constructivism](constructivism.md)
+- [Art Deco](art_deco.md)
+- [Mid-Century Modern](mid_century_modern.md)
 
 
 ### Post Modernism - 6 styles 
+- [Postmodern Classicism](postmodern_classicism.md)
+- [Memphis Design](memphis_design.md)
+- [Deconstructivism](deconstructivism.md)
+- [Pop Art](pop_art.md)
+- [Neo-Expressionism](neo_expressionism.md)
+- [Postmodern Graphic Design](postmodern_graphic_design.md)
 
 
 ### HEY
