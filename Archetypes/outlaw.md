@@ -8,6 +8,9 @@ Unlike the Hero, which seeks to overcome obstacles through discipline and achiev
 
 The Outlaw is not simply about chaos or aggression. It is more precise than that: it is about rejecting unnecessary rules, fighting stagnation, and claiming individual identity. This makes it especially powerful for brands that want to feel rebellious, authentic, and unforgettable.
 
+![Motorcycle rider on an open road, symbolizing freedom and rebellion](https://images.unsplash.com/photo-1558980664-10e7170b5df9?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
+
 ## When to Use the Outlaw Archetype
 
 The Outlaw archetype is most effective when a brand wants to stand apart from convention and project a strong sense of independence or defiance. It works best for products and services that are tied to freedom, edge, toughness, nonconformity, or emotional intensity.
@@ -34,6 +37,9 @@ Common imagery includes:
 - Symbolic visual references to rebellion, such as skulls, sparks, smoke, and open flames.
 
 The imagery usually avoids over-polished perfection. Instead, it embraces texture, tension, and the feeling of living outside the rules.
+
+![Dark, rugged landscape with a sense of defiance and open freedom](https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ### Colors
 Outlaw branding often uses strong, elemental colors that feel grounded yet intense. These shades communicate confidence, danger, and resistance.
@@ -90,6 +96,9 @@ Red Bull is an Outlaw brand because it frames the consumer as someone who wants 
 
 ### Why These Brands Fit
 These examples succeed because they do not try to appear bland or universally reassuring. Instead, each one creates a strong point of view, uses emotionally charged imagery, and invites consumers to see themselves as independent, bold, and resistant to set expectations. That is the core of the Outlaw archetype: differentiation through rebellion, authenticity, and power.
+
+![A person stands confidently in a gritty urban scene, expressing independence and nonconformity](https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ## Sources and References
 
