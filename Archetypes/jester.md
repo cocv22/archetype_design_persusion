@@ -8,6 +8,9 @@ Jester brands invite people to laugh, loosen up, and be present. They embrace wi
 
 The Jester does not simply sell a product; it sells a feeling. It promises pleasure, surprise, and shared enjoyment. This makes it especially effective for brands that want to feel human, approachable, and lively rather than rigid or overly formal.
 
+![People laughing together in a joyful, playful social moment](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
+
 ## When to Use the Jester Archetype
 
 The Jester archetype is most effective when a brand wants to make people smile, foster connection, and create memorable moments through playfulness. It is especially relevant for products and services that are meant to reduce tension, spark joy, or add lightness to daily life.
@@ -35,6 +38,9 @@ Common imagery includes:
 - Bright, kinetic compositions that feel energetic and spontaneous.
 
 The visual style usually avoids excessive seriousness. Instead, it emphasizes delight, personality, and a sense that joy is part of the brand's identity.
+
+![Bright, energetic celebration scene with confetti and playful motion](https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ### Colors
 Jester branding often uses energetic, warm, and optimistic colors that communicate excitement, friendliness, and spontaneity.
@@ -93,6 +99,9 @@ M&M's works so well because it treats marketing like entertainment. The brand do
 
 ### Why These Brands Fit
 These brands succeed because they understand that joy is not a secondary advantage—it is a core part of the brand experience. They use humor, character, and emotional playfulness to create stronger identity and brand recall. In practical branding terms, the Jester archetype is effective when the goal is to make the audience feel better, laugh more, and remember the brand as a source of pleasure rather than pressure.
+
+![A lively, humorous brand-style scene with expressive energy and fun](https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ## Sources and References
 
