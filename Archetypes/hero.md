@@ -6,6 +6,9 @@ The Hero archetype represents courage, determination, resilience, and the desire
 
 The Hero believes that obstacles are opportunities for growth and that success comes from discipline, persistence, and hard work. This archetype often inspires others to push beyond their limitations and believe in their own abilities.
 
+![Athlete pushing through a race with determination](https://images.unsplash.com/photo-1541534401786-2077eed87a74?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
+
 ## When to Use the Hero Archetype
 
 The Hero archetype is most effective when a brand wants to inspire people to overcome challenges, achieve their goals, and believe in their potential.
@@ -25,6 +28,9 @@ Common imagery includes:
 - People achieving personal milestones.
 - Symbols of victory, such as trophies and medals.
 - Individuals standing confidently against challenges.
+
+![Climber facing a difficult mountain challenge](https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ### Colors
 - Red (#B22222): Courage, energy, and determination.
@@ -59,6 +65,9 @@ Adidas often uses Hero characteristics by highlighting athletic performance, per
 
 ### 3. Under Armour
 Under Armour demonstrates the Hero archetype through messaging centered on discipline, hard work, resilience, and overcoming obstacles.
+
+![Athlete celebrating a hard-earned achievement](https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80)
+*Source: Unsplash.*
 
 ### Why These Brands Fit
 All three brands use motivational storytelling, powerful athletic imagery, and action-oriented language to connect with audiences who value progress and achievement.
