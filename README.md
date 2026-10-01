@@ -28,9 +28,9 @@ Put each group members name, archetype, and a link to their page that explains w
 - [Magician](magician.md) Shakti
 
 ## Methods of Persuasion 1-7 Cialdini
-- [Reciprocity](reciprocity.md)
+- [Reciprocity](reciprocity.md) Ezzine
 - [Commitment-and-consistency](commitment_consistency.md)
-- [Social-proof](social_proof.md)
+- [Social-proof](social_proof.md) Ezzine
 - [Authority](authority.md)
 - [Liking](liking.md)
 - [Scarcity](scarcity.md) Shakti
