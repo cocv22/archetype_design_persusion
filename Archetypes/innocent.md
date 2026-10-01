@@ -64,8 +64,4 @@ There is also a risk of becoming generic. Pastels and smiling families can signa
 
 ## Navigation
 
-<<<<<<< HEAD
 [Back to Archetypes Index](README.md)
-=======
-[Back to Archetypes Index](README.md)
->>>>>>> 38eb57b9215111acc33e1160648e58e2ecf8f11d
