@@ -15,9 +15,9 @@ Put each group members name, archetype, and a link to their page that explains w
 
 ## Archtypes 1-12
 - [Hero](hero.md) Shakti
-- [Explorer](explorer.md) Ezzine
+- [Explorer](explorer.md) Cesar
 - [Innocent](innocent.md) Aswath
-- [Sage](sage.md) Ezzine
+- [Sage](sage.md) Cesar
 - [Architect](architect.md) Ezzine
 - [Ruler](ruler.md) Ashwath
 - [Creator](creator.md) Aswath
