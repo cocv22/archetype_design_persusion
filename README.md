@@ -15,15 +15,15 @@ Put each group members name, archetype, and a link to their page that explains w
 
 ## Archtypes 1-12
 - [Hero](hero.md) Shakti
-- [Explorer](explorer.md) Already done
+- [Explorer](explorer.md) Ezzine
 - [Innocent](innocent.md) Aswath
-- [Sage](sage.md) Rija
-- [Architect](architect.md) Rija
-- [Ruler](ruler.md) Rija
+- [Sage](sage.md) Ezzine
+- [Architect](architect.md) Ezzine
+- [Ruler](ruler.md) Ashwath
 - [Creator](creator.md) Aswath
 - [Lover](lover.md) Aswath
 - [Jester](jester.md) Shakti
-- [Everyman](everyman.md) Aswath
+- [Everyman](everyman.md) Ezzine
 - [Outlaw](outlaw.md) Shakti
 - [Magician](magician.md) Shakti
 
@@ -41,9 +41,9 @@ Put each group members name, archetype, and a link to their page that explains w
 
 ### Modernism - 6 styles
 - [Bauhaus](bauhaus.md)
-- [International Style](international_style.md)
+- [International Style](international_style.md) Shakti
 - [De Stijl](de_stijl.md)
-- [Constructivism](constructivism.md)
+- [Constructivism](constructivism.md) Shakti
 - [Art Deco](art_deco.md)
 - [Mid-Century Modern](mid_century_modern.md)
 
