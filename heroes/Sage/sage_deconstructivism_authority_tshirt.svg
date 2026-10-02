@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Follow the argument — Common Thread philosopher T-shirt</title>
+  <desc id="desc">A deconstructivist hero advertisement for a philosopher T-shirt. Offset fragments assemble a shirt carrying a verifiable Aristotle passage reference, with tension in the composition and a clear, stable CTA.</desc>
+  <defs>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#273C39" stroke-width="1" opacity=".12"/></pattern>
+    <filter id="shade" x="-35%" y="-35%" width="175%" height="185%"><feDropShadow dx="4" dy="17" stdDeviation="14" flood-color="#273C39" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="#F2EFE8"/>
+  <rect width="1440" height="900" fill="url(#grid)"/>
+  <!-- Shifting architectural planes establish instability and a strong diagonal axis -->
+  <path d="M801 0h639v900h-243L724 275z" fill="#BE684D"/>
+  <path d="M1005 0h435v900h-123L843 266z" fill="#B99A52"/>
+  <path d="M1221 0h219v900h-123L1008 274z" fill="#667F96"/>
+  <path d="M0 661 849 382l157 518H0z" fill="#B99A52"/>
+  <path d="M0 773 614 570l106 330H0z" fill="#667F96"/>
+  <path d="M0 0h650L58 355 0 294z" fill="#BE684D"/>
+  <path d="M603 0h61L414 421l-46-30z" fill="#273C39"/>
+  <!-- Calm copy plane prevents fragmentation from obscuring the argument -->
+  <path d="M67 179l629 0-48 482H67z" fill="#F2EFE8"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#273C39">
+    <text x="83" y="67" font-size="18" font-weight="900" letter-spacing="3.5">COMMON THREAD</text>
+    <text x="1363" y="67" text-anchor="end" font-size="12" font-weight="800" letter-spacing="2">READ / QUESTION / REASON</text>
+    <text x="87" y="253" font-size="14" font-weight="900" letter-spacing="2.5">THE PHILOSOPHER'S TEE</text>
+    <text x="77" y="361" font-size="76" font-weight="900" letter-spacing="-3.5">FOLLOW</text>
+    <text x="77" y="448" font-size="76" font-weight="900" letter-spacing="-3.5">THE</text>
+    <text x="77" y="535" font-size="76" font-weight="900" letter-spacing="-3.5">ARGUMENT.</text>
+    <path d="M82 565h104" stroke="#BE684D" stroke-width="9"/>
+    <text x="86" y="610" font-size="18" font-weight="600">A line from Aristotle, with its source in plain view.</text>
+    <text x="86" y="641" font-size="14" font-weight="800" letter-spacing="1.1">NICOMACHEAN ETHICS · I.1 · 1094a</text>
+  </g>
+  <!-- Product silhouette assembled from displaced image-like facets -->
+  <g filter="url(#shade)">
+    <path d="M876 257l95-62 81 31 84-39 98 78-58 112-58-32v288H884V345l-57 34-60-103 109-65z" fill="#F8F6F0" stroke="#273C39" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M876 257l95-62 55 88-99 87-69-94z" fill="#BE684D" stroke="#273C39" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M971 195l81 31-26 92-99 52 55-87z" fill="#B99A52" stroke="#273C39" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M1052 226l84-39 98 78-58 112-74-57 42-72-82 70z" fill="#667F96" stroke="#273C39" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M884 345l-57 34-60-103 49-36 79 75M1118 345l58 32 58-112 49 39-59 110-48-27v285h-58z" fill="#E0DBD1" stroke="#273C39" stroke-width="6" stroke-linejoin="round"/>
+    <!-- shirt body planes are visibly offset, with one readable quotation panel -->
+    <path d="M884 345l108 5-39 300H884z" fill="#F8F6F0" stroke="#273C39" stroke-width="5"/>
+    <path d="M1010 347l92-35 9 322h-119z" fill="#B99A52" stroke="#273C39" stroke-width="5"/>
+    <path d="M1102 312l74 33v302h-65z" fill="#F8F6F0" stroke="#273C39" stroke-width="5"/>
+    <path d="M959 350l51-3-30 303h-46z" fill="#BE684D"/>
+    <path d="M1012 370l166-38-9 171-163 46z" fill="#F8F6F0" stroke="#273C39" stroke-width="5"/>
+    <text x="1091" y="402" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#273C39">“Every art and every</text>
+    <text x="1091" y="430" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#273C39">investigation ... seems</text>
+    <text x="1091" y="458" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#273C39">to aim at some good.”</text>
+    <path d="M1035 476l126-24" stroke="#BE684D" stroke-width="4"/>
+    <text x="1097" y="502" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="900" letter-spacing=".8" fill="#273C39">ARISTOTLE · NICOMACHEAN ETHICS I.1</text>
+    <text x="1098" y="519" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="800" letter-spacing="1.6" fill="#273C39">1094a</text>
+  </g>
+  <!-- diagonal routes and seams create tension but converge on source text -->
+  <path d="M751 344l67-31M752 373l49-11M1203 195l52-32M1221 224l56-12" stroke="#273C39" stroke-width="4"/>
+  <path d="M772 516l77 28M1211 560l74-23" stroke="#273C39" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M1280 438l36 37-36 37" fill="none" stroke="#F2EFE8" stroke-width="6"/>
+  <!-- CTA remains on a grounded rectangle amid fractured planes -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="86" y="720" font-size="13" font-weight="900" letter-spacing="2.3" fill="#273C39">AN ANCIENT PASSAGE · A QUESTION STILL OPEN</text>
+    <rect x="81" y="749" width="287" height="76" fill="#273C39"/>
+    <path d="M81 749h287v76H81z" fill="none" stroke="#BE684D" stroke-width="5"/>
+    <text x="106" y="797" font-size="17" font-weight="900" letter-spacing="1" fill="#F8F6F0">SEE THE ARISTOTLE TEE</text>
+    <path d="M335 778h16m-8-8 8 8-8 8" fill="none" stroke="#F8F6F0" stroke-width="3"/>
+    <text x="397" y="797" font-size="13" font-weight="800" letter-spacing="1.1" fill="#273C39">CHECK THE TEXT. KEEP THINKING.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#F2EFE8">
+    <text x="1360" y="827" text-anchor="end" font-size="12" font-weight="900" letter-spacing="2">CITE THE SOURCE</text>
+    <text x="1360" y="849" text-anchor="end" font-size="12" font-weight="900" letter-spacing="2">TEST THE CLAIM</text>
+  </g>
+</svg>

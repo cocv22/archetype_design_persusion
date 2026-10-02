@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Let the reasons speak — Common Thread Aristotle T-shirt</title>
+  <desc id="desc">A Constructivist inspired hero ad for a philosopher T-shirt featuring a short attributed passage from Aristotle's Nicomachean Ethics, with a dramatic diagonal, photomontage-like shirt illustration, and a clear product CTA.</desc>
+  <defs>
+    <pattern id="halftone" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.25" fill="#243B53" opacity=".28"/></pattern>
+    <filter id="depth" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#243B53" flood-opacity=".22"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="#F4F1E9"/>
+  <!-- forceful Constructivist field: one dominant diagonal routes the eye to the shirt -->
+  <path d="M0 0h1440v119L0 597z" fill="#C84E38"/>
+  <path d="M0 0h1440v18H0z" fill="#243B53"/>
+  <path d="M973 0h467v900h-209L844 237z" fill="#D4A64D"/>
+  <path d="M1192 0h248v900h-114L1010 235z" fill="#43838A"/>
+  <path d="M0 720 796 454l131 446H0z" fill="#D4A64D"/>
+  <path d="M0 803 546 620l84 280H0z" fill="#43838A"/>
+  <path d="M44 0h588L44 319z" fill="url(#halftone)"/>
+  <!-- brand / small editorial masthead -->
+  <g font-family="Arial, Helvetica, sans-serif" fill="#F4F1E9">
+    <text x="78" y="67" font-size="19" font-weight="900" letter-spacing="3.5">COMMON THREAD</text>
+    <text x="1361" y="67" text-anchor="end" font-size="12" font-weight="700" letter-spacing="2">THE THINKER'S EDITION / 01</text>
+  </g>
+  <!-- primary copy on a stable, high-contrast plane -->
+  <path d="M76 201h660v459H76z" fill="#F4F1E9"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#243B53">
+    <text x="91" y="266" font-size="14" font-weight="900" letter-spacing="3">A PHILOSOPHER'S TEE</text>
+    <text x="83" y="373" font-size="75" font-weight="900" letter-spacing="-3">LET THE</text>
+    <text x="83" y="460" font-size="75" font-weight="900" letter-spacing="-3">REASONS</text>
+    <text x="83" y="547" font-size="75" font-weight="900" letter-spacing="-3">SPEAK.</text>
+    <path d="M88 577h131" stroke="#C84E38" stroke-width="10"/>
+    <text x="91" y="619" font-size="19" font-weight="600">Carry a line of Aristotle into the next debate.</text>
+    <text x="91" y="647" font-size="14" font-weight="800" letter-spacing="1.4">NICOMACHEAN ETHICS · BOOK I · 1094a</text>
+  </g>
+  <!-- Shirt as the focal photomontage, with quote visibly tied to its cited source -->
+  <g filter="url(#depth)">
+    <path d="M812 252l101-64 82 39 88-37 102 66-56 110-59-29v301H827V336l-58 32-59-105 106-64z" fill="#F8F6F0" stroke="#243B53" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M812 252l101-64 42 127-98 65-47-65z" fill="#C84E38" stroke="#243B53" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M913 188l82 39-40 88-42-127z" fill="#D4A64D" stroke="#243B53" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M995 227l88-37 102 66-56 110-75-63 40-76-72 56z" fill="#43838A" stroke="#243B53" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M827 336l-58 32-59-105 49-37 78 75M1128 336l59 29 56-110 51 35-56 108-58-29v300h-52z" fill="#E7E1D5" stroke="#243B53" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M852 363l236 4-1 260H852z" fill="#F8F6F0" stroke="#243B53" stroke-width="5"/>
+    <path d="M857 375l37-1-31 241h-11zM1086 376h-42l28 239h16z" fill="#D4A64D"/>
+    <text x="970" y="429" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#243B53">“Every art and every</text>
+    <text x="970" y="465" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#243B53">investigation ... seems</text>
+    <text x="970" y="501" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="25" font-style="italic" fill="#243B53">to aim at some good.”</text>
+    <path d="M875 523h190" stroke="#C84E38" stroke-width="5"/>
+    <text x="970" y="551" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" letter-spacing="1.4" fill="#243B53">ARISTOTLE · NICOMACHEAN ETHICS I.1</text>
+    <text x="970" y="571" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" letter-spacing="2" fill="#243B53">1094a</text>
+  </g>
+  <!-- broad sound rays and editorial markers echo the direct poster language -->
+  <path d="M730 335l54-38M728 369l46-18M1102 146l61-29M1134 172l57-12" stroke="#243B53" stroke-width="5" stroke-linecap="square"/>
+  <path d="M1194 407l56 56-56 56" fill="none" stroke="#F4F1E9" stroke-width="7"/>
+  <text x="1287" y="491" transform="rotate(-18 1287 491)" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" letter-spacing="2" fill="#F4F1E9">SOURCE / REASON / JUDGMENT</text>
+  <!-- single, clear action -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="91" y="724" font-size="13" font-weight="900" letter-spacing="2.4" fill="#243B53">THE ARISTOTLE TEE · A CLASSIC QUESTION, WORN OPENLY</text>
+    <rect x="87" y="753" width="292" height="76" fill="#243B53"/>
+    <path d="M87 753h292v76H87z" fill="none" stroke="#C84E38" stroke-width="5"/>
+    <text x="111" y="801" font-size="17" font-weight="900" letter-spacing="1.1" fill="#F8F6F0">SEE THE ARISTOTLE TEE</text>
+    <path d="M345 782h15m-7-8 8 8-8 8" fill="none" stroke="#F8F6F0" stroke-width="3"/>
+    <text x="408" y="800" font-size="13" font-weight="800" letter-spacing="1.2" fill="#243B53">READ THE SOURCE. KEEP THINKING.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#F4F1E9">
+    <text x="1361" y="826" text-anchor="end" font-size="12" font-weight="900" letter-spacing="2">AN OLD ARGUMENT</text>
+    <text x="1361" y="848" text-anchor="end" font-size="12" font-weight="900" letter-spacing="2">A LIVE QUESTION</text>
+  </g>
+</svg>

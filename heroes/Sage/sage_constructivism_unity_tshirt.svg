@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ask better questions — The Common Thread philosopher T-shirt</title>
+  <desc id="desc">A Constructivist inspired advertising hero for a philosopher T-shirt, with bold diagonal red and teal shapes, a central illustrated shirt, and a call to join the shared practice of inquiry.</desc>
+  <defs>
+    <pattern id="dots" width="11" height="11" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.35" fill="#203A50" opacity=".28"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#203A50" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="900" fill="#F5F0E6"/>
+  <!-- Constructed field of disciplined diagonals -->
+  <path d="M0 0h1440v116L0 426z" fill="#E5533D"/>
+  <path d="M0 0h30v900H0z" fill="#203A50"/>
+  <path d="M1015 0h425v900h-90z" fill="#E9B44C"/>
+  <path d="M1080 0h360v900h-46z" fill="#3E8581"/>
+  <path d="M0 684 975 355l125 545H0z" fill="#E9B44C"/>
+  <path d="M0 756 821 478l44 422H0z" fill="#3E8581"/>
+  <path d="M58 0h870L58 275z" fill="url(#dots)" opacity=".42"/>
+  <path d="M1130 503l310-105v340l-224 76z" fill="#E5533D"/>
+  <!-- Header/navigation -->
+  <g fill="#F5F0E6" font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="69" font-size="21" font-weight="800" letter-spacing="4">COMMON THREAD</text>
+    <text x="1340" y="68" text-anchor="end" font-size="13" font-weight="700" letter-spacing="2">THOUGHTFUL GOODS · ISSUE 01</text>
+  </g>
+  <!-- Type as image and verbal proposition -->
+  <g font-family="Arial, Helvetica, sans-serif" fill="#203A50">
+    <text x="94" y="372" font-size="90" font-weight="900" letter-spacing="-4">ASK</text>
+    <text x="90" y="469" font-size="90" font-weight="900" letter-spacing="-4">BETTER</text>
+    <text x="91" y="566" font-size="90" font-weight="900" letter-spacing="-4">QUESTIONS.</text>
+    <path d="M91 592h124" stroke="#E5533D" stroke-width="12"/>
+    <text x="94" y="643" font-size="22" font-weight="600" letter-spacing=".4">A good idea gets better when we</text>
+    <text x="94" y="675" font-size="22" font-weight="600" letter-spacing=".4">think it through together.</text>
+  </g>
+  <!-- Product spotlight, built as a crisp screen-printed illustration -->
+  <g filter="url(#shadow)">
+    <path d="M806 236l82-43 79 34 83-32 91 52-52 111-49-25v354H823V333l-54 27-49-103 86-54z" fill="#F8F6F0" stroke="#203A50" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M889 195l78 32-31 75-78-61zM967 227l83-32 31 45-85 60z" fill="#E7E1D5" stroke="#203A50" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M790 351l-37-88 49-23 47 91zM1129 350l43-93 50 28-46 87z" fill="#E5533D" stroke="#203A50" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M822 333l-49 26M1140 335l53 30" stroke="#203A50" stroke-width="5"/>
+    <circle cx="966" cy="397" r="66" fill="#E9B44C" stroke="#203A50" stroke-width="6"/>
+    <text x="966" y="415" text-anchor="middle" font-family="Georgia, serif" font-size="58" font-weight="700" fill="#203A50">?</text>
+    <text x="966" y="507" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" letter-spacing="3" fill="#203A50">THINK / SHARE</text>
+    <path d="M897 531h138" stroke="#E5533D" stroke-width="7"/>
+    <text x="966" y="570" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-style="italic" fill="#203A50">the inquiry tee</text>
+  </g>
+  <!-- Three voices around one question: unity through shared inquiry -->
+  <g stroke="#203A50" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M833 176c-10-15-1-31 14-31 12 0 17 10 14 20-2 7-8 9-9 15l-14-4z" fill="#F5F0E6"/>
+    <path d="M825 178l-9 10 14 3M836 185l12 3" fill="none"/>
+    <path d="M1098 166c2-17 18-25 30-17 10 7 9 18 2 25-5 5-12 4-17 9l-12-9z" fill="#F5F0E6"/>
+    <path d="M1098 171l-13 5 10 10M1110 179l11-3" fill="none"/>
+    <path d="M966 132c-7-14 1-29 15-28 12 0 17 10 13 20-3 7-9 8-11 15l-13-5z" fill="#F5F0E6"/>
+    <path d="M961 137l-12 8 14 5M974 144l12 1" fill="none"/>
+  </g>
+  <path d="M858 176l51 38M1091 173l-42 39M982 145v60" fill="none" stroke="#203A50" stroke-width="3" stroke-dasharray="6 8"/>
+  <circle cx="966" cy="211" r="10" fill="#E5533D" stroke="#203A50" stroke-width="3"/>
+  <!-- CTA and offer details -->
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="94" y="747" font-size="14" font-weight="900" letter-spacing="3" fill="#203A50">THE INQUIRY TEE · FOR PHILOSOPHERS</text>
+    <rect x="92" y="778" width="267" height="72" rx="0" fill="#E5533D"/>
+    <path d="M92 778h267v72H92z" fill="none" stroke="#203A50" stroke-width="4"/>
+    <text x="119" y="824" font-size="19" font-weight="900" letter-spacing="1.4" fill="#F8F6F0">EXPLORE THE TEE</text>
+    <path d="M322 805h19m-8-8 8 8-8 8" fill="none" stroke="#F8F6F0" stroke-width="3" stroke-linecap="square"/>
+    <text x="390" y="821" font-size="15" font-weight="700" letter-spacing="1" fill="#203A50">THOUGHTFUL BY DESIGN</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#F5F0E6">
+    <text x="1362" y="828" text-anchor="end" font-size="14" font-weight="800" letter-spacing="2">ONE QUESTION</text>
+    <text x="1362" y="851" text-anchor="end" font-size="14" font-weight="800" letter-spacing="2">MANY MINDS</text>
+  </g>
+  <path d="M1220 591l34 34-34 34" fill="none" stroke="#F5F0E6" stroke-width="5"/>
+</svg>
