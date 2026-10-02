@@ -12,7 +12,7 @@ Put each group members name, archetype, and a link to their page that explains w
 2. [Aswath Manikandan](aswath_manikandan.md)
 3. [Rija Kharel](rija_kharel.md)
 4. [Cesar Carrillo](cesar_carrillo.md)
-
+5. [Ezzine](ezzine.md)
 ## Archtypes 1-12
 - [Hero](hero.md) Shakti
 - [Explorer](explorer.md) Cesar
