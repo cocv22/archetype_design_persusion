@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">MAKE ROOM — Idea Club T-shirt</title>
+  <desc id="desc">A postmodern classicist advertising hero for a creative T-shirt, built around a playful classical arch and shared creativity.</desc>
+  <defs>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#202018" opacity=".10"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="15" flood-color="#26332e" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="#f4efe3"/>
+  <rect width="1440" height="900" fill="url(#grain)"/>
+  <rect x="0" y="0" width="1440" height="83" fill="#f4efe3"/>
+  <path d="M66 82H1374" stroke="#262b25" stroke-width="1.2"/>
+  <text x="68" y="51" fill="#282d28" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="4">IDEA CLUB</text>
+  <text x="720" y="50" text-anchor="middle" fill="#59655a" font-family="Arial,sans-serif" font-size="12" letter-spacing="2.7">A LITTLE SPACE FOR WHAT'S NEXT</text>
+  <text x="1372" y="50" text-anchor="end" fill="#282d28" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">THE IDEA TEE  /  01</text>
+
+  <!-- editorial copy -->
+  <text x="95" y="177" fill="#a3523e" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="3.3">FOR THE ONES WHO KEEP MAKING</text>
+  <text x="90" y="290" fill="#272c27" font-family="Georgia,serif" font-size="105" letter-spacing="-5">MAKE</text>
+  <text x="90" y="390" fill="#272c27" font-family="Georgia,serif" font-size="105" font-style="italic" letter-spacing="-5">room</text>
+  <text x="92" y="488" fill="#272c27" font-family="Georgia,serif" font-size="105" letter-spacing="-5">for ideas.</text>
+  <path d="M95 523H458" stroke="#315b51" stroke-width="5"/>
+  <text x="96" y="571" fill="#4b5149" font-family="Arial,sans-serif" font-size="18">A good idea rarely stays with one person.</text>
+  <text x="96" y="601" fill="#4b5149" font-family="Arial,sans-serif" font-size="18">Wear the reminder. Pass it around.</text>
+  <rect x="96" y="646" width="213" height="59" rx="2" fill="#315b51"/>
+  <text x="202" y="683" text-anchor="middle" fill="#fffaf0" font-family="Arial,sans-serif" font-weight="700" font-size="13" letter-spacing="1.8">GET THE IDEA TEE</text>
+  <path d="M329 676h28m-8-8 8 8-8 8" fill="none" stroke="#315b51" stroke-width="2"/>
+  <text x="96" y="752" fill="#74776c" font-family="Arial,sans-serif" font-size="12" letter-spacing="1.3">100% COTTON  ·  MADE TO BE MARKED UP</text>
+
+  <!-- oversized classical portico as a playful poster frame -->
+  <path d="M635 772V343C635 187 756 105 1005 105C1254 105 1375 187 1375 343V772Z" fill="#dfdfcf" stroke="#282d28" stroke-width="2"/>
+  <path d="M663 772V345C663 207 767 135 1005 135C1243 135 1347 207 1347 345V772Z" fill="#c3d0bc"/>
+  <path d="M635 340C635 184 756 105 1005 105C1254 105 1375 184 1375 340" fill="none" stroke="#a3523e" stroke-width="13"/>
+  <path d="M674 772V348C674 221 773 149 1005 149C1237 149 1336 221 1336 348V772" fill="none" stroke="#f4efe3" stroke-width="2" opacity=".8"/>
+  <!-- deliberately displaced classical capital / sun motif -->
+  <circle cx="1265" cy="231" r="43" fill="#e5b74c" stroke="#282d28" stroke-width="2"/>
+  <path d="M1265 169v-17m0 157v-17m62-61h17m-157 0h17m105-44 12-12m-111 111 12-12m88 0 12 12m-111-111 12 12" stroke="#282d28" stroke-width="2"/>
+  <path d="M685 484h76v288h-76zM1249 484h76v288h-76z" fill="#a3523e"/>
+  <path d="M672 469h102v16H672zm564 0h102v16h-102z" fill="#282d28"/>
+  <path d="M692 484v42m63-42v42m-63-2h63M1257 484v42m63-42v42m-63-2h63" stroke="#f3c27e" stroke-width="3"/>
+  <!-- abstract collaborative studio details -->
+  <path d="M787 692c55-53 116-67 182-54 61 13 111 8 171-38" fill="none" stroke="#315b51" stroke-width="2" stroke-dasharray="5 7"/>
+  <circle cx="802" cy="682" r="9" fill="#a3523e"/><circle cx="1150" cy="597" r="9" fill="#315b51"/>
+  <text x="1008" y="742" text-anchor="middle" fill="#435144" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">SOME THINGS ARE BETTER SHARED</text>
+  <!-- featured shirt -->
+  <g filter="url(#shadow)">
+    <path d="M878 327l65-38 57 27 57-27 65 38 48 92-60 32-24-40v253H914V411l-24 40-60-32z" fill="#fffdf7" stroke="#282d28" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M943 289c4 34 19 50 57 50s53-16 57-50l-57 27z" fill="#e3e0d5" stroke="#282d28" stroke-width="2"/>
+    <path d="M1000 316v15" stroke="#a3523e" stroke-width="3"/>
+    <text x="1000" y="407" text-anchor="middle" fill="#315b51" font-family="Georgia,serif" font-size="27" font-weight="700" letter-spacing="2">IDEAS</text>
+    <text x="1000" y="436" text-anchor="middle" fill="#a3523e" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="3">GROW HERE</text>
+    <path d="M956 462c15-18 30-19 44 0 14-19 29-18 44 0M1000 461v45m-23-19 23 19 23-19" fill="none" stroke="#315b51" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1000" cy="550" r="24" fill="#e5b74c" stroke="#282d28" stroke-width="1.5"/>
+    <path d="M1000 532v36m-18-18h36m-31-13 26 26m0-26-26 26" stroke="#282d28" stroke-width="1.4"/>
+    <path d="M922 651h156" stroke="#d6d1c4" stroke-width="1"/>
+  </g>
+  <!-- marginalia / contemporary interruption -->
+  <g transform="rotate(-8 815 286)"><rect x="770" y="260" width="128" height="39" fill="#e5b74c" stroke="#282d28" stroke-width="1.4"/><text x="834" y="284" text-anchor="middle" fill="#282d28" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="2">MAKE TOGETHER</text></g>
+  <path d="M1321 621l17 23-17 23-17-23z" fill="#a3523e"/>
+  <text x="1317" y="652" text-anchor="end" fill="#f4efe3" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1" transform="rotate(-90 1317 652)">IDEA / 01</text>
+  <path d="M66 812H1374" stroke="#262b25" stroke-width="1.2"/>
+  <text x="68" y="846" fill="#59655a" font-family="Arial,sans-serif" font-size="11" letter-spacing="2.5">YOUR IDEA. SOMEONE ELSE'S SPARK. A BETTER NEXT THING.</text>
+  <text x="1372" y="846" text-anchor="end" fill="#59655a" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">IDEA CLUB  ·  EST. ANYTIME</text>
+</svg>
