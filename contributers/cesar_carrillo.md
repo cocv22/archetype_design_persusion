@@ -16,12 +16,6 @@ I was the leader of the group, I assigned others certain jobs and helped them wi
 
 ## My Work
 
-- [Link to your archetype/style/persuasion page]
-- [Link to your hero/design work]
-- [Link to your GitHub issues]
-
-## Issues
-
-- #[Issue number] — [Issue title]
-- #[Issue number] — [Issue title]
-- #[Issue number] — [Issue title]
+- Creator: [Creator](../heroes/Creator)
+- Ruler: [Ruler](../heroes/Ruler)
+- Sage: [Sage](../heroes/Sage)

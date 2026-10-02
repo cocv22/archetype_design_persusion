@@ -1,13 +1,5 @@
 ﻿# Brand Archetypes, Design Styles, and Methods of Persuasion
 
-## Exercise 
-1.  Each member of the group find your own brand archetype by asking ai(Gemini, ChatGPT, Claude, etc...) to help you discover it.
-2.  Ask the Ai why it thinks this is your brand archetype.
-3.  Ask the Ai for the imagery, colors, fonts, and phrasing for examples of Robert Cialdini's methods of persuasion
-
-### - First Assignment
-Put each group members name, archetype, and a link to their page that explains why that archetype was chosen and if they agree
-
 1. [Shakti Anandkumar](contributers/shakti_anandkumar.md)
 2. [Aswath Manikandan](contributers/aswath_manikandan.md)
 3. [Rija Kharel](contributers/rija_kharel.md)
