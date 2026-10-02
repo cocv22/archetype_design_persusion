@@ -2,70 +2,70 @@
   <title id="title">Together, we set the standard — Common Ground everyday tee</title>
   <desc id="desc">A Bauhaus-inspired advertising hero for an everyday T-shirt. A bold geometric shirt graphic sits alongside a diverse group of neighbors gathered around a shared table, with an invitation to find their common ground.</desc>
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#172A43" flood-opacity=".16"/></filter>
-    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#173451" opacity=".22"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#3A2948" flood-opacity=".16"/></filter>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#3A2948" opacity=".22"/></pattern>
   </defs>
   <rect width="1440" height="900" fill="#F4F1E8"/>
-  <rect x="0" y="0" width="18" height="900" fill="#173451"/>
-  <rect x="0" y="0" width="1440" height="14" fill="#C94832"/>
-  <circle cx="1324" cy="117" r="90" fill="#E1AE43"/>
-  <rect x="1271" y="65" width="105" height="105" fill="none" stroke="#173451" stroke-width="3"/>
+  <rect x="0" y="0" width="18" height="900" fill="#3A2948"/>
+  <rect x="0" y="0" width="1440" height="14" fill="#E05C36"/>
+  <circle cx="1324" cy="117" r="90" fill="#D2BD73"/>
+  <rect x="1271" y="65" width="105" height="105" fill="none" stroke="#3A2948" stroke-width="3"/>
   <path d="M1180 0h260v292h-146z" fill="url(#dots)"/>
-  <g font-family="Arial, Helvetica, sans-serif" fill="#173451">
+  <g font-family="Arial, Helvetica, sans-serif" fill="#3A2948">
     <text x="76" y="73" font-size="19" font-weight="800" letter-spacing="4">COMMON GROUND</text>
     <text x="1363" y="72" text-anchor="end" font-size="12" font-weight="700" letter-spacing="2">EVERYDAY GOODS  /  01</text>
   </g>
-  <path d="M76 109h80" stroke="#C94832" stroke-width="6"/>
-  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-3" fill="#173451">
+  <path d="M76 109h80" stroke="#E05C36" stroke-width="6"/>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" letter-spacing="-3" fill="#3A2948">
     <text x="76" y="253" font-size="72">TOGETHER,</text>
     <text x="76" y="335" font-size="72">WE SET THE</text>
     <text x="76" y="417" font-size="72">STANDARD.</text>
   </g>
-  <rect x="79" y="448" width="16" height="16" fill="#C94832"/>
-  <rect x="102" y="448" width="16" height="16" fill="#E1AE43"/>
-  <rect x="125" y="448" width="16" height="16" fill="#26796E"/>
+  <rect x="79" y="448" width="16" height="16" fill="#E05C36"/>
+  <rect x="102" y="448" width="16" height="16" fill="#D2BD73"/>
+  <rect x="125" y="448" width="16" height="16" fill="#648C72"/>
   <g font-family="Arial, Helvetica, sans-serif" fill="#34465A">
     <text x="77" y="511" font-size="20">An easy everyday tee for the people who make</text>
     <text x="77" y="541" font-size="20">a neighborhood feel like home.</text>
   </g>
-  <text x="78" y="604" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="2.1" fill="#173451">THE COMMON GROUND TEE</text>
+  <text x="78" y="604" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="2.1" fill="#3A2948">THE COMMON GROUND TEE</text>
   <text x="78" y="630" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing=".5" fill="#586675">Good company. Everyday comfort.</text>
-  <rect x="76" y="672" width="266" height="68" rx="2" fill="#C94832"/>
+  <rect x="76" y="672" width="266" height="68" rx="2" fill="#E05C36"/>
   <text x="101" y="714" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" letter-spacing="1" fill="#FFFDF8">FIND YOUR TEE</text>
   <path d="M292 706h25m-8-8 8 8-8 8" fill="none" stroke="#FFFDF8" stroke-width="2.5"/>
   <text x="76" y="778" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5" fill="#586675">MADE FOR EVERYDAY, TOGETHER.</text>
   <path d="M713 170h628v580H713z" fill="#E9E4D8"/>
-  <path d="M713 170h18v580h-18z" fill="#26796E"/>
-  <circle cx="1244" cy="240" r="75" fill="#E1AE43"/>
-  <path d="M1210 240h68M1244 206v68" stroke="#173451" stroke-width="3"/>
+  <path d="M713 170h18v580h-18z" fill="#648C72"/>
+  <circle cx="1244" cy="240" r="75" fill="#D2BD73"/>
+  <path d="M1210 240h68M1244 206v68" stroke="#3A2948" stroke-width="3"/>
   <!-- The tee is the central, practical object; its shared geometric mark brings the group together. -->
-  <g filter="url(#shadow)" stroke="#173451" stroke-linejoin="round">
+  <g filter="url(#shadow)" stroke="#3A2948" stroke-linejoin="round">
     <path d="m948 284 73-39 68 28 71-28 76 46-39 92-47-23v267H954V360l-47 23-39-92 80-46z" fill="#FFFEFA" stroke-width="7"/>
     <path d="m1021 245 68 28-27 64-69-50zM1089 273l71-28 35 46-71 53z" fill="#DCE7E0" stroke-width="5"/>
-    <path d="m868 291 39-18 47 87-47 23zM1236 383l39-92 38 21-39 91z" fill="#C94832" stroke-width="6"/>
-    <path d="M1000 381h183v152h-183z" fill="#E1AE43" stroke-width="4"/>
-    <circle cx="1092" cy="432" r="43" fill="#C94832" stroke-width="3"/>
+    <path d="m868 291 39-18 47 87-47 23zM1236 383l39-92 38 21-39 91z" fill="#E05C36" stroke-width="6"/>
+    <path d="M1000 381h183v152h-183z" fill="#D2BD73" stroke-width="4"/>
+    <circle cx="1092" cy="432" r="43" fill="#E05C36" stroke-width="3"/>
     <path d="M1092 389v86M1049 432h86" stroke="#FFFEFA" stroke-width="4"/>
-    <circle cx="1092" cy="432" r="11" fill="#26796E" stroke-width="3"/>
-    <text x="1092" y="510" text-anchor="middle" fill="#173451" stroke="none" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">COMMON GROUND</text>
-    <path d="M1032 562h120" stroke="#26796E" stroke-width="6"/>
+    <circle cx="1092" cy="432" r="11" fill="#648C72" stroke-width="3"/>
+    <text x="1092" y="510" text-anchor="middle" fill="#3A2948" stroke="none" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" letter-spacing="1.5">COMMON GROUND</text>
+    <path d="M1032 562h120" stroke="#648C72" stroke-width="6"/>
   </g>
   <!-- Neighbors around one table: unity shown as a shared everyday experience. -->
-  <g stroke="#173451" stroke-width="3" stroke-linejoin="round">
-    <circle cx="825" cy="620" r="24" fill="#B87555"/><path d="M786 692q5-45 39-45t39 45z" fill="#26796E"/>
-    <path d="M806 617q4-29 31-27 18 2 20 18l-51 9z" fill="#173451"/>
-    <circle cx="922" cy="654" r="23" fill="#E3B78F"/><path d="M884 719q5-43 38-43t38 43z" fill="#E1AE43"/>
+  <g stroke="#3A2948" stroke-width="3" stroke-linejoin="round">
+    <circle cx="825" cy="620" r="24" fill="#B87555"/><path d="M786 692q5-45 39-45t39 45z" fill="#648C72"/>
+    <path d="M806 617q4-29 31-27 18 2 20 18l-51 9z" fill="#3A2948"/>
+    <circle cx="922" cy="654" r="23" fill="#E3B78F"/><path d="M884 719q5-43 38-43t38 43z" fill="#D2BD73"/>
     <path d="M899 651q4-27 29-27t31 20z" fill="#5A392D"/>
-    <circle cx="1275" cy="615" r="24" fill="#E3B78F"/><path d="M1236 688q5-45 39-45t39 45z" fill="#C94832"/>
+    <circle cx="1275" cy="615" r="24" fill="#E3B78F"/><path d="M1236 688q5-45 39-45t39 45z" fill="#E05C36"/>
     <path d="M1251 611q3-29 28-29 22 1 27 27l-55 2z" fill="#49352C"/>
-    <circle cx="1187" cy="651" r="22" fill="#986144"/><path d="M1151 718q4-42 36-42t37 42z" fill="#173451"/>
+    <circle cx="1187" cy="651" r="22" fill="#986144"/><path d="M1151 718q4-42 36-42t37 42z" fill="#3A2948"/>
     <path d="M1166 647q3-27 26-27t27 25z" fill="#D0C4AC"/>
-    <path d="M788 719h491l-32 20H818z" fill="#C94832"/>
+    <path d="M788 719h491l-32 20H818z" fill="#E05C36"/>
     <path d="M823 738v29m411-29v29" fill="none" stroke-width="5"/>
-    <path d="M967 697q17-18 33 0m-28 13q12-11 23 0m-15 13h8" fill="none" stroke="#173451" stroke-width="3"/>
-    <path d="M1135 698q15-16 30 0m-26 12q10-10 21 0m-14 12h7" fill="none" stroke="#173451" stroke-width="3"/>
+    <path d="M967 697q17-18 33 0m-28 13q12-11 23 0m-15 13h8" fill="none" stroke="#3A2948" stroke-width="3"/>
+    <path d="M1135 698q15-16 30 0m-26 12q10-10 21 0m-14 12h7" fill="none" stroke="#3A2948" stroke-width="3"/>
   </g>
-  <path d="M748 790h593" stroke="#173451" stroke-width="2" opacity=".28"/>
-  <text x="748" y="822" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#173451">A PLACE AT THE TABLE. ROOM FOR EVERYONE.</text>
-  <text x="1341" y="822" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#173451">01 / DAILY UNIFORM</text>
+  <path d="M748 790h593" stroke="#3A2948" stroke-width="2" opacity=".28"/>
+  <text x="748" y="822" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="800" letter-spacing="2" fill="#3A2948">A PLACE AT THE TABLE. ROOM FOR EVERYONE.</text>
+  <text x="1341" y="822" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" letter-spacing="1.5" fill="#3A2948">01 / DAILY UNIFORM</text>
 </svg>
