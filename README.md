@@ -13,19 +13,20 @@ Put each group members name, archetype, and a link to their page that explains w
 3. [Rija Kharel](rija_kharel.md)
 4. [Cesar Carrillo](cesar_carrillo.md)
 5. [Ezzine](ezzine.md)
+
 ## Archtypes 1-12
 - [Hero](hero.md) Shakti
-- [Explorer](explorer.md) Cesar
+- [Explorer](explorer.md) Aswath
 - [Innocent](innocent.md) Aswath
 - [Sage](sage.md) Cesar
 - [Architect](architect.md) Ezzine
-- [Ruler](ruler.md) Ashwath
-- [Creator](creator.md) Aswath
+- [Ruler](ruler.md) Cesar
+- [Creator](creator.md) Cesar
 - [Lover](lover.md) Aswath
 - [Jester](jester.md) Shakti
 - [Everyman](everyman.md) Ezzine
 - [Outlaw](outlaw.md) Shakti
-- [Magician](magician.md) Shakti
+- [Magician](magician.md) Ezzine
 
 ## Methods of Persuasion 1-7 Cialdini
 - [Reciprocity](persuasion_methods/reciprocity.md) Ezzine
