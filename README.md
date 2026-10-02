@@ -28,13 +28,13 @@ Put each group members name, archetype, and a link to their page that explains w
 - [Magician](magician.md) Shakti
 
 ## Methods of Persuasion 1-7 Cialdini
-- [Reciprocity](reciprocity.md) Ezzine
-- [Commitment-and-consistency](commitment_consistency.md)
-- [Social-proof](social_proof.md) Ezzine
-- [Authority](authority.md)
-- [Liking](liking.md)
-- [Scarcity](scarcity.md) Shakti
-- [Unity](unity.md) Shakti
+- [Reciprocity](persuasion_methods/reciprocity.md) Ezzine
+- [Commitment-and-consistency](persuasion_methods/commitment_consistency.md)
+- [Social-proof](persuasion_methods/social_proof.md) Ezzine
+- [Authority](persuasion_methods/authority.md)
+- [Liking](persuasion_methods/liking.md)
+- [Scarcity](persuasion_methods/scarcity.md) Shakti
+- [Unity](persuasion_methods/unity.md) Shakti
 
 ## Design Styles within modernism and postmodernism
 
