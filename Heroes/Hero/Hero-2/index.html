@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fae55a">
+  <meta name="description" content="ASCEND premium plain white shirt: a versatile foundation for your identity, confidence, and next goal. Scarcity is fictional campaign messaging.">
+  <title>ASCEND | Turn can't into did</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171717;
+      --paper: #fff9e9;
+      --yellow: #fae55a;
+      --cyan: #56d5dc;
+      --pink: #f05b84;
+      --orange: #ff713b;
+      --display: "Bangers", Impact, Haettenschweiler, sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: var(--body);
+    }
+
+    .page {
+      width: min(100%, 1600px);
+      margin-inline: auto;
+      overflow: hidden;
+    }
+
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 78px minmax(0, 1fr);
+      aspect-ratio: 16 / 9;
+      background-color: var(--yellow);
+      background-image: radial-gradient(circle, rgba(23, 23, 23, .13) 1px, transparent 1.6px);
+      background-size: 12px 12px;
+      overflow: hidden;
+    }
+
+    .masthead {
+      padding: 0 clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--paper);
+      border-bottom: 3px solid var(--ink);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      text-decoration: none;
+      font: 800 19px/1 var(--body);
+      letter-spacing: .04em;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: var(--cyan);
+      border: 3px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      font: 30px/.9 var(--display);
+    }
+
+    .masthead-note {
+      padding: 8px 12px 7px;
+      background: var(--pink);
+      border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      font: 20px/1 var(--display);
+      letter-spacing: 0;
+      transform: rotate(-2deg);
+    }
+
+    .hero-layout {
+      min-height: 0;
+      padding: 32px clamp(24px, 5vw, 80px) 38px;
+      display: grid;
+      grid-template-columns: minmax(0, .93fr) minmax(0, 1.07fr);
+      align-items: center;
+      gap: clamp(26px, 4vw, 64px);
+    }
+
+    .hero-copy { position: relative; z-index: 1; }
+
+    .eyebrow {
+      width: fit-content;
+      margin: 0 0 19px;
+      padding: 7px 12px 6px;
+      background: var(--cyan);
+      border: 2px solid var(--ink);
+      box-shadow: 4px 4px 0 var(--ink);
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(75px, 8vw, 122px)/.78 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .pink-ink { color: var(--pink); text-shadow: 3px 3px 0 var(--ink); }
+
+    .supporting {
+      max-width: 490px;
+      margin: 22px 0 23px;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.55;
+    }
+
+    .actions { display: flex; align-items: center; gap: 13px; }
+
+    .cta {
+      min-height: 54px;
+      padding: 0 18px 0 21px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      background: var(--ink);
+      color: white;
+      border: 3px solid var(--ink);
+      box-shadow: 6px 6px 0 var(--pink);
+      font-size: 14px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+
+    .cta:hover { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--pink); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--cyan); outline-offset: 5px; }
+    .cta-arrow { font: 30px/.7 var(--display); }
+
+    .scarcity {
+      max-width: 470px;
+      margin-top: 25px;
+      padding: 12px 15px 12px 13px;
+      display: grid;
+      grid-template-columns: 46px 1fr;
+      align-items: center;
+      gap: 12px;
+      background: var(--paper);
+      border: 3px solid var(--ink);
+      box-shadow: 6px 6px 0 var(--ink);
+      transform: rotate(-1deg);
+    }
+
+    .scarcity-burst {
+      width: 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      background: var(--orange);
+      clip-path: polygon(50% 0%, 61% 24%, 83% 9%, 79% 36%, 100% 50%, 77% 62%, 91% 87%, 64% 80%, 50% 100%, 39% 76%, 15% 91%, 21% 64%, 0% 50%, 24% 39%, 9% 15%, 38% 20%);
+      font: 29px/.8 var(--display);
+    }
+
+    .scarcity strong {
+      display: block;
+      margin-bottom: 3px;
+      font-size: 13px;
+      font-weight: 800;
+      line-height: 1.15;
+      text-transform: uppercase;
+    }
+
+    .scarcity p { margin: 0; font-size: 11px; line-height: 1.45; }
+
+    .artboard {
+      width: 100%;
+      aspect-ratio: 760 / 600;
+      background: var(--cyan);
+      border: 4px solid var(--ink);
+      box-shadow: 10px 10px 0 var(--ink);
+      transform: rotate(1deg);
+      animation: pop-in .65s cubic-bezier(.15,.8,.25,1) both;
+    }
+
+    .artboard svg { display: block; width: 100%; height: 100%; }
+
+    .release {
+      min-height: 116px;
+      padding: 20px clamp(24px, 5vw, 80px);
+      display: grid;
+      grid-template-columns: 1fr minmax(250px, 570px);
+      align-items: center;
+      gap: 30px;
+      background: var(--pink);
+      border-top: 3px solid var(--ink);
+      scroll-margin-top: 20px;
+    }
+
+    .release h2 {
+      margin: 0;
+      font: 34px/.9 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .release p { margin: 0; font-size: 13px; line-height: 1.55; }
+
+    .footer {
+      min-height: 40px;
+      padding: 10px clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      background: var(--ink);
+      color: var(--paper);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    @keyframes pop-in {
+      from { opacity: 0; transform: rotate(1deg) scale(.96); }
+      to { opacity: 1; transform: rotate(1deg) scale(1); }
+    }
+
+    @media (max-width: 900px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 70px auto; }
+      .hero-layout { padding: 36px clamp(24px, 5vw, 54px) 40px; grid-template-columns: 1fr; gap: 30px; }
+      .hero-copy { max-width: 650px; }
+      h1 { font-size: clamp(78px, 10vw, 100px); }
+      .artboard { width: min(100%, 650px); justify-self: center; }
+      .release { grid-template-columns: 1fr minmax(250px, 1fr); }
+    }
+
+    @media (max-width: 620px) {
+      .masthead { min-height: 64px; padding-inline: 19px; }
+      .brand { gap: 8px; font-size: 16px; }
+      .brand-mark { width: 30px; height: 30px; font-size: 26px; }
+      .masthead-note { padding: 7px 9px 6px; font-size: 16px; }
+      .hero-layout { padding: 28px 20px 30px; gap: 23px; }
+      .eyebrow { margin-bottom: 15px; font-size: 10px; }
+      h1 { font-size: clamp(62px, 16vw, 94px); }
+      .supporting { margin: 17px 0 19px; font-size: 14px; }
+      .cta { min-height: 49px; padding-inline: 14px; font-size: 12px; }
+      .scarcity { margin-top: 20px; padding: 10px; grid-template-columns: 38px 1fr; gap: 9px; }
+      .scarcity-burst { width: 36px; height: 36px; font-size: 24px; }
+      .scarcity strong { font-size: 12px; }
+      .scarcity p { font-size: 11px; }
+      .artboard { border-width: 3px; box-shadow: 7px 7px 0 var(--ink); }
+      .release { padding: 20px; grid-template-columns: 1fr; gap: 8px; }
+      .release h2 { font-size: 30px; }
+      .footer { padding-inline: 20px; font-size: 9px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="Ascend campaign hero">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="Ascend home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="masthead-note">Identity / No limits</span>
+      </header>
+
+      <div class="hero-layout" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">For every hard-earned next</p>
+          <h1><span>Turn</span><span class="pink-ink">can't</span><span>into did!</span></h1>
+          <p class="supporting">A premium plain white shirt: a versatile foundation for showing up as yourself and moving toward the person you want to become.</p>
+          <div class="actions">
+            <a class="cta" href="#release">Make your mark <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          </div>
+          <div class="scarcity" aria-label="Fictional campaign concept: finite first edition, final shirt quantity to be confirmed before release">
+            <span class="scarcity-burst" aria-hidden="true">!</span>
+            <div>
+              <strong>First edition. Finite release.</strong>
+              <p>Fictional campaign concept. Confirm a real quantity before release; no guessed stock.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="artboard">
+          <svg viewBox="0 0 760 600" role="img" aria-labelledby="shirt-title shirt-description">
+            <title id="shirt-title">ASCEND premium plain white shirt, Pop Art campaign illustration</title>
+            <desc id="shirt-description">An original plain white short-sleeve shirt illustration with a thick ink outline, halftone print dots, comic-style motion rays, and a row of repeated white-shirt prints.</desc>
+            <defs>
+              <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+                <circle cx="3" cy="3" r="2.2" fill="#171717" />
+              </pattern>
+              <symbol id="ascend-shirt" viewBox="0 0 480 400">
+                <path d="M173 34 119 46 36 111l44 67 44-24v204q0 15 15 15h202q15 0 15-15V154l44 24 44-67-83-65-54-12c-10 31-30 47-67 47s-57-16-67-47z" fill="#ffffff" stroke="#171717" stroke-width="12" stroke-linejoin="round" />
+                <path d="M173 34c10 31 30 47 67 47s57-16 67-47" fill="none" stroke="#171717" stroke-width="10" />
+                <path d="M181 39c9 22 28 34 59 34s50-12 59-34" fill="none" stroke="#c8c8c8" stroke-width="5" />
+                <path d="M125 154v191q0 10 10 10h210q10 0 10-10V154M91 178l34-24M389 178l-34-24" fill="none" stroke="#c8c8c8" stroke-width="4" />
+                <path d="M145 184v140M335 184v140" fill="none" stroke="url(#dots)" stroke-width="15" opacity=".34" />
+              </symbol>
+            </defs>
+
+            <rect width="760" height="600" fill="#56d5dc" />
+            <path d="M0 0h760v176H0z" fill="#f05b84" />
+            <path d="M0 0h760v176H0z" fill="url(#dots)" opacity=".42" />
+            <path d="M58 211l25-36 10-40 27 26 39-13-7 42 26 31-41 12-17 39-21-36-42-4 25-29z" fill="#fae55a" stroke="#171717" stroke-width="7" stroke-linejoin="round" />
+            <text x="107" y="222" fill="#171717" font-family="Bangers, Impact, sans-serif" font-size="36" text-anchor="middle">RISE!</text>
+
+            <g transform="translate(348 19)">
+              <path d="M0 38l28 12 11-31 21 27 29-22 3 35 35 2-20 29 27 23-34 10 5 34-31-17-22 28-8-34-35 2 20-29-27-22 34-11z" fill="#fae55a" stroke="#171717" stroke-width="6" stroke-linejoin="round" />
+              <text x="67" y="100" fill="#171717" font-family="Bangers, Impact, sans-serif" font-size="32" text-anchor="middle">NO QUIT!</text>
+            </g>
+
+            <path d="M270 177l-18-34M300 166l-5-42M330 167l10-34M648 222l31-17M656 254l42-1M642 286l36 16" fill="none" stroke="#171717" stroke-width="8" stroke-linecap="square" />
+            <path d="M69 305l14-32 18 30M110 297l22-33M147 299l28-27" fill="none" stroke="#ff713b" stroke-width="9" stroke-linecap="square" />
+            <ellipse cx="385" cy="391" rx="281" ry="142" fill="#171717" opacity=".16" />
+            <use href="#ascend-shirt" x="196" y="189" width="370" height="308" />
+
+            <path d="M29 542h702" fill="none" stroke="#171717" stroke-width="4" />
+            <g opacity=".78">
+              <use href="#ascend-shirt" x="39" y="534" width="43" height="36" />
+              <use href="#ascend-shirt" x="89" y="534" width="43" height="36" />
+              <use href="#ascend-shirt" x="139" y="534" width="43" height="36" />
+            </g>
+            <path d="M315 548h3v25h-3z" fill="#171717" />
+            <text x="205" y="562" fill="#171717" font-family="'DM Sans', sans-serif" font-size="14" font-weight="800" letter-spacing="0">ASCEND / PREMIUM WHITE SHIRT</text>
+            <text x="720" y="567" fill="#171717" font-family="Bangers, Impact, sans-serif" font-size="21" text-anchor="end">NEXT UP!</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="release" id="release" aria-labelledby="release-title">
+      <h2 id="release-title">A first edition. No fake rush.</h2>
+      <p>This is fictional campaign messaging. Set a genuine production cap before release and show accurate shirt-size availability at checkout; no artificial countdowns or unverified stock claims.</p>
+    </section>
+
+    <footer class="footer"><span>Ascend / Keep moving forward</span><span>Designed for the next goal</span></footer>
+  </main>
+</body>
+</html>

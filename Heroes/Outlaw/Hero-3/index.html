@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0e8">
+  <meta name="description" content="ASCEND premium plain white shirt. No dress-code speech. Just space to make it your own." />
+  <title>ASCEND | Your style isn't up for a vote</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f2f0e8;
+      --white: #fffefa;
+      --ink: #171a1d;
+      --gray: #d5d5cf;
+      --red: #d63b32;
+      --blue: #3155b8;
+      --teal: #167a75;
+      --display: "Anton", Impact, "Arial Narrow", sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); }
+
+    .page { width: min(100%, 1600px); margin-inline: auto; }
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 74px minmax(0, 1fr) 80px;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--paper);
+    }
+
+    .masthead {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--white);
+      border-bottom: 1px solid var(--ink);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .05em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 28px;
+      height: 28px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--red);
+      font: 18px/.9 var(--display);
+    }
+
+    .masthead-note { font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+
+    .hero-grid {
+      min-height: 0;
+      padding: 37px clamp(24px, 5vw, 80px) 34px;
+      display: grid;
+      grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+      align-items: center;
+      gap: clamp(28px, 4vw, 64px);
+    }
+
+    .hero-copy { min-width: 0; position: relative; z-index: 1; }
+    .eyebrow {
+      margin: 0 0 19px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before { width: 22px; height: 4px; content: ""; background: var(--red); }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(66px, 6.5vw, 100px)/.91 var(--display);
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .accent { color: var(--red); }
+
+    .supporting {
+      max-width: 465px;
+      margin: 22px 0 21px;
+      color: #3f4447;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.62;
+    }
+
+    .cta {
+      min-height: 52px;
+      padding: 0 17px 0 19px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      color: var(--white);
+      background: var(--ink);
+      border: 2px solid var(--ink);
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background-color .16s ease, transform .16s ease;
+    }
+
+    .cta:hover { background: var(--blue); transform: translateY(-2px); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+    .cta-arrow { font: 23px/.7 var(--display); }
+
+    .friendly-note { max-width: 440px; margin: 15px 0 0; color: #50565a; font-size: 11px; font-weight: 700; line-height: 1.5; }
+
+    .artboard {
+      width: 100%;
+      aspect-ratio: 760 / 640;
+      overflow: hidden;
+      background: var(--white);
+      border: 1px solid var(--ink);
+    }
+
+    .artboard svg { display: block; width: 100%; height: 100%; }
+
+    .bottom-line {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      gap: 20px;
+      background: var(--ink);
+      color: var(--paper);
+      border-top: 1px solid var(--ink);
+      scroll-margin-top: 10px;
+    }
+
+    .bottom-line span { font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .bottom-line strong { justify-self: center; font: 400 20px/1 var(--display); }
+    .bottom-line a { justify-self: end; color: var(--paper); font-size: 10px; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+
+    .product-note {
+      min-height: 170px;
+      padding: 30px clamp(24px, 8vw, 128px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      background: var(--red);
+      border-top: 2px solid var(--ink);
+      scroll-margin-top: 12px;
+    }
+
+    .product-note h2 { margin: 0 0 7px; font: 400 28px/1.05 var(--display); text-transform: uppercase; }
+    .product-note p { max-width: 550px; margin: 0; font-size: 12px; line-height: 1.55; }
+
+    @media (max-width: 920px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 68px auto 65px; }
+      .hero-grid { padding: 35px clamp(24px, 6vw, 62px) 40px; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+      .hero-copy { max-width: 670px; }
+      h1 { font-size: clamp(72px, 10vw, 98px); }
+      .artboard { width: min(100%, 720px); justify-self: center; }
+      .bottom-line { grid-template-columns: 1fr 1fr; }
+      .bottom-line strong { justify-self: end; }
+      .bottom-line a { display: none; }
+    }
+
+    @media (max-width: 600px) {
+      .masthead { min-height: 62px; padding-inline: 18px; }
+      .brand { gap: 8px; font-size: 16px; }
+      .brand-mark { width: 26px; height: 26px; font-size: 16px; }
+      .masthead-note { max-width: 148px; font-size: 8px; letter-spacing: .05em; text-align: right; }
+      .hero-grid { padding: 26px 20px 28px; gap: 23px; }
+      .eyebrow { margin-bottom: 14px; font-size: 9px; }
+      h1 { font-size: clamp(53px, 13.7vw, 74px); }
+      .supporting { margin: 16px 0 17px; font-size: 13px; }
+      .cta { min-height: 47px; padding-inline: 13px; gap: 11px; font-size: 10px; }
+      .friendly-note { font-size: 10px; }
+      .bottom-line { min-height: 65px; padding-inline: 20px; grid-template-columns: 1fr 1fr; gap: 10px; }
+      .bottom-line span { font-size: 8px; }
+      .bottom-line strong { font-size: 17px; }
+      .product-note { min-height: 0; padding: 23px 20px; align-items: flex-start; flex-direction: column; gap: 12px; }
+      .product-note h2 { font-size: 24px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND Outlaw campaign">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="masthead-note">Wear your own point of view</span>
+      </header>
+
+      <div class="hero-grid" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">The approval box is optional</p>
+          <h1><span>Your style</span><span>isn't up</span><span class="accent">for a vote.</span></h1>
+          <p class="supporting">Some days the whole outfit plan is “clean tee, my call.” Fair enough. ASCEND's premium plain white shirt leaves the rest of the decision to you.</p>
+          <a class="cta" href="#product">Meet the blank canvas <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          <p class="friendly-note">No dress-code lecture. Promise.</p>
+        </div>
+
+        <div class="artboard">
+          <svg viewBox="0 0 760 640" role="img" aria-labelledby="art-title art-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="art-title">ASCEND plain white shirt on a clear International Style-inspired grid</title>
+            <desc id="art-desc">Original flat white T-shirt with bold dark seams, set on a calm modular grid. One red grid module sits deliberately out of alignment to suggest individual style.</desc>
+            <defs>
+              <pattern id="grid" width="95" height="80" patternUnits="userSpaceOnUse">
+                <path d="M95 0H0V80" fill="none" stroke="#d5d5cf" stroke-width="1" />
+              </pattern>
+              <pattern id="fine-grid" width="19" height="16" patternUnits="userSpaceOnUse">
+                <path d="M19 0H0V16" fill="none" stroke="#d5d5cf" stroke-width=".6" opacity=".52" />
+              </pattern>
+            </defs>
+            <rect width="760" height="640" fill="#fffefa" />
+            <rect width="760" height="640" fill="url(#fine-grid)" />
+            <rect width="760" height="640" fill="url(#grid)" />
+
+            <path d="M0 0h190v80H0z" fill="#171a1d" />
+            <text x="24" y="34" fill="#fffefa" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">ASCEND / 03</text>
+            <text x="24" y="57" fill="#fffefa" font-family="Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1">EVERYDAY, UNASSIGNED</text>
+
+            <path d="M570 0h95v80h-95z" fill="#d63b32" />
+            <path d="M570 80h95v80h-95z" fill="#3155b8" />
+            <path d="M665 80h95v80h-95z" fill="#171a1d" />
+            <path d="M0 480h95v80H0z" fill="#167a75" />
+            <path d="M95 560h95v80H95z" fill="#d63b32" />
+            <path d="M475 560h95v80h-95z" fill="#171a1d" />
+
+            <path d="M190 160H570M190 480h380M285 80v480m190-480v480" fill="none" stroke="#171a1d" stroke-width="2" />
+            <path d="M190 119h64m-64 12h38m316 347h42m-42 12h62" fill="none" stroke="#167a75" stroke-width="4" />
+            <path d="M665 216v72m-12-72h24m-24 72h24" fill="none" stroke="#171a1d" stroke-width="2" />
+            <text x="683" y="267" fill="#171a1d" font-family="Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1" transform="rotate(90 683 267)">YOUR CALL</text>
+
+            <g stroke="#171a1d" stroke-linejoin="round" stroke-linecap="round">
+              <path d="m292 174-82 43-48 108 75 34 33-60v224h220V299l33 60 75-34-48-108-82-43q-18 78-88 79-70-1-88-79Z" fill="#fffefa" stroke-width="9" />
+              <path d="M292 174q18 78 88 79 70-1 88-79M270 299v224m220-224v224" fill="none" stroke-width="5" />
+            </g>
+
+            <path d="M242 543h276" stroke="#171a1d" stroke-width="2" />
+            <text x="242" y="567" fill="#171a1d" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">PLAIN FORM / YOUR POINT OF VIEW</text>
+            <path d="m613 427 28 0m-14-14v28" stroke="#d63b32" stroke-width="5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="bottom-line" id="product">
+        <span>ASCEND / PLAIN WHITE SHIRT</span>
+        <strong>Wear it your way.</strong>
+        <a href="#top">Back to the top</a>
+      </div>
+    </section>
+    <section class="product-note" aria-label="Product details">
+      <div>
+        <h2>Simple shirt. Your call.</h2>
+        <p>ASCEND premium plain white shirt: a clean base for your style, whatever that looks like today.</p>
+      </div>
+      <a class="cta" href="#top">Back to the manifesto <span class="cta-arrow" aria-hidden="true">&#8593;</span></a>
+    </section>
+  </main>
+</body>
+</html>
