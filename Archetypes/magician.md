@@ -1,4 +1,4 @@
-# The Magician Archetype
+﻿# The Magician Archetype
 
 ## What is the Magician Archetype?
 
@@ -121,4 +121,4 @@ These brands succeed because they do not merely emphasize utility or cost. Inste
 
 ## Navigation
 
-[Back to Archetypes Index](README.md)
+[Back to Archetypes Index](../README.md)

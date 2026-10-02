@@ -1,4 +1,4 @@
-# The Hero Archetype
+﻿# The Hero Archetype
 
 ## What is the Hero Archetype?
 
@@ -84,4 +84,4 @@ All three brands use motivational storytelling, powerful athletic imagery, and a
 
 ## Navigation
 
-[Back to Archetypes Index](README.md)
+[Back to Archetypes Index](../README.md)

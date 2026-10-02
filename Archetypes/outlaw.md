@@ -1,4 +1,4 @@
-# The Outlaw Archetype
+﻿# The Outlaw Archetype
 
 ## What is the Outlaw Archetype?
 
@@ -80,7 +80,7 @@ This phrasing is effective because it creates an emotional promise: the customer
 ## Real-World Examples of the Outlaw Archetype
 
 ### 1. Harley-Davidson
-Harley-Davidson is one of the clearest examples of the Outlaw archetype. The brand has long connected itself with freedom, independence, and the rebellious spirit of the open road. Its imagery—motorcycles, leather, long-distance travel, and community culture—captures a lifestyle built around autonomy rather than conformity.
+Harley-Davidson is one of the clearest examples of the Outlaw archetype. The brand has long connected itself with freedom, independence, and the rebellious spirit of the open road. Its imageryâ€”motorcycles, leather, long-distance travel, and community cultureâ€”captures a lifestyle built around autonomy rather than conformity.
 
 Harley-Davidson fits the Outlaw archetype because it does not simply sell transportation; it sells identity. The brand tells customers they are not passive consumers, but individuals who value personal freedom, craftsmanship, and resistance to standardization.
 
@@ -112,4 +112,4 @@ These examples succeed because they do not try to appear bland or universally re
 
 ## Navigation
 
-[Back to Archetypes Index](README.md)
+[Back to Archetypes Index](../README.md)
