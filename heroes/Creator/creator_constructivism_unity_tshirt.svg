@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Make thought visible — Common Thread Inquiry Tee</title>
+  <desc id="desc">A constructivist landing page hero for philosophers, with a bold red diagonal, geometric typography, an illustrated shirt bearing an original question mark motif, and connected speech forms suggesting shared inquiry.</desc>
+  <defs>
+    <pattern id="halftone" width="12" height="12" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#202B35" opacity=".42"/></pattern>
+    <filter id="lift" x="-25%" y="-20%" width="150%" height="155%"><feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#202B35" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1440" height="900" fill="#F4F0E7"/>
+  <!-- One strong diagonal organizes the poster-like field -->
+  <path d="M0 0h1440v104L0 427z" fill="#D94732"/>
+  <path d="M0 0h26v900H0z" fill="#202B35"/>
+  <path d="M1092 0h348v900h-150z" fill="#E5AC3D"/>
+  <path d="M1197 0h243v900h-68z" fill="#287C78"/>
+  <path d="M0 718 872 429l120 471H0z" fill="#E5AC3D"/>
+  <path d="M0 790 751 539l83 361H0z" fill="#287C78"/>
+  <path d="M87 92h603L87 293z" fill="url(#halftone)" opacity=".5"/>
+  <path d="M1117 554l323-109v343l-244 81z" fill="#D94732"/>
+  <!-- Header -->
+  <g fill="#F4F0E7" font-family="Arial, Helvetica, sans-serif">
+    <text x="82" y="68" font-size="20" font-weight="900" letter-spacing="4">COMMON THREAD</text>
+    <text x="1357" y="67" text-anchor="end" font-size="12" font-weight="800" letter-spacing="2.5">OBJECTS FOR THINKERS  /  01</text>
+  </g>
+  <!-- Headline as the primary graphic -->
+  <g font-family="Arial, Helvetica, sans-serif" fill="#202B35" font-weight="900" letter-spacing="-4">
+    <text x="92" y="360" font-size="86">MAKE</text>
+    <text x="88" y="453" font-size="86">THOUGHT</text>
+    <text x="91" y="546" font-size="86">VISIBLE.</text>
+  </g>
+  <path d="M94 572h144" stroke="#D94732" stroke-width="11"/>
+  <g fill="#202B35" font-family="Arial, Helvetica, sans-serif">
+    <text x="95" y="619" font-size="20" font-weight="600">A question-led tee for philosophers:</text>
+    <text x="95" y="649" font-size="20" font-weight="600">a small prompt for ideas made together.</text>
+  </g>
+  <text x="96" y="713" fill="#202B35" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" letter-spacing="2.5">THE INQUIRY TEE  ·  DESIGNED TO START A CONVERSATION</text>
+  <rect x="94" y="752" width="280" height="72" fill="#D94732" stroke="#202B35" stroke-width="4"/>
+  <text x="120" y="797" fill="#FFF9EF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="900" letter-spacing="1.4">EXPLORE THE TEE</text>
+  <path d="M333 779h20m-8-8 8 8-8 8" fill="none" stroke="#FFF9EF" stroke-width="3"/>
+  <text x="401" y="794" fill="#202B35" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1.6">THINK / MAKE / SHARE</text>
+  <!-- Shirt as a screen-print / photomontage-like focal object -->
+  <g filter="url(#lift)" stroke="#202B35" stroke-linejoin="round">
+    <path d="M821 235l78-44 76 31 79-31 87 52-47 111-48-24v352H834V330l-49 25-49-105 85-42z" fill="#FBF8F0" stroke-width="8"/>
+    <path d="M899 191l76 31-31 75-77-60zM975 222l79-31 39 45-81 61z" fill="#E7E1D5" stroke-width="6"/>
+    <path d="M785 355l-48-105 49-23 49 91zM1146 353l44-94 50 27-47 91z" fill="#D94732" stroke-width="7"/>
+    <path d="M834 330l-49 25m361-25 53 28" fill="none" stroke-width="5"/>
+    <path d="M870 369h210v180H870z" fill="#E5AC3D" stroke-width="5"/>
+    <path d="M889 388h172v142H889z" fill="none" stroke="#D94732" stroke-width="3"/>
+    <text x="975" y="482" text-anchor="middle" fill="#202B35" stroke="none" font-family="Georgia, serif" font-size="85" font-weight="700">?</text>
+    <text x="975" y="514" text-anchor="middle" fill="#202B35" stroke="none" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="900" letter-spacing="2.3">THINK / TOGETHER</text>
+    <path d="M897 568h156" stroke="#287C78" stroke-width="7"/>
+    <text x="975" y="601" text-anchor="middle" fill="#202B35" stroke="none" font-family="Georgia, serif" font-size="17" font-style="italic">an open question</text>
+  </g>
+  <!-- Three distinct voices meet around one shared question -->
+  <g stroke="#202B35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M843 168c-8-15 1-29 15-29 12 0 17 10 13 20-3 7-9 9-10 16l-13-4z" fill="#F4F0E7"/><path d="M838 174l-11 9 14 3m2-8 11 4" fill="none"/>
+    <path d="M1096 159c2-16 17-24 29-17 10 7 9 18 2 25-5 5-11 4-16 9l-12-8z" fill="#F4F0E7"/><path d="M1094 165l-12 5 9 10m9-11 11 3" fill="none"/>
+    <path d="M970 124c-8-14 1-28 15-28 11 0 16 10 12 19-3 7-9 9-11 16l-13-4z" fill="#F4F0E7"/><path d="M966 130l-12 8 14 4m2-10 10 4" fill="none"/>
+  </g>
+  <path d="M861 171l52 40m175-42-43 42m-74-82v82" fill="none" stroke="#202B35" stroke-width="3" stroke-dasharray="5 8"/>
+  <circle cx="971" cy="211" r="10" fill="#D94732" stroke="#202B35" stroke-width="3"/>
+  <text x="1370" y="833" text-anchor="end" fill="#FFF9EF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" letter-spacing="2">ONE QUESTION</text>
+  <text x="1370" y="856" text-anchor="end" fill="#FFF9EF" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="900" letter-spacing="2">MANY MINDS</text>
+  <path d="M1241 613l33 33-33 33" fill="none" stroke="#FFF9EF" stroke-width="5"/>
+</svg>
