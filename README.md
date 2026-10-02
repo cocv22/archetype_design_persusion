@@ -56,7 +56,3 @@ Put each group members name, archetype, and a link to their page that explains w
 - [Neo-Expressionism](neo_expressionism.md)
 - [Postmodern Graphic Design](postmodern_graphic_design.md)
 
-
-### HEY
-### Herooo
-### Testing Hero - Shakti Branch
