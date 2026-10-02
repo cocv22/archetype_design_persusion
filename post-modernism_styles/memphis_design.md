@@ -1,6 +1,6 @@
-# Memphis Design
+﻿# Memphis Design
 
-[Home](README.md)
+[Home](../README.md)
 
 ## What it is
 

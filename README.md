@@ -1,4 +1,4 @@
-# Brand Archetypes, Design Styles, and Methods of Persusion
+﻿# Brand Archetypes, Design Styles, and Methods of Persusion
 
 ## Exercise 
 1.  Each member of the group find your own brand archetype by asking ai(Gemini, ChatGPT, Claude, etc...) to help you discover it.
@@ -49,10 +49,10 @@ Put each group members name, archetype, and a link to their page that explains w
 
 
 ### Post Modernism - 6 styles 
-- [Postmodern Classicism](postmodern_classicism.md)
-- [Memphis Design](memphis_design.md)
-- [Deconstructivism](deconstructivism.md)
-- [Pop Art](pop_art.md)
-- [Neo-Expressionism](neo_expressionism.md)
-- [Postmodern Graphic Design](postmodern_graphic_design.md)
+- [Postmodern Classicism](post-modernism_styles/postmodern_classicism.md)
+- [Memphis Design](post-modernism_styles/memphis_design.md)
+- [Deconstructivism](post-modernism_styles/deconstructivism.md)
+- [Pop Art](post-modernism_styles/pop_art.md)
+- [Neo-Expressionism](post-modernism_styles/neo_expressionism.md)
+- [Postmodern Graphic Design](post-modernism_styles/postmodern_graphic_design.md)
 

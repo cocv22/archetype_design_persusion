@@ -1,6 +1,6 @@
-# Postmodern Graphic Design
+﻿# Postmodern Graphic Design
 
-[Home](README.md)
+[Home](../README.md)
 
 ## What it is
 

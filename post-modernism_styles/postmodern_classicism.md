@@ -1,6 +1,6 @@
-# Postmodern Classicism
+﻿# Postmodern Classicism
 
-[Home](README.md)
+[Home](../README.md)
 
 ## What it is
 

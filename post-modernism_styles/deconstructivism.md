@@ -1,6 +1,6 @@
-# Deconstructivism
+﻿# Deconstructivism
 
-[Home](README.md)
+[Home](../README.md)
 
 ## What it is
 

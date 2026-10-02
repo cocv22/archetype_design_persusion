@@ -1,6 +1,6 @@
-# Pop Art
+﻿# Pop Art
 
-[Home](README.md)
+[Home](../README.md)
 
 ## What it is
 
