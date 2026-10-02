@@ -1,6 +1,6 @@
 # The Everyman Archetype
 
-[Home](README.md)
+[Home](../README.md)
 
 ## Motivation and cues
 
@@ -87,4 +87,4 @@ Compare the four finished heroes for clarity, approachability, and how well each
 
 ## Navigation
 
-[Back to Archetypes Index](README.md)
+[Back to Archetypes Index](../README.md)

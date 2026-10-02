@@ -1,6 +1,6 @@
 # International Style
 
-[Home](README.md)
+[Home](../../README.md)
 
 ## What it is
 

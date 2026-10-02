@@ -1,4 +1,4 @@
-﻿# Brand Archetypes, Design Styles, and Methods of Persusion
+﻿# Brand Archetypes, Design Styles, and Methods of Persuasion
 
 ## Exercise 
 1.  Each member of the group find your own brand archetype by asking ai(Gemini, ChatGPT, Claude, etc...) to help you discover it.
@@ -8,25 +8,25 @@
 ### - First Assignment
 Put each group members name, archetype, and a link to their page that explains why that archetype was chosen and if they agree
 
-1. [Shakti Anandkumar](shakti_anandkumar.md)
-2. [Aswath Manikandan](aswath_manikandan.md)
-3. [Rija Kharel](rija_kharel.md)
-4. [Cesar Carrillo](cesar_carrillo.md)
-5. [Ezzine](ezzine.md)
+1. [Shakti Anandkumar](contributers/shakti_anandkumar.md)
+2. [Aswath Manikandan](contributers/aswath_manikandan.md)
+3. [Rija Kharel](contributers/rija_kharel.md)
+4. [Cesar Carrillo](contributers/cesar_carrillo.md)
+5. [Ezzine](contributers/ezzine.md)
 
-## Archtypes 1-12
-- [Hero](hero.md) Shakti
-- [Explorer](explorer.md) Aswath
-- [Innocent](innocent.md) Aswath
-- [Sage](sage.md) Cesar
-- [Architect](architect.md) Ezzine
-- [Ruler](ruler.md) Cesar
-- [Creator](creator.md) Cesar
-- [Lover](lover.md) Aswath
-- [Jester](jester.md) Shakti
-- [Everyman](everyman.md) Ezzine
-- [Outlaw](outlaw.md) Shakti
-- [Magician](magician.md) Ezzine
+## Archetypes 1-12
+- [Hero](Archetypes/hero.md) Shakti
+- [Explorer](Archetypes/explorer.md) Aswath
+- [Innocent](Archetypes/innocent.md) Aswath
+- [Sage](Archetypes/sage.md) Cesar
+- [Architect](Archetypes/architect.md) Ezzine
+- [Ruler](Archetypes/ruler.md) Cesar
+- [Creator](Archetypes/creator.md) Cesar
+- [Lover](Archetypes/lover.md) Aswath
+- [Jester](Archetypes/jester.md) Shakti
+- [Everyman](Archetypes/everyman.md) Ezzine
+- [Outlaw](Archetypes/outlaw.md) Shakti
+- [Magician](Archetypes/magician.md) Ezzine
 
 ## Methods of Persuasion 1-7 Cialdini
 - [Reciprocity](persuasion_methods/reciprocity.md) Ezzine
@@ -41,19 +41,19 @@ Put each group members name, archetype, and a link to their page that explains w
 
 
 ### Modernism - 6 styles
-- [Bauhaus](bauhaus.md)
-- [International Style](international_style.md) Shakti
-- [De Stijl](de_stijl.md)
-- [Constructivism](constructivism.md) Shakti
-- [Art Deco](art_deco.md)
-- [Mid-Century Modern](mid_century_modern.md)
+- [Bauhaus](design_styles/modernism_styles/bauhaus.md)
+- [International Style](design_styles/modernism_styles/international_style.md) Shakti
+- [De Stijl](design_styles/modernism_styles/de_stijl.md)
+- [Constructivism](design_styles/modernism_styles/constructivism.md) Shakti
+- [Art Deco](design_styles/modernism_styles/art_deco.md)
+- [Mid-Century Modern](design_styles/modernism_styles/mid_century_modern.md)
 
 
 ### Post Modernism - 6 styles 
-- [Postmodern Classicism](post-modernism_styles/postmodern_classicism.md)
-- [Memphis Design](post-modernism_styles/memphis_design.md)
-- [Deconstructivism](post-modernism_styles/deconstructivism.md)
-- [Pop Art](post-modernism_styles/pop_art.md)
-- [Neo-Expressionism](post-modernism_styles/neo_expressionism.md)
-- [Postmodern Graphic Design](post-modernism_styles/postmodern_graphic_design.md)
+- [Postmodern Classicism](design_styles/post-modernism_styles/postmodern_classicism.md)
+- [Memphis Design](design_styles/post-modernism_styles/memphis_design.md)
+- [Deconstructivism](design_styles/post-modernism_styles/deconstructivism.md)
+- [Pop Art](design_styles/post-modernism_styles/pop_art.md)
+- [Neo-Expressionism](design_styles/post-modernism_styles/neo_expressionism.md)
+- [Postmodern Graphic Design](design_styles/post-modernism_styles/postmodern_graphic_design.md)
 

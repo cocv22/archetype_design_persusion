@@ -1,6 +1,6 @@
 # Art Deco
 
-[Home](README.md)
+[Home](../../README.md)
 
 ## What it is
 
@@ -16,23 +16,24 @@ For a poster or hero, combine one stepped frame or repeating geometric pattern w
 
 ## Historical examples
 
-### 1. Émile-Jacques Ruhlmann, *Éléphant* (1920s)
+### 1. Émile-Jacques Ruhlmann, *Drouant Side Chair* (c. 1925)
 
-- **Institution and direct source:** The Metropolitan Museum of Art, [Ruhlmann exhibition overview](https://www.metmuseum.org/exhibitions/listings/2004/ruhlmann).
-- **Image/viewing, credit, and reuse:** The Met’s exhibition overview presents Ruhlmann’s work and images. Follow the linked object’s image rights information before reproduction.
-- **What I observe:** Ruhlmann’s furniture combines refined materials with controlled, geometric form. Its decorative finish is integrated into a carefully composed object rather than added as an afterthought.
+- **Institution and direct source:** The Metropolitan Museum of Art, [collection record](https://www.metmuseum.org/art/collection/search/487426).
+- **Image/viewing, credit, and reuse:** The Met record identifies the chair and provides collection imagery. Check the record’s rights information before reproducing the image.
+- **What I observe:** Macassar ebony, silvered bronze, and silk upholstery bring material contrast to a compact, measured form. The chair shows how Art Deco could combine geometry and fine craft.
 - **How I would adapt it in a hero:** Use one polished material cue and a precise frame around the product, reserving the strongest contrast for the headline.
 
-### 2. Tamara de Lempicka, *Portrait of Madame M* (1932)
+### 2. Jean Dunand, *Vase* (c. 1925)
 
-- **Institution and direct source:** The Metropolitan Museum of Art, [French Art Deco overview](https://www.metmuseum.org/essays/french-art-deco).
-- **Image/viewing, credit, and reuse:** The Met’s overview discusses Art Deco visual culture and links works in its collection. Check the specific object record’s rights terms before using any image.
-- **What I observe:** De Lempicka’s polished surfaces, sculptural forms, and crisp contours connect portraiture to the period’s visual modernity. The image feels composed and dimensional rather than loosely decorative.
-- **How I would adapt it in a hero:** Use crisp lighting and a clear silhouette in original photography, pairing them with a limited geometric border rather than imitating a particular painting.
+- **Institution and direct source:** The Metropolitan Museum of Art, [collection record](https://www.metmuseum.org/art/collection/search/487038).
+- **Image/viewing, credit, and reuse:** The Met record gives the object details and image. It identifies Open Access materials where applicable; confirm the record’s rights statement before reuse.
+- **What I observe:** Vivid geometric patterning emphasizes the vase’s rounded form. The contrast between a simple silhouette and richly patterned surface captures Art Deco’s mix of modern shape and ornament.
+- **How I would adapt it in a hero:** Pair a simple product silhouette with a single geometric pattern, keeping the headline and offer on a quieter field.
 
 ## Sources
 
 - [V&A, An introduction to Art Deco](https://www.vam.ac.uk/articles/an-introduction-to-art-deco) - Movement overview and historical context.
 - [V&A, Art Deco global influences](https://www.vam.ac.uk/articles/art-deco-global-influences/) - International sources and materials.
 - [The Met, French Art Deco](https://www.metmuseum.org/essays/french-art-deco) - French context, design, and decorative arts.
-- [The Met, Ruhlmann exhibition](https://www.metmuseum.org/exhibitions/listings/2004/ruhlmann) - Designer profile and object examples.
+- [The Met: Ruhlmann, *Drouant Side Chair*](https://www.metmuseum.org/art/collection/search/487426) - Object details and interpretation.
+- [The Met: Dunand, *Vase*](https://www.metmuseum.org/art/collection/search/487038) - Object details, date, and design context.

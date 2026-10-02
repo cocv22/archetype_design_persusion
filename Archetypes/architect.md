@@ -1,6 +1,6 @@
 # The Architect Archetype
 
-[Home](README.md)
+[Home](../README.md)
 
 ## Motivation and cues
 
@@ -87,4 +87,4 @@ Compare the finished four heroes for readability, credibility, and how clearly e
 
 ## Navigation
 
-[Back to Archetypes Index](README.md)
+[Back to Archetypes Index](../README.md)
