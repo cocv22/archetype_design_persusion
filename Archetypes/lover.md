@@ -1,4 +1,4 @@
-# The Lover Archetype
+﻿# The Lover Archetype
 
 ## What is the Lover Archetype?
 
@@ -64,8 +64,8 @@ Chanel fragrance and fashion campaigns often use elegance, sensuality, and perso
 ### 2. Godiva
 Godiva presents chocolate as an indulgence to savor and share. Its rich packaging and gift-giving occasions connect a product with pleasure and affection.
 
-### 3. Häagen-Dazs
-Häagen-Dazs advertising has often framed ice cream as an indulgent moment. The Lover reading comes from its sensory focus and invitation to slow down and savor.
+### 3. HÃ¤agen-Dazs
+HÃ¤agen-Dazs advertising has often framed ice cream as an indulgent moment. The Lover reading comes from its sensory focus and invitation to slow down and savor.
 
 ![A carefully plated dessert presented as a sensory treat](https://images.unsplash.com/photo-1551024506-0bc0c7f0a22b?auto=format&fit=crop&w=1200&q=80)
 *Source: Unsplash.*
@@ -74,10 +74,84 @@ Häagen-Dazs advertising has often framed ice cream as an indulgent moment. The 
 
 - [Chanel](https://www.chanel.com/) - Fashion, fragrance, and beauty.
 - [Godiva](https://www.godiva.com/) - Chocolate and gifting.
-- [Häagen-Dazs](https://www.haagendazs.us/) - Ice cream and indulgence.
+- [HÃ¤agen-Dazs](https://www.haagendazs.us/) - Ice cream and indulgence.
 - Margaret Mark and Carol S. Pearson, *The Hero and the Outlaw* (McGraw-Hill, 2001).
 
 *Image credits should be added alongside any images used in this guide.*
+
+
+## Assignment package
+
+### Brief
+
+- **Audience:** [Specify the audience for the team's assigned campaign.]
+- **Product:** [Specify the product or service.]
+- **Core offer:** [State the benefit being offered.]
+- **Action:** [State the action and destination.]
+- **Styles:** [Name one modernist and one postmodernist style; coordinate with the team coverage table.]
+- **Persuasion principles:** [Name principles A and B; coordinate with the team coverage table.]
+
+### Hero 1: modernist style / principle A
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Lover cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 2: postmodernist style / principle A
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Lover cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 3: modernist style / principle B
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Lover cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 4: postmodernist style / principle B
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Lover cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Comparison
+
+[Choose the strongest hero for this audience. Explain what changed with the style and what changed with the persuasion principle.]
+
+### Process
+
+- **Key prompts:** [Record the prompts used.]
+- **Rejected draft and revision:** [Include one rejected draft and explain the revision.]
+- **Strongest hero:** [Name the selected hero and explain why it works best.]
+
+### Sources and credits
+
+[Add direct sources for archetype claims, style examples, and brand evidence. For each historical style example, record creator, title, date, institution, direct source link, image credit or reuse terms, and the feature adapted. Credit each final hero image or label it as AI-generated.]
 
 ## Navigation
 

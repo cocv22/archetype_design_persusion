@@ -82,6 +82,79 @@ All three brands use motivational storytelling, powerful athletic imagery, and a
 
 *Image credits should be added alongside any images used in this guide.*
 
+## Assignment package
+
+### Brief
+
+- **Audience:** [Specify the audience for the team's assigned campaign.]
+- **Product:** [Specify the product or service.]
+- **Core offer:** [State the benefit being offered.]
+- **Action:** [State the action and destination.]
+- **Styles:** [Name one modernist and one postmodernist style; coordinate with the team coverage table.]
+- **Persuasion principles:** [Name principles A and B; coordinate with the team coverage table.]
+
+### Hero 1: modernist style / principle A
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Hero cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 2: postmodernist style / principle A
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Hero cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 3: modernist style / principle B
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Hero cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Hero 4: postmodernist style / principle B
+
+**Image:** [Add final hero image with descriptive alt text and image credit.]
+
+**Headline:** [Write the headline.]
+
+**Supporting copy:** [Explain the offer for the audience.]
+
+**CTA and destination:** [Add a visible action and destination.]
+
+**Explanation:** Explain the Hero cue, persuasion mechanism, and one visual feature adapted from a linked style source.
+
+### Comparison
+
+[Choose the strongest hero for this audience. Explain what changed with the style and what changed with the persuasion principle.]
+
+### Process
+
+- **Key prompts:** [Record the prompts used.]
+- **Rejected draft and revision:** [Include one rejected draft and explain the revision.]
+- **Strongest hero:** [Name the selected hero and explain why it works best.]
+
+### Sources and credits
+
+[Add direct sources for archetype claims, style examples, and brand evidence. For each historical style example, record creator, title, date, institution, direct source link, image credit or reuse terms, and the feature adapted. Credit each final hero image or label it as AI-generated.]
+
 ## Navigation
 
 [Back to Archetypes Index](../README.md)
