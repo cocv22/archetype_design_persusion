@@ -1,18 +1,18 @@
-# [Your Name]
+# [Cesar Carrillo]
 
 ## About Me
 
-[Short introduction about yourself.]
+My name's Cesar and I'm a current student at NJIT with the goal of better understanding AI and learning to build it from scratch.
 
 ## Role on the Team
 
-[What you worked on for the project.]
+I was the leader of the group, I assigned others certain jobs and helped them with commands whenever requested. I also did some myself to help speed up the process.
 
 ## My Contributions
 
-- [Archetype/style/persuasion pages you worked on]
-- [Hero designs you created]
-- [Other research or project contributions]
+- I was the advisor/leader, so I managed push/pull requests and ensured a relatively smooth flowing of the project.
+- I created the Sage, Ruler and Creator designs with the help of AI agents.
+- I organized folders so that everyone has access, and I helped organize syntax and formatting for the files/folders.
 
 ## My Work
 
