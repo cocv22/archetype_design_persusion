@@ -24,3 +24,7 @@ I worked on researching different brand archetypes and creating advertising desi
 ## Issues
 
 - GitHub issues related to my Hero, Jester, and Outlaw work.
+
+## Reflection
+
+This project taught me that designing something is a lot more complicated than just making it look good. I learned how archetypes, modernism and postmodernism styles, and persuasion methods can completely change how the same product is presented. I also got way more comfortable using GitHub, especially creating branches, making commits, sending pull requests, and somehow fixing things without destroying the entire group repository. After making twelve different designs and fixing all twelve previews, I can definitely say I understand both the design process and GitHub a lot better than when we started.
