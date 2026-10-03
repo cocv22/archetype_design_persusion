@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f0e6">
+  <meta name="description" content="ASCEND premium plain white shirt. Different paths, same right to choose your own." />
+  <title>ASCEND | Different paths. Same right to choose.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4f0e6;
+      --white: #fffdf8;
+      --ink: #17191d;
+      --blue: #2850c6;
+      --red: #d83b32;
+      --yellow: #f2cc42;
+      --teal: #21847c;
+      --display: "Anton", Impact, "Arial Narrow", sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); }
+
+    .page { width: min(100%, 1600px); margin-inline: auto; }
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 74px minmax(0, 1fr) 74px;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--paper);
+    }
+
+    .masthead {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--white);
+      border-bottom: 2px solid var(--ink);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--ink);
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .05em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 29px;
+      height: 29px;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--red);
+      font: 18px/.9 var(--display);
+    }
+
+    .masthead-note { font-size: 10px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+
+    .hero-grid {
+      min-height: 0;
+      padding: 34px clamp(24px, 5vw, 80px) 32px;
+      display: grid;
+      grid-template-columns: minmax(0, .96fr) minmax(0, 1.04fr);
+      align-items: center;
+      gap: clamp(28px, 4vw, 64px);
+    }
+
+    .hero-copy { min-width: 0; position: relative; z-index: 1; }
+    .eyebrow {
+      margin: 0 0 18px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-mark { width: 12px; height: 12px; background: var(--yellow); border: 2px solid var(--ink); border-radius: 50%; }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(68px, 6.2vw, 96px)/.94 var(--display);
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .accent { color: var(--blue); }
+
+    .supporting {
+      max-width: 465px;
+      margin: 21px 0 20px;
+      color: #3c4144;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.62;
+    }
+
+    .cta {
+      min-height: 52px;
+      padding: 0 17px 0 19px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      color: var(--white);
+      background: var(--ink);
+      border: 2px solid var(--ink);
+      box-shadow: 5px 5px 0 var(--red);
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+
+    .cta:hover { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--red); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+    .cta-arrow { font: 24px/.7 var(--display); }
+
+    .friendly-note { max-width: 430px; margin: 15px 0 0; color: #50565a; font-size: 11px; font-weight: 700; line-height: 1.5; }
+
+    .artboard {
+      width: 100%;
+      aspect-ratio: 760 / 620;
+      overflow: hidden;
+      background: var(--blue);
+      border: 2px solid var(--ink);
+    }
+
+    .artboard svg { display: block; width: 100%; height: 100%; }
+
+    .bottom-line {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      gap: 20px;
+      color: var(--white);
+      background: var(--ink);
+      border-top: 2px solid var(--ink);
+    }
+
+    .bottom-line span { font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .bottom-line strong { font: 400 18px/1 var(--display); }
+    .bottom-line a { justify-self: end; color: var(--white); font-size: 10px; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+
+    .product-note {
+      min-height: 155px;
+      padding: 28px clamp(24px, 8vw, 128px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      background: var(--yellow);
+      border-top: 2px solid var(--ink);
+      scroll-margin-top: 12px;
+    }
+
+    .product-note h2 { margin: 0 0 7px; font: 400 27px/1.05 var(--display); text-transform: uppercase; }
+    .product-note p { max-width: 550px; margin: 0; font-size: 12px; line-height: 1.55; }
+
+    @media (max-width: 920px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 68px auto 68px; }
+      .hero-grid { padding: 34px clamp(24px, 6vw, 62px) 38px; grid-template-columns: minmax(0, 1fr); gap: 26px; }
+      .hero-copy { max-width: 680px; }
+      h1 { font-size: clamp(72px, 9.5vw, 98px); }
+      .artboard { width: min(100%, 700px); justify-self: center; }
+    }
+
+    @media (max-width: 600px) {
+      .masthead { min-height: 62px; padding-inline: 18px; }
+      .brand { gap: 8px; font-size: 16px; }
+      .brand-mark { width: 26px; height: 26px; font-size: 16px; }
+      .masthead-note { max-width: 145px; font-size: 8px; letter-spacing: .05em; text-align: right; }
+      .hero-grid { padding: 25px 20px 28px; gap: 21px; }
+      .eyebrow { margin-bottom: 14px; font-size: 9px; }
+      h1 { font-size: clamp(54px, 13.5vw, 75px); }
+      .supporting { margin: 16px 0 17px; font-size: 13px; }
+      .cta { min-height: 47px; padding-inline: 13px; gap: 11px; font-size: 10px; }
+      .friendly-note { font-size: 10px; }
+      .artboard { border-width: 1px; }
+      .bottom-line { min-height: 68px; padding-inline: 18px; grid-template-columns: 1fr auto; gap: 10px; }
+      .bottom-line span { font-size: 8px; }
+      .bottom-line strong { justify-self: end; font-size: 15px; }
+      .bottom-line a { display: none; }
+      .product-note { min-height: 0; padding: 23px 20px; align-items: flex-start; flex-direction: column; gap: 12px; }
+      .product-note h2 { font-size: 23px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND Outlaw campaign">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="masthead-note">No dress code authority</span>
+      </header>
+
+      <div class="hero-grid" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span>For everyone choosing their own way</p>
+          <h1><span>Different paths.</span><span class="accent">Same right to choose.</span></h1>
+          <p class="supporting">Your style is yours. ASCEND's premium plain white shirt is a clean starting point—not a uniform, club badge, or rule. Wear it your way, or don't.</p>
+          <a class="cta" href="#product">Meet the blank canvas <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          <p class="friendly-note">Different people, different paths. The shared idea is simple: nobody else gets to assign your identity.</p>
+        </div>
+
+        <div class="artboard">
+          <svg id="shirt-art" viewBox="0 0 760 620" role="img" aria-labelledby="art-title art-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="art-title">ASCEND plain white shirt in a geometric field of independent paths</title>
+            <desc id="art-desc">An original plain white T-shirt with dark structural outlines, framed by purposeful Bauhaus circles, a square, a triangle, and separate route lines. The shirt has no print or logo.</desc>
+            <defs>
+              <pattern id="micro-grid" width="38" height="38" patternUnits="userSpaceOnUse">
+                <path d="M38 0H0V38" fill="none" stroke="#fffdf8" stroke-width="1" opacity=".18" />
+              </pattern>
+            </defs>
+            <rect width="760" height="620" fill="#2850c6" />
+            <rect width="760" height="620" fill="url(#micro-grid)" />
+
+            <rect x="0" y="0" width="152" height="114" fill="#d83b32" />
+            <circle cx="657" cy="108" r="62" fill="#f2cc42" stroke="#17191d" stroke-width="5" />
+            <path d="M56 532 128 410l72 122Z" fill="#f2cc42" stroke="#17191d" stroke-width="5" />
+            <rect x="604" y="464" width="112" height="112" fill="#21847c" stroke="#17191d" stroke-width="5" />
+            <path d="M604 464h56v56h-56z" fill="#fffdf8" />
+            <circle cx="96" cy="265" r="30" fill="#fffdf8" stroke="#17191d" stroke-width="5" />
+            <path d="M651 208v81m-13-81h26m-26 81h26" stroke="#fffdf8" stroke-width="4" />
+
+            <path d="M137 264h84m-84 0v93h73m340-198h72m-72 0v58h56M204 520h69m-69 0v-59h51m304 31h-55v-74" fill="none" stroke="#fffdf8" stroke-width="5" />
+            <path d="m212 352 16 5-16 5m335-235 16 5-16 5m-278 329 16 5-16 5m228-103 16 5-16 5" fill="none" stroke="#fffdf8" stroke-width="4" stroke-linecap="square" />
+
+            <g font-family="Arial, sans-serif" font-weight="800" letter-spacing="1.4">
+              <text x="21" y="31" fill="#fffdf8" font-size="11">A / YOUR OWN WAY</text>
+              <text x="613" y="196" fill="#fffdf8" font-size="10">B / YOUR OWN WAY</text>
+              <text x="535" y="599" fill="#fffdf8" font-size="10">C / YOUR OWN WAY</text>
+            </g>
+
+            <g stroke="#17191d" stroke-linejoin="round" stroke-linecap="round">
+              <path d="m277 152-74 39-42 98 69 31 31-55v211h228V265l31 55 69-31-42-98-74-39q-17 71-98 72-81-1-98-72Z" fill="#fffdf8" stroke-width="9" />
+              <path d="M277 152q17 71 98 72 81-1 98-72M261 265v211m228-211v211" fill="none" stroke-width="5" />
+            </g>
+
+            <path d="M235 511h280" stroke="#17191d" stroke-width="2" />
+            <text x="235" y="536" fill="#fffdf8" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">DIFFERENT PATHS / SAME RIGHT</text>
+            <path d="m558 373 22-12m-22 27 22-12m-373-27 22-12m-22 27 22-12" stroke="#f2cc42" stroke-width="5" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="bottom-line" id="product">
+        <span>ASCEND / PLAIN WHITE SHIRT</span>
+        <strong>Wear it your way.</strong>
+        <a href="#top">Back to the top</a>
+      </div>
+    </section>
+
+    <section class="product-note" aria-label="Product details">
+      <div>
+        <h2>Simple shirt. Your call.</h2>
+        <p>ASCEND premium plain white shirt: a clean base for your style, whatever that looks like today. The shirt is the product—not the price of belonging.</p>
+      </div>
+      <a class="cta" href="#top">Back to the manifesto <span class="cta-arrow" aria-hidden="true">&#8593;</span></a>
+    </section>
+  </main>
+  <script>
+    const shirtArt = document.querySelector("#shirt-art");
+
+    const updateShirtView = () => {
+      shirtArt.setAttribute("viewBox", window.matchMedia("(max-width: 900px)").matches ? "130 35 500 530" : "0 0 760 620");
+    };
+
+    updateShirtView();
+    window.addEventListener("resize", updateShirtView);
+  </script>
+</body>
+</html>

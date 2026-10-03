@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e8">
+  <meta name="description" content="ASCEND premium plain white shirt: a versatile foundation for expressing yourself as we encourage one another toward our goals.">
+  <title>ASCEND | We rise together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4f1e8;
+      --ink: #171918;
+      --red: #d83424;
+      --yellow: #f2ca43;
+      --green: #28765e;
+      --line: rgba(23, 25, 24, .22);
+      --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); }
+    .page { width: min(100%, 1600px); margin-inline: auto; overflow: hidden; }
+
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 78px minmax(0, 1fr);
+      aspect-ratio: 16 / 9;
+      background: var(--paper);
+      overflow: hidden;
+    }
+
+    .masthead {
+      padding: 0 clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      text-decoration: none;
+      font: 800 24px/1 var(--body);
+    }
+
+    .brand-mark {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      background: var(--red);
+      color: var(--paper);
+      font: 700 17px/1 var(--display);
+      clip-path: polygon(0 0, 100% 0, 100% 67%, 67% 100%, 0 100%);
+    }
+
+    .edition {
+      font: 700 13px/1 var(--display);
+      letter-spacing: .07em;
+      text-transform: uppercase;
+    }
+
+    .hero-layout {
+      min-height: 0;
+      padding: 36px clamp(24px, 5vw, 80px) 44px;
+      display: grid;
+      grid-template-columns: minmax(0, .92fr) minmax(0, 1.08fr);
+      align-items: center;
+      gap: clamp(28px, 4vw, 64px);
+    }
+
+    .hero-copy { position: relative; z-index: 1; }
+    .eyebrow {
+      margin: 0 0 19px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font: 700 14px/1.2 var(--display);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .eyebrow-mark { width: 25px; height: 4px; background: var(--red); }
+
+    h1 {
+      margin: 0;
+      font: 800 clamp(76px, 8vw, 120px)/.82 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    h1 span { display: block; }
+    h1 .accent { color: var(--red); }
+
+    .supporting {
+      max-width: 480px;
+      margin: 23px 0 25px;
+      font-size: 16px;
+      line-height: 1.62;
+    }
+
+    .cta {
+      min-height: 56px;
+      padding: 0 21px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 22px;
+      background: var(--ink);
+      color: var(--paper);
+      font: 700 15px/1 var(--body);
+      text-decoration: none;
+      transition: background-color .18s ease, transform .18s ease;
+    }
+    .cta:hover { background: var(--green); transform: translateY(-2px); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--green); outline-offset: 4px; }
+    .cta-arrow { font: 700 23px/1 var(--display); }
+
+    .unity-note {
+      max-width: 445px;
+      margin-top: 24px;
+      padding-top: 12px;
+      display: grid;
+      grid-template-columns: 5px 1fr;
+      gap: 13px;
+      border-top: 1px solid var(--line);
+    }
+    .unity-rule { background: var(--yellow); }
+    .unity-note p { margin: 0; font-size: 12px; line-height: 1.55; }
+
+    .collective-art {
+      width: 100%;
+      height: auto;
+      min-width: 0;
+      animation: rise-in .7s cubic-bezier(.2,.75,.3,1) both;
+    }
+
+    .community {
+      min-height: 112px;
+      padding: 20px clamp(24px, 5vw, 80px);
+      display: grid;
+      grid-template-columns: 1fr minmax(260px, 570px);
+      align-items: center;
+      gap: 30px;
+      background: var(--yellow);
+      scroll-margin-top: 20px;
+    }
+    .community h2 {
+      margin: 0;
+      font: 800 clamp(27px, 3vw, 40px)/.94 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .community p { margin: 0; font-size: 13px; line-height: 1.6; }
+
+    .footer {
+      min-height: 48px;
+      padding: 13px clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      font: 600 11px/1.3 var(--display);
+      letter-spacing: .06em;
+      text-transform: uppercase;
+    }
+
+    @keyframes rise-in {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 900px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 70px auto; }
+      .hero-layout { padding: 38px clamp(24px, 5vw, 54px) 40px; grid-template-columns: 1fr; gap: 25px; }
+      .hero-copy { max-width: 650px; }
+      h1 { font-size: clamp(78px, 10vw, 100px); }
+      .collective-art { width: min(100%, 760px); justify-self: center; }
+    }
+
+    @media (max-width: 620px) {
+      .masthead { min-height: 66px; padding-inline: 19px; }
+      .brand { gap: 8px; font-size: 21px; }
+      .edition { max-width: 155px; font-size: 11px; line-height: 1.2; text-align: right; }
+      .hero-layout { padding: 30px 20px 32px; gap: 23px; }
+      .eyebrow { margin-bottom: 15px; font-size: 12px; }
+      h1 { font-size: clamp(64px, 16vw, 94px); }
+      .supporting { margin: 18px 0 20px; font-size: 15px; }
+      .cta { min-height: 52px; padding-inline: 17px; font-size: 14px; }
+      .unity-note { margin-top: 19px; }
+      .unity-note p { font-size: 12px; }
+      .community { padding: 20px; grid-template-columns: 1fr; gap: 9px; }
+      .community h2 { font-size: 32px; }
+      .footer { padding-inline: 20px; font-size: 10px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND campaign hero">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="edition">One direction. Many paths.</span>
+      </header>
+
+      <div class="hero-layout" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span>A shared direction</p>
+          <h1 id="hero-title"><span>We rise</span><span class="accent">together.</span></h1>
+          <p class="supporting">Different goals, shared determination. The ASCEND premium plain white shirt is a versatile foundation for expressing who you are as we encourage one another to keep moving toward what matters.</p>
+          <a class="cta" href="#community">Move forward together <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          <div class="unity-note">
+            <span class="unity-rule" aria-hidden="true"></span>
+            <p>The shirt is optional. Belonging comes from how we show up for one another.</p>
+          </div>
+        </div>
+
+        <svg class="collective-art" viewBox="0 0 760 620" role="img" aria-labelledby="group-title group-description">
+          <title id="group-title">A group progressing together in ASCEND white shirts</title>
+          <desc id="group-description">Three people in plain white shirts stand on ascending geometric steps along a shared route, beside a larger blank white-shirt illustration representing personal style.</desc>
+          <defs>
+            <symbol id="plain-shirt" viewBox="0 0 240 270">
+              <path d="M74 20 44 30 12 73l33 23 20-15v156q0 12 13 12h84q13 0 13-12V81l20 15 33-23-32-43-32-10c-6 28-21 42-45 42s-39-14-45-42z" fill="#ffffff" stroke="#171918" stroke-width="7" stroke-linejoin="round" />
+              <path d="M74 20c6 28 21 42 46 42s40-14 46-42" fill="none" stroke="#171918" stroke-width="6" />
+              <path d="M81 23c6 19 18 29 39 29s33-10 39-29" fill="none" stroke="#d4d2cc" stroke-width="3" />
+              <path d="M65 82v150q0 5 6 5h98q6 0 6-5V82" fill="none" stroke="#d4d2cc" stroke-width="2" />
+            </symbol>
+            <symbol id="person" viewBox="0 0 140 260">
+              <path d="M42 192 38 237h27l7-36 7 36h27l-4-45z" fill="#171918" />
+              <path d="M35 234h32v8H34zM77 234h31v8H76z" fill="#171918" />
+              <circle cx="70" cy="35" r="24" fill="currentColor" />
+              <use href="#plain-shirt" x="9" y="59" width="122" height="137" />
+              <path d="M22 142l-8 15 11 5 10-16M118 142l8 15-11 5-10-16" fill="currentColor" />
+            </symbol>
+          </defs>
+
+          <rect width="760" height="620" fill="#f4f1e8" />
+          <path d="M22 22h716v546H22z" fill="none" stroke="#171918" stroke-width="2" />
+          <path d="M44 74h412" stroke="#171918" stroke-width="2" />
+          <text x="47" y="58" fill="#171918" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="20" font-weight="700" letter-spacing="2">SHARED EFFORT</text>
+          <text x="454" y="58" fill="#171918" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="15" font-weight="600" text-anchor="end" letter-spacing="1">PERSONAL GOALS</text>
+
+          <circle cx="455" cy="118" r="49" fill="#f2ca43" />
+          <circle cx="455" cy="118" r="30" fill="none" stroke="#171918" stroke-width="3" />
+          <path d="M455 100v36M437 118h36" stroke="#171918" stroke-width="3" />
+          <path d="M44 477 170 432l132-47 121-84 45-116" fill="none" stroke="#d83424" stroke-width="4" />
+          <path d="M421 193l48-20-10 51" fill="none" stroke="#d83424" stroke-width="4" stroke-linejoin="miter" />
+
+          <path d="M24 516h154v52H24zM178 462h154v106H178zM332 408h154v160H332z" fill="#f2ca43" stroke="#171918" stroke-width="3" />
+          <path d="M24 516h154M178 462h154M332 408h154" stroke="#171918" stroke-width="5" />
+          <path d="M28 528h144M182 474h144M336 420h144" stroke="#ffffff" stroke-width="3" stroke-dasharray="3 9" />
+
+          <use href="#person" x="30" y="261" width="138" height="256" style="color:#b97855" />
+          <use href="#person" x="184" y="207" width="138" height="256" style="color:#704a39" />
+          <use href="#person" x="338" y="153" width="138" height="256" style="color:#d39a6b" />
+
+          <use href="#plain-shirt" x="511" y="211" width="194" height="218" />
+          <path d="M519 453h178" stroke="#171918" stroke-width="2" />
+          <text x="608" y="478" fill="#171918" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="1">ONE SHIRT. YOUR WAY.</text>
+          <text x="47" y="594" fill="#171918" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="16" font-weight="700" letter-spacing="1">WE MAKE ROOM FOR THE NEXT STEP</text>
+          <text x="712" y="594" fill="#28765e" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-size="18" font-weight="700" text-anchor="end">ASCEND / 03</text>
+        </svg>
+      </div>
+    </section>
+
+    <section class="community" id="community" aria-labelledby="community-title">
+      <h2 id="community-title">Different goals. Shared determination.</h2>
+      <p>An open invitation to encourage one another as we pursue our own goals. No membership claim or purchase is needed to take part.</p>
+    </section>
+
+    <footer class="footer"><span>ASCEND / Keep moving forward</span><span>Your path. Our encouragement.</span></footer>
+  </main>
+</body>
+</html>
