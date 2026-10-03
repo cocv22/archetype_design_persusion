@@ -1,4 +1,4 @@
-# [Cesar Carrillo]
+# Cesar Carrillo
 
 ## About Me
 
