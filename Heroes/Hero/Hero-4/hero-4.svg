@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="988" viewBox="0 0 1600 988" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: Rise together — complete Pop Art Unity advertisement</title>
+  <desc id="description">A complete ASCEND advertisement for a premium plain white shirt. The yellow halftone hero features a cream masthead, motivational headline, supporting copy, call to action, and an original Pop Art illustration of people progressing together beside a prominent white shirt. A pink product strip completes the page.</desc>
+  <defs>
+    <pattern id="hero-dots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1.15" fill="#171717" opacity=".19" />
+    </pattern>
+    <pattern id="art-dots" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.7" fill="#171717" opacity=".24" />
+    </pattern>
+    <pattern id="small-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#171717" opacity=".26" />
+    </pattern>
+    <symbol id="plain-shirt" viewBox="0 0 240 270">
+      <path d="M74 20 44 30 12 73l33 23 20-15v156q0 12 13 12h84q13 0 13-12V81l20 15 33-23-32-43-32-10c-6 28-21 42-45 42s-39-14-45-42z" fill="#ffffff" stroke="#171717" stroke-width="7" stroke-linejoin="round" />
+      <path d="M74 20c6 28 21 42 46 42s40-14 46-42" fill="none" stroke="#171717" stroke-width="6" />
+      <path d="M81 23c6 19 18 29 39 29s33-10 39-29" fill="none" stroke="#d4d2cc" stroke-width="3" />
+      <path d="M65 82v150q0 5 6 5h98q6 0 6-5V82" fill="none" stroke="#d4d2cc" stroke-width="2" />
+    </symbol>
+    <symbol id="person" viewBox="0 0 140 260">
+      <path d="M42 192 38 237h27l7-36 7 36h27l-4-45z" fill="#171717" />
+      <path d="M35 234h32v8H34zM77 234h31v8H76z" fill="#171717" />
+      <circle cx="70" cy="35" r="24" fill="currentColor" />
+      <use href="#plain-shirt" xlink:href="#plain-shirt" x="9" y="59" width="122" height="137" />
+      <path d="M22 142l-8 15 11 5 10-16M118 142l8 15-11 5-10-16" fill="currentColor" />
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="988" fill="#fff9e9" />
+  <rect y="76" width="1600" height="824" fill="#f6df3d" />
+  <rect y="76" width="1600" height="824" fill="url(#hero-dots)" />
+
+  <rect width="1600" height="76" fill="#fff9e9" />
+  <rect y="73" width="1600" height="3" fill="#171717" />
+  <rect x="83" y="22" width="35" height="35" fill="#171717" />
+  <rect x="80" y="19" width="35" height="35" fill="#55d4d8" stroke="#171717" stroke-width="3" />
+  <text x="97.5" y="46" text-anchor="middle" fill="#171717" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="28">A</text>
+  <text x="126" y="43" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing=".76">ASCEND</text>
+
+  <g transform="rotate(2 1378 37)">
+    <rect x="1239" y="17" width="284" height="46" fill="#171717" />
+    <rect x="1236" y="14" width="284" height="46" fill="#f15b83" stroke="#171717" stroke-width="2" />
+    <text x="1378" y="44" text-anchor="middle" fill="#171717" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="17">ONE CLIMB. MANY WAYS UP.</text>
+  </g>
+
+  <text x="80" y="300" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800">MAKE ROOM FOR THE NEXT RISE</text>
+  <rect x="80" y="282" width="201" height="30" fill="#171717" />
+  <rect x="80" y="282" width="201" height="30" fill="#55d4d8" stroke="#171717" stroke-width="2" />
+  <text x="92" y="301" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800">MAKE ROOM FOR THE NEXT RISE</text>
+
+  <text x="80" y="400" fill="#171717" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="89.6">RISE</text>
+  <text x="80" y="477" fill="#171717" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="89.6" paint-order="stroke" stroke="#171717" stroke-width="3">TOGETHER.</text>
+  <text x="80" y="474" fill="#f15b83" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="89.6">TOGETHER.</text>
+
+  <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="600">
+    <text x="80" y="529">Your next step is yours. The climb gets stronger when we</text>
+    <text x="80" y="553">make room, share the push, and celebrate every rise.</text>
+  </g>
+
+  <rect x="86" y="584" width="247" height="54" fill="#f15b83" />
+  <a href="#shirt" aria-label="Explore the white tee">
+    <rect x="80" y="578" width="247" height="54" fill="#171717" stroke="#171717" stroke-width="3" />
+    <text x="101" y="611" fill="#fff9e9" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="800">EXPLORE THE WHITE TEE</text>
+    <text x="303" y="612" text-anchor="middle" fill="#fff9e9" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="28">&#8594;</text>
+  </a>
+
+  <path d="M80 653.5h395" stroke="#171717" stroke-opacity=".42" />
+  <rect x="80" y="666" width="4" height="22" fill="#ef493e" />
+  <text x="97" y="680" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="700">Different goals. Shared grit. Bring your whole self, and help someone else move forward.</text>
+
+  <g transform="rotate(1 1116 485)">
+    <rect x="705" y="153" width="813" height="656" fill="#171717" />
+    <svg x="709" y="157" width="805" height="648" viewBox="0 0 760 610" preserveAspectRatio="xMidYMid meet" aria-label="Original Pop Art illustration: climbers and a plain white tee">
+      <rect width="760" height="610" fill="#55d4d8" />
+      <rect width="760" height="610" fill="url(#art-dots)" />
+      <path d="M0 430 118 302 165 363 255 214 302 281 375 153 433 221 511 95 564 167 675 47 760 129V0H0Z" fill="#f6df3d" />
+      <path d="M0 430 118 302 165 363 255 214 302 281 375 153 433 221 511 95 564 167 675 47 760 129V0H0Z" fill="url(#small-dots)" />
+      <path d="M594 110 674 72 728 106 650 144Z" fill="#f15b83" stroke="#171717" stroke-width="5" />
+      <path d="m594 110 56 34v143" fill="none" stroke="#171717" stroke-width="8" />
+      <path d="m577 104 13-20m18 26 13-25m16 32 13-23m17 30 13-22" fill="none" stroke="#ef493e" stroke-width="7" />
+      <path d="M60 488h115v-48h98v-53h99v-57h101v-60h116v-67h96v-51h57v386H60Z" fill="#f15b83" stroke="#171717" stroke-width="7" />
+      <path d="M60 488h115v-48h98v-53h99v-57h101v-60h116v-67h96v-51h57v386H60Z" fill="url(#small-dots)" />
+      <path d="M60 488h115m0-48h98m0-53h99m0-57h101m0-60h116m0-67h96m0-51h57" fill="none" stroke="#171717" stroke-width="7" />
+
+      <g stroke="#171717" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="281" cy="274" r="29" fill="#a85c3c" />
+        <path d="M261 257q14-28 39-4" fill="none" stroke-width="10" />
+        <path d="m258 308 43-4 25 74-69 8Z" fill="#ef493e" />
+        <path d="m266 319-41 39-28-6m87-32 31-38 18 5" fill="none" stroke-width="12" />
+        <path d="m269 382-25 59-35 5m90-63 31 47 31 0" fill="none" stroke-width="16" />
+
+        <circle cx="429" cy="214" r="31" fill="#6f4532" />
+        <path d="M400 207q7-39 39-25l21 23" fill="#171717" stroke-width="6" />
+        <path d="m396 250 62-4 22 92-91 5Z" fill="#f6df3d" />
+        <path d="m405 262-39 33-37-1m100-37 51-37 19 8" fill="none" stroke-width="14" />
+        <path d="m407 338-22 72-41 16m110-89 26 50 40 2" fill="none" stroke-width="17" />
+
+        <circle cx="556" cy="306" r="27" fill="#d99a6c" />
+        <path d="M531 299q8-31 36-25l17 21" fill="#171717" stroke-width="6" />
+        <path d="m531 340 49-4 23 70-76 4Z" fill="#55d4d8" />
+        <path d="m539 349-33-22-39 4m100 10 36-30 16 7" fill="none" stroke-width="12" />
+        <path d="m540 409-18 55-32 8m74-63 22 40 32 0" fill="none" stroke-width="15" />
+      </g>
+
+      <g transform="translate(55 195) rotate(-5 117 174)" stroke="#171717" stroke-linejoin="round" stroke-linecap="round">
+        <path d="m75 64-50 27-31 69 47 25 20-33v222h168V152l20 33 47-25-31-69-50-27q-10 42-70 42T75 64Z" fill="#fff" stroke-width="8" />
+        <path d="M75 64q11 41 63 42 54-1 70-42M61 152v222m168-222v222" fill="none" stroke-width="4" />
+        <path d="m124 112 13 17 13-17" fill="#f6df3d" stroke-width="5" />
+        <path d="M107 197h68" fill="none" stroke-width="4" />
+        <text x="141" y="222" text-anchor="middle" fill="#171717" stroke="none" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">ASCEND</text>
+      </g>
+
+      <g transform="translate(455 471) rotate(-3)">
+        <path d="M0 0h228v59H0z" fill="#fff9e9" stroke="#171717" stroke-width="5" />
+        <path d="M0 0h14v59H0z" fill="#ef493e" />
+        <text x="31" y="24" fill="#171717" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.2">THE EVERYDAY TEE</text>
+        <text x="31" y="43" fill="#171717" font-family="Arial, sans-serif" font-size="12" font-weight="600">A clean start. Your own direction.</text>
+      </g>
+
+      <path d="m384 91 10-26m23 33 23-21m-2 47 28-6" fill="none" stroke="#ef493e" stroke-width="8" stroke-linecap="round" />
+      <path d="m310 171-19-13m26-13-7-24" fill="none" stroke="#f15b83" stroke-width="8" stroke-linecap="round" />
+    </svg>
+    <rect x="705" y="153" width="813" height="656" fill="none" stroke="#171717" stroke-width="4" />
+  </g>
+
+  <rect y="900" width="1600" height="88" fill="#f15b83" />
+  <rect y="900" width="1600" height="3" fill="#171717" />
+  <text x="80" y="957" fill="#171717" font-family="Bowlby One SC, Impact, Haettenschweiler, sans-serif" font-size="24">ONE SIMPLE SHIRT. YOUR OWN NEXT STEP.</text>
+  <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="600">
+    <text x="1020" y="943">ASCEND premium plain white shirt. Versatile by design, ready to go wherever your goals</text>
+    <text x="1020" y="961">take you. The shirt is yours to wear; the encouragement is for everyone.</text>
+  </g>
+</svg>

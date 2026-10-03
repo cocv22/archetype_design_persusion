@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1122" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND | Become your next self</title>
+  <desc id="description">ASCEND advertisement for a premium plain white shirt, featuring the message Become your own next, a finite first edition notice, and release information.</desc>
+  <rect width="1600" height="1122" fill="#f4f1e8"/>
+
+  <g fill="#171918">
+    <path d="M0 93.5h1600" stroke="#171918" stroke-opacity=".22"/>
+    <path d="M100 32h30v20l-10 10h-20z" fill="#d83424"/>
+    <text x="115" y="51" fill="#f4f1e8" text-anchor="middle" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="17" font-weight="700">A</text>
+    <text x="141" y="52" font-family="'Archivo Black','Arial Black',sans-serif" font-size="24">ASCEND</text>
+    <circle cx="1389" cy="47" r="4.5" fill="#28765e"/>
+    <text x="1500" y="51" text-anchor="end" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="16" font-weight="700" letter-spacing="1.2">A CLEAR START. YOUR WAY.</text>
+  </g>
+
+  <g font-family="'Barlow Condensed','Arial Narrow',sans-serif" fill="#171918">
+    <rect x="100" y="209" width="24" height="4" fill="#d83424"/>
+    <text x="134" y="219" font-size="18" font-weight="700" letter-spacing="1.25">FOR WHO YOU'RE BECOMING</text>
+
+    <text x="100" y="337" font-size="116" font-weight="800" letter-spacing="0">BECOME</text>
+    <text x="100" y="433" fill="#d83424" font-size="116" font-weight="800" letter-spacing="0">YOUR OWN</text>
+    <text x="100" y="529" font-size="116" font-weight="800" letter-spacing="0">NEXT.</text>
+  </g>
+
+  <g fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif">
+    <text x="100" y="579" font-size="17">A premium plain white shirt: a clean, versatile foundation</text>
+    <text x="100" y="607" font-size="17">for expressing who you are and pursuing the goals you</text>
+    <text x="100" y="635" font-size="17">choose.</text>
+  </g>
+
+  <g>
+    <rect x="100" y="666" width="300" height="56" fill="#171918"/>
+    <text x="124" y="700" fill="#f4f1e8" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="16" font-weight="700">Choose your next step</text>
+    <text x="374" y="701" fill="#f4f1e8" text-anchor="end" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="25" font-weight="700">→</text>
+    <text x="424" y="699" fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="17" font-weight="700" letter-spacing=".6">ASCEND PREMIUM PLAIN WHITE SHIRT</text>
+  </g>
+
+  <g>
+    <path d="M100 758h420" stroke="#171918" stroke-opacity=".22"/>
+    <rect x="100" y="772" width="5" height="60" fill="#f2ca43"/>
+    <text x="119" y="789" fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="18" font-weight="800" letter-spacing="1">FIRST EDITION. FINITE RELEASE.</text>
+    <text x="119" y="812" fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="12">Fictional campaign concept. Confirm a real quantity before release;</text>
+    <text x="119" y="831" fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="12">no guessed stock.</text>
+  </g>
+
+  <g transform="translate(800 205) scale(.94)">
+    <circle cx="408" cy="282" r="224" fill="#d83424"/>
+    <path d="M407 58a224 224 0 0 1 214 158" fill="none" stroke="#171918" stroke-width="2"/>
+    <path d="m608 198 15 21-25 8" fill="#171918"/>
+    <circle cx="408" cy="282" r="188" fill="none" stroke="#f4f1e8" stroke-opacity=".55" stroke-width="2" stroke-dasharray="2 12"/>
+    <path d="M107 505h552" fill="none" stroke="#171918" stroke-width="2"/>
+    <path d="M145 493v24M210 493v13M275 493v24M340 493v13M405 493v24M470 493v13M535 493v24M600 493v13" stroke="#171918" stroke-width="2"/>
+
+    <g transform="rotate(-4 405 300)">
+      <path d="M291 111 215 126l-100 68 56 83 54-29v211q0 20 20 20h326q20 0 20-20V248l54 29 56-83-100-68-76-15c-13 43-41 65-84 65s-71-22-84-65z" fill="#ffffff" stroke="#171918" stroke-width="9" stroke-linejoin="round"/>
+      <path d="M291 111c13 43 41 65 84 65s71-22 84-65" fill="none" stroke="#171918" stroke-width="8"/>
+      <path d="M302 117c11 29 35 44 73 44s62-15 73-44" fill="none" stroke="#d6d6d6" stroke-width="4"/>
+      <path d="M225 251v192q0 12 12 12h298q12 0 12-12V251M178 273l48-25M594 273l-48-25" fill="none" stroke="#d6d6d6" stroke-width="3"/>
+      <path d="M229 450h312" fill="none" stroke="#d6d6d6" stroke-width="3" stroke-dasharray="3 9"/>
+    </g>
+
+    <path d="m171 169-24-24m48 3-13-34m41 20-3-35" stroke="#f2ca43" stroke-width="9" stroke-linecap="square"/>
+    <path d="M590 348h53m-43 18h43m-32 18h32" stroke="#f4f1e8" stroke-width="5" stroke-linecap="square"/>
+    <rect x="85" y="90" width="56" height="56" fill="#f2ca43"/>
+    <path d="M85 118h56M113 90v56" stroke="#171918" stroke-width="2"/>
+    <text x="92" y="552" fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="17" font-weight="700" letter-spacing="2">ASCEND / EDITION 01</text>
+    <text x="630" y="552" fill="#171918" text-anchor="end" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="17" font-weight="700" letter-spacing="2">MAKE IT YOURS</text>
+  </g>
+
+  <g>
+    <rect x="0" y="900" width="1600" height="170" fill="#f2ca43"/>
+    <text x="100" y="980" fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="37" font-weight="800">A FIRST EDITION.</text>
+    <text x="100" y="1016" fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="37" font-weight="800">COUNTED CLEARLY.</text>
+    <text x="990" y="976" fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="14">This is fictional campaign messaging. Set a genuine production cap</text>
+    <text x="990" y="999" fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="14">before release and show accurate size-by-size availability at</text>
+    <text x="990" y="1022" fill="#171918" font-family="'DM Sans','Helvetica Neue',sans-serif" font-size="14">checkout; no artificial countdowns or unverified stock claims.</text>
+  </g>
+
+  <g fill="#171918" font-family="'Barlow Condensed','Arial Narrow',sans-serif" font-size="14" font-weight="600" letter-spacing=".7">
+    <text x="100" y="1102">ASCEND / KEEP MOVING FORWARD</text>
+    <text x="1500" y="1102" text-anchor="end">DESIGNED FOR THE NEXT GOAL</text>
+  </g>
+</svg>

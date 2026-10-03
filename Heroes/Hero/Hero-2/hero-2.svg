@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1056" viewBox="0 0 1600 1056" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: Turn can't into did! — complete Pop Art advertisement</title>
+  <desc id="description">A complete 1600-pixel-wide ASCEND advertisement for a premium plain white shirt. The yellow halftone hero has a cream masthead, bold three-line comic headline, supporting copy, call to action, fictional scarcity concept, a large original shirt illustration, a pink release-information band, and a dark footer.</desc>
+  <defs>
+    <pattern id="hero-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#171717" opacity=".13" />
+    </pattern>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#171717" />
+    </pattern>
+    <symbol id="ascend-shirt" viewBox="0 0 480 400">
+      <path d="M173 34 119 46 36 111l44 67 44-24v204q0 15 15 15h202q15 0 15-15V154l44 24 44-67-83-65-54-12c-10 31-30 47-67 47s-57-16-67-47z" fill="#fff" stroke="#171717" stroke-width="12" stroke-linejoin="round" />
+      <path d="M173 34c10 31 30 47 67 47s57-16 67-47" fill="none" stroke="#171717" stroke-width="10" />
+      <path d="M181 39c9 22 28 34 59 34s50-12 59-34" fill="none" stroke="#c8c8c8" stroke-width="5" />
+      <path d="M125 154v191q0 10 10 10h210q10 0 10-10V154M91 178l34-24M389 178l-34-24" fill="none" stroke="#c8c8c8" stroke-width="4" />
+      <path d="M145 184v140M335 184v140" fill="none" stroke="url(#dots)" stroke-width="15" opacity=".34" />
+    </symbol>
+    <filter id="board-shadow" x="-5%" y="-5%" width="115%" height="120%">
+      <feOffset dx="10" dy="10" in="SourceAlpha" result="offset" />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="1" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="#fae55a" />
+  <rect y="78" width="1600" height="822" fill="url(#hero-dots)" />
+
+  <rect width="1600" height="78" fill="#fff9e9" />
+  <rect y="75" width="1600" height="3" fill="#171717" />
+  <rect x="83" y="24" width="34" height="34" fill="#171717" />
+  <rect x="80" y="21" width="34" height="34" fill="#56d5dc" stroke="#171717" stroke-width="3" />
+  <text x="97" y="48" text-anchor="middle" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="30">A</text>
+  <text x="125" y="45" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing=".76">ASCEND</text>
+
+  <g transform="rotate(-2 1436 37.5)">
+    <rect x="1355" y="18" width="168" height="45" fill="#171717" />
+    <rect x="1352" y="15" width="168" height="45" fill="#f05b84" stroke="#171717" stroke-width="2" />
+    <text x="1436" y="45" text-anchor="middle" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="20">IDENTITY / NO LIMITS</text>
+  </g>
+
+  <rect x="84" y="184" width="217" height="29" fill="#171717" />
+  <rect x="80" y="180" width="217" height="29" fill="#56d5dc" stroke="#171717" stroke-width="2" />
+  <text x="92" y="199" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">FOR EVERY HARD-EARNED NEXT</text>
+
+  <text x="80" y="312" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="122">TURN</text>
+  <text x="83" y="410" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="122" paint-order="stroke" stroke="#171717" stroke-width="3">CAN'T</text>
+  <text x="80" y="407" fill="#f05b84" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="122">CAN'T</text>
+  <text x="80" y="502" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="122">INTO DID!</text>
+
+  <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="16" font-weight="600">
+    <text x="80" y="558">A premium plain white shirt: a versatile foundation for</text>
+    <text x="80" y="583">showing up as yourself and moving toward the person you</text>
+    <text x="80" y="608">want to become.</text>
+  </g>
+
+  <rect x="86" y="639" width="218" height="54" fill="#f05b84" />
+  <a href="#release" aria-label="Make your mark — see the release concept">
+    <rect x="80" y="633" width="218" height="54" fill="#171717" stroke="#171717" stroke-width="3" />
+    <text x="101" y="667" fill="#ffffff" font-family="DM Sans, Arial, sans-serif" font-size="14" font-weight="800">MAKE YOUR MARK</text>
+    <text x="275" y="668" text-anchor="middle" fill="#ffffff" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="30">&#8594;</text>
+  </a>
+
+  <g transform="rotate(-1 314.5 752)">
+    <rect x="85" y="714" width="470" height="88" fill="#171717" />
+    <rect x="79" y="708" width="471" height="88" fill="#fff9e9" stroke="#171717" stroke-width="3" />
+    <polygon points="117.5,730 122.3,740.3 131.8,733.9 130.1,745.6 141,752 129.2,757.4 135.4,768.8 123.1,765.4 117.5,777 112.7,765.2 101.9,771.4 103.9,758.7 92,752 104.3,746.7 99,735.3 112.5,737.8" fill="#ff713b" />
+    <text x="117" y="761" text-anchor="middle" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="29">!</text>
+    <text x="152" y="745" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="800">FIRST EDITION. FINITE RELEASE.</text>
+    <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="11">
+      <text x="152" y="768">Fictional campaign concept. Confirm a real quantity before release;</text>
+      <text x="152" y="784">no guessed stock.</text>
+    </g>
+  </g>
+
+  <g transform="rotate(1 1152 486)">
+    <rect x="784" y="196" width="736" height="580" fill="#171717" filter="url(#board-shadow)" />
+    <svg x="788" y="200" width="728" height="572" viewBox="0 0 760 600" preserveAspectRatio="xMidYMid meet" aria-label="Original Pop Art white-shirt illustration">
+      <rect width="760" height="600" fill="#56d5dc" />
+      <path d="M0 0h760v176H0z" fill="#f05b84" />
+      <path d="M0 0h760v176H0z" fill="url(#dots)" opacity=".42" />
+      <path d="M58 211l25-36 10-40 27 26 39-13-7 42 26 31-41 12-17 39-21-36-42-4 25-29z" fill="#fae55a" stroke="#171717" stroke-width="7" stroke-linejoin="round" />
+      <text x="107" y="222" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="36" text-anchor="middle">RISE!</text>
+
+      <g transform="translate(348 19)">
+        <path d="M0 38l28 12 11-31 21 27 29-22 3 35 35 2-20 29 27 23-34 10 5 34-31-17-22 28-8-34-35 2 20-29-27-22 34-11z" fill="#fae55a" stroke="#171717" stroke-width="6" stroke-linejoin="round" />
+        <text x="67" y="100" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="32" text-anchor="middle">NO QUIT!</text>
+      </g>
+
+      <path d="M270 177l-18-34M300 166l-5-42M330 167l10-34M648 222l31-17M656 254l42-1M642 286l36 16" fill="none" stroke="#171717" stroke-width="8" stroke-linecap="square" />
+      <path d="M69 305l14-32 18 30M110 297l22-33M147 299l28-27" fill="none" stroke="#ff713b" stroke-width="9" stroke-linecap="square" />
+      <ellipse cx="385" cy="391" rx="281" ry="142" fill="#171717" opacity=".16" />
+      <use href="#ascend-shirt" xlink:href="#ascend-shirt" x="196" y="189" width="370" height="308" />
+
+      <path d="M29 542h702" fill="none" stroke="#171717" stroke-width="4" />
+      <g opacity=".78">
+        <use href="#ascend-shirt" xlink:href="#ascend-shirt" x="39" y="534" width="43" height="36" />
+        <use href="#ascend-shirt" xlink:href="#ascend-shirt" x="89" y="534" width="43" height="36" />
+        <use href="#ascend-shirt" xlink:href="#ascend-shirt" x="139" y="534" width="43" height="36" />
+      </g>
+      <path d="M315 548h3v25h-3z" fill="#171717" />
+      <text x="205" y="562" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="14" font-weight="800">ASCEND / PREMIUM WHITE SHIRT</text>
+      <text x="720" y="567" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="21" text-anchor="end">NEXT UP!</text>
+    </svg>
+    <rect x="784" y="196" width="736" height="580" fill="none" stroke="#171717" stroke-width="4" />
+  </g>
+
+  <rect y="900" width="1600" height="116" fill="#f05b84" />
+  <rect y="900" width="1600" height="3" fill="#171717" />
+  <text x="80" y="970" fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="34">A FIRST EDITION. NO FAKE RUSH.</text>
+  <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="13">
+    <text x="950" y="955">This is fictional campaign messaging. Set a genuine production cap before release and show</text>
+    <text x="950" y="976">accurate shirt-size availability at checkout; no artificial countdowns or unverified stock claims.</text>
+  </g>
+
+  <rect y="1016" width="1600" height="40" fill="#171717" />
+  <g fill="#fff9e9" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing=".6">
+    <text x="80" y="1040">ASCEND / KEEP MOVING FORWARD</text>
+    <text x="1520" y="1040" text-anchor="end">DESIGNED FOR THE NEXT GOAL</text>
+  </g>
+</svg>

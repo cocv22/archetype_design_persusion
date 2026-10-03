@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1070" viewBox="0 0 1600 1070" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: Your Style Isn't Up for a Vote — complete Outlaw advertisement</title>
+  <desc id="description">The complete ASCEND Outlaw ad: a disciplined International Style layout with a prominent plain white shirt on a modular grid, a single misaligned red module, direct copy, and a red product-note panel.</desc>
+  <defs>
+    <pattern id="art-fine-grid" width="19" height="16" patternUnits="userSpaceOnUse">
+      <path d="M19 0H0V16" fill="none" stroke="#d5d5cf" stroke-width=".6" opacity=".52" />
+    </pattern>
+    <pattern id="art-grid" width="95" height="80" patternUnits="userSpaceOnUse">
+      <path d="M95 0H0V80" fill="none" stroke="#d5d5cf" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1070" fill="#f2f0e8" />
+
+  <rect width="1600" height="74" fill="#fffefa" />
+  <path d="M0 73.5h1600" stroke="#171a1d" />
+  <path d="M80 23h28v18.8L98.8 51H80Z" fill="#d63b32" />
+  <text x="94" y="42" text-anchor="middle" fill="#fffefa" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="18">A</text>
+  <text x="116" y="41" fill="#171a1d" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing=".9">ASCEND</text>
+  <text x="1520" y="41" text-anchor="end" fill="#171a1d" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1">WEAR YOUR OWN POINT OF VIEW</text>
+
+  <g fill="#171a1d" font-family="DM Sans, Arial, sans-serif" font-weight="800">
+    <text x="80" y="207" font-size="10" letter-spacing="1">THE APPROVAL BOX IS OPTIONAL</text>
+    <path d="M80 196h22v4H80z" fill="#d63b32" />
+  </g>
+
+  <g fill="#171a1d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="100">
+    <text x="80" y="313">YOUR STYLE</text>
+    <text x="80" y="404">ISN'T UP</text>
+  </g>
+  <text x="80" y="495" fill="#d63b32" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="100">FOR A VOTE.</text>
+
+  <g fill="#3f4447" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="500">
+    <text x="80" y="546">Some days the whole outfit plan is “clean tee, my call.”</text>
+    <text x="80" y="570">Fair enough. ASCEND's premium plain white shirt leaves</text>
+    <text x="80" y="594">the rest of the decision to you.</text>
+  </g>
+
+  <rect x="80" y="619" width="230" height="52" fill="#171a1d" />
+  <a href="#product" aria-label="Meet the blank canvas">
+    <rect x="80" y="617" width="230" height="52" fill="#171a1d" />
+    <text x="99" y="649" fill="#fffefa" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">MEET THE BLANK CANVAS</text>
+    <text x="285" y="649" text-anchor="middle" fill="#fffefa" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="23">&#8594;</text>
+  </a>
+  <text x="80" y="698" fill="#50565a" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="700">No dress-code lecture. Promise.</text>
+
+  <rect x="798" y="144" width="722" height="608" fill="#fffefa" stroke="#171a1d" />
+  <svg x="799" y="145" width="720" height="606" viewBox="0 0 760 640" preserveAspectRatio="xMidYMid meet" aria-label="Plain white ASCEND shirt on an International Style modular grid">
+    <rect width="760" height="640" fill="#fffefa" />
+    <rect width="760" height="640" fill="url(#art-fine-grid)" />
+    <rect width="760" height="640" fill="url(#art-grid)" />
+
+    <path d="M0 0h190v80H0z" fill="#171a1d" />
+    <text x="24" y="34" fill="#fffefa" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">ASCEND / 03</text>
+    <text x="24" y="57" fill="#fffefa" font-family="Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="1">EVERYDAY, UNASSIGNED</text>
+
+    <path d="M570 0h95v80h-95z" fill="#d63b32" />
+    <path d="M570 80h95v80h-95z" fill="#3155b8" />
+    <path d="M665 80h95v80h-95z" fill="#171a1d" />
+    <path d="M0 480h95v80H0z" fill="#167a75" />
+    <path d="M95 560h95v80H95z" fill="#d63b32" />
+    <path d="M475 560h95v80h-95z" fill="#171a1d" />
+
+    <path d="M190 160H570M190 480h380M285 80v480m190-480v480" fill="none" stroke="#171a1d" stroke-width="2" />
+    <path d="M190 119h64m-64 12h38m316 347h42m-42 12h62" fill="none" stroke="#167a75" stroke-width="4" />
+    <path d="M665 216v72m-12-72h24m-24 72h24" fill="none" stroke="#171a1d" stroke-width="2" />
+    <text x="683" y="267" fill="#171a1d" font-family="Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1" transform="rotate(90 683 267)">YOUR CALL</text>
+
+    <g stroke="#171a1d" stroke-linejoin="round" stroke-linecap="round">
+      <path d="m292 174-82 43-48 108 75 34 33-60v224h220V299l33 60 75-34-48-108-82-43q-18 78-88 79-70-1-88-79Z" fill="#fffefa" stroke-width="9" />
+      <path d="M292 174q18 78 88 79 70-1 88-79M270 299v224m220-224v224" fill="none" stroke-width="5" />
+    </g>
+
+    <path d="M242 543h276" stroke="#171a1d" stroke-width="2" />
+    <text x="242" y="567" fill="#171a1d" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">PLAIN FORM / YOUR POINT OF VIEW</text>
+    <path d="m613 427 28 0m-14-14v28" stroke="#d63b32" stroke-width="5" />
+  </svg>
+
+  <text x="1520" y="855" text-anchor="end" fill="#171a1d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="19">NO DRESS-CODE AUTHORITY</text>
+
+  <rect y="820" width="1600" height="80" fill="#171a1d" />
+  <path d="M0 820.5h1600" stroke="#171a1d" />
+  <text x="80" y="862" fill="#f2f0e8" font-family="DM Sans, Arial, sans-serif" font-size="9" font-weight="800" letter-spacing=".9">ASCEND / PLAIN WHITE SHIRT</text>
+  <text x="800" y="861" text-anchor="middle" fill="#f2f0e8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="20">WEAR IT YOUR WAY.</text>
+  <text x="1520" y="861" text-anchor="end" fill="#f2f0e8" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" text-decoration="underline">BACK TO THE TOP</text>
+
+  <rect y="900" width="1600" height="170" fill="#d63b32" />
+  <path d="M0 900h1600" stroke="#171a1d" stroke-width="2" />
+  <text x="128" y="969" fill="#171a1d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="28">SIMPLE SHIRT. YOUR CALL.</text>
+  <text x="128" y="1002" fill="#171a1d" font-family="DM Sans, Arial, sans-serif" font-size="12">ASCEND premium plain white shirt: a clean base for your style, whatever that looks like today.</text>
+</svg>

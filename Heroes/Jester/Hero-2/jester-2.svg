@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: You Bring the Chaos — complete Pop Art advertisement</title>
+  <desc id="description">A complete ASCEND advertisement for a premium plain white shirt. The yellow halftone background frames a playful four-line headline, product copy, CTA, original three-panel comic illustration repeating the blank white shirt, and a red product strip.</desc>
+  <defs>
+    <pattern id="hero-halftone" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#171717" opacity=".16" />
+    </pattern>
+    <pattern id="halftone" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="1.6" fill="#171717" opacity=".24" />
+    </pattern>
+    <pattern id="tee-dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="2.2" fill="#171717" />
+    </pattern>
+    <symbol id="plain-tee" viewBox="0 0 354 350">
+      <path d="m80 25-55 28L0 130l57 21 20-36v210h200V115l20 36 57-21-25-77-55-28q-16 65-97 66t-97-66Z" fill="#fff" stroke="#171717" stroke-width="8" stroke-linejoin="round" />
+      <path d="M80 25q16 65 97 66 81-1 97-66M77 115v210m200-210v210" fill="none" stroke="#171717" stroke-width="4" stroke-linecap="round" />
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f4efdf" />
+  <rect y="76" width="1600" height="748" fill="#f6dc47" />
+  <rect y="76" width="1600" height="748" fill="url(#hero-halftone)" />
+
+  <rect width="1600" height="76" fill="#fff9e9" />
+  <rect y="73" width="1600" height="3" fill="#171717" />
+  <circle cx="97" cy="37" r="17" fill="#ed473b" stroke="#171717" stroke-width="2" />
+  <text x="97" y="44" text-anchor="middle" fill="#fff9e9" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="23">A</text>
+  <text x="124" y="43" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="19" font-weight="800" letter-spacing=".76">ASCEND</text>
+  <g transform="rotate(1 1409 37)">
+    <rect x="1298" y="20" width="222" height="34" fill="#46d1d7" stroke="#171717" stroke-width="2" />
+    <text x="1409" y="42" text-anchor="middle" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing=".9">YOUR PLUS-ONE FOR PLOT TWISTS</text>
+  </g>
+
+  <g transform="rotate(-2 181.5 173)">
+    <rect x="84" y="160" width="203" height="34" fill="#171717" />
+    <rect x="80" y="156" width="203" height="34" fill="#f15a83" stroke="#171717" stroke-width="2" />
+    <text x="91" y="178" fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing=".9">FOR THE BITS YOU DIDN'T PLAN</text>
+  </g>
+
+  <g fill="#171717" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="104">
+    <text x="80" y="280">YOU BRING</text>
+    <text x="80" y="363" fill="#ed473b" paint-order="stroke" stroke="#171717" stroke-width="2">THE CHAOS.</text>
+    <text x="80" y="446">WE'LL BRING</text>
+    <text x="80" y="529">THE TEE.</text>
+  </g>
+
+  <g fill="#171717" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="600">
+    <text x="80" y="585">A premium plain white shirt for group-chat plot twists,</text>
+    <text x="80" y="609">overconfident karaoke, and whatever your day turns into.</text>
+    <text x="80" y="633">We'll keep the tee simple. You make it yours.</text>
+  </g>
+
+  <rect x="85" y="657" width="217" height="53" fill="#f15a83" />
+  <a href="#product" aria-label="Meet the plain tee">
+    <rect x="80" y="652" width="217" height="53" fill="#171717" stroke="#171717" stroke-width="3" />
+    <text x="100" y="685" fill="#fff9e9" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="800">MEET THE PLAIN TEE</text>
+    <text x="272" y="686" text-anchor="middle" fill="#fff9e9" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="27">&#8594;</text>
+  </a>
+  <text x="80" y="739" fill="#454343" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="700">No punchline printed. That's your department.</text>
+
+  <g transform="rotate(1 1134.5 449)">
+    <rect x="757" y="166" width="773" height="584" fill="#171717" />
+    <rect x="748" y="157" width="773" height="584" fill="#46d1d7" stroke="#171717" stroke-width="4" />
+    <svg x="752" y="161" width="765" height="576" viewBox="0 0 820 620" preserveAspectRatio="xMidYMid meet" aria-label="Original Pop Art illustration with three plain white shirts">
+      <rect width="820" height="620" fill="#46d1d7" />
+      <path d="M0 0h820v176H0z" fill="#f15a83" />
+      <path d="M0 0h820v176H0z" fill="url(#halftone)" opacity=".42" />
+
+      <g stroke="#171717" stroke-width="6" stroke-linejoin="round">
+        <path d="M24 128h239v438H24z" fill="#f15a83" />
+        <path d="M284 63h252v503H284z" fill="#f6dc47" />
+        <path d="M557 128h239v438H557z" fill="#ed473b" />
+      </g>
+      <path d="M24 128h239v438H24zM284 63h252v503H284zM557 128h239v438H557z" fill="url(#halftone)" />
+
+      <g transform="translate(38 311) rotate(-8 103 102)">
+        <use href="#plain-tee" xlink:href="#plain-tee" width="205" height="203" />
+      </g>
+      <g transform="translate(245 180) rotate(2 190 187)">
+        <use href="#plain-tee" xlink:href="#plain-tee" width="380" height="376" />
+      </g>
+      <g transform="translate(576 311) rotate(8 103 102)">
+        <use href="#plain-tee" xlink:href="#plain-tee" width="205" height="203" />
+      </g>
+
+      <g stroke="#171717" stroke-width="5" stroke-linejoin="round">
+        <path d="m72 53 11 21 24-8-5 25 24 11-22 14 5 25-24-9-17 19-5-25-25-1 16-20-13-21 25 3Z" fill="#f6dc47" />
+        <path d="M588 40h192q13 0 13 13v66q0 13-13 13h-60l-22 23 4-23h-114q-13 0-13-13V53q0-13 13-13Z" fill="#fff9e9" />
+      </g>
+      <text x="93" y="112" text-anchor="middle" fill="#171717" font-family="Arial, sans-serif" font-size="27" font-weight="900" transform="rotate(-8 93 112)">HA!</text>
+      <text x="683" y="78" text-anchor="middle" fill="#171717" font-family="Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="1">SAME TEE.</text>
+      <text x="683" y="101" text-anchor="middle" fill="#171717" font-family="Arial, sans-serif" font-size="14" font-weight="900" letter-spacing="1">NEW STORY.</text>
+
+      <g fill="none" stroke="#171717" stroke-width="8" stroke-linecap="round">
+        <path d="m177 226-19-17m31 4-7-27m-24 57-28 2" />
+        <path d="m645 204 8-22m20 27 19-16m-8 42 25 5" />
+      </g>
+      <g fill="#171717">
+        <circle cx="45" cy="180" r="5" />
+        <circle cx="769" cy="183" r="5" />
+        <circle cx="204" cy="577" r="5" />
+        <circle cx="613" cy="585" r="5" />
+      </g>
+    </svg>
+    <rect x="748" y="157" width="773" height="584" fill="none" stroke="#171717" stroke-width="4" />
+  </g>
+
+  <rect y="824" width="1600" height="76" fill="#ed473b" />
+  <rect y="824" width="1600" height="3" fill="#171717" />
+  <text x="80" y="876" fill="#fff9e9" font-family="Bangers, Impact, Haettenschweiler, sans-serif" font-size="23">PLAIN WHITE. EXCELLENT COMPANY.</text>
+  <g fill="#fff9e9" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="600">
+    <text x="1090" y="862">ASCEND premium plain white shirt. Easy with everything;</text>
+    <text x="1090" y="878">your mood does the rest.</text>
+  </g>
+</svg>

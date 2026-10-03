@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1060" viewBox="0 0 1600 1060" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: We rise together — complete Unity advertisement</title>
+  <desc id="description">The complete ASCEND Hero-3 advertisement for a premium plain white shirt. It includes a cream masthead, a two-column headline and original group illustration, a yellow community message band, and the campaign footer.</desc>
+  <defs>
+    <symbol id="plain-shirt" viewBox="0 0 240 270">
+      <path d="M74 20 44 30 12 73l33 23 20-15v156q0 12 13 12h84q13 0 13-12V81l20 15 33-23-32-43-32-10c-6 28-21 42-45 42s-39-14-45-42z" fill="#ffffff" stroke="#171918" stroke-width="7" stroke-linejoin="round" />
+      <path d="M74 20c6 28 21 42 46 42s40-14 46-42" fill="none" stroke="#171918" stroke-width="6" />
+      <path d="M81 23c6 19 18 29 39 29s33-10 39-29" fill="none" stroke="#d4d2cc" stroke-width="3" />
+      <path d="M65 82v150q0 5 6 5h98q6 0 6-5V82" fill="none" stroke="#d4d2cc" stroke-width="2" />
+    </symbol>
+    <symbol id="person" viewBox="0 0 140 260">
+      <path d="M42 192 38 237h27l7-36 7 36h27l-4-45z" fill="#171918" />
+      <path d="M35 234h32v8H34zM77 234h31v8H76z" fill="#171918" />
+      <circle cx="70" cy="35" r="24" fill="currentColor" />
+      <use href="#plain-shirt" xlink:href="#plain-shirt" x="9" y="59" width="122" height="137" />
+      <path d="M22 142l-8 15 11 5 10-16M118 142l8 15-11 5-10-16" fill="currentColor" />
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="1060" fill="#f4f1e8" />
+
+  <rect width="1600" height="78" fill="#f4f1e8" />
+  <path d="M0 77.5h1600" stroke="#171918" stroke-opacity=".22" />
+  <path d="M80 24h30v20.1L100.1 54H80Z" fill="#d83424" />
+  <text x="95" y="45" text-anchor="middle" fill="#f4f1e8" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="17" font-weight="700">A</text>
+  <text x="121" y="46" fill="#171918" font-family="DM Sans, Arial, sans-serif" font-size="24" font-weight="800">ASCEND</text>
+  <text x="1520" y="42" text-anchor="end" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="13" font-weight="700" letter-spacing=".91">ONE DIRECTION. MANY PATHS.</text>
+
+  <text x="115" y="250" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="14" font-weight="700" letter-spacing="1.12">A SHARED DIRECTION</text>
+  <rect x="80" y="243" width="25" height="4" fill="#d83424" />
+
+  <text x="80" y="367" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="120" font-weight="800">WE RISE</text>
+  <text x="80" y="465" fill="#d83424" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="120" font-weight="800">TOGETHER.</text>
+
+  <g fill="#171918" font-family="DM Sans, Arial, sans-serif" font-size="16">
+    <text x="80" y="514">Different goals, shared determination. The ASCEND</text>
+    <text x="80" y="540">premium plain white shirt is a versatile foundation for</text>
+    <text x="80" y="566">expressing who you are as we encourage one another to</text>
+    <text x="80" y="592">keep moving toward what matters.</text>
+  </g>
+
+  <rect x="80" y="621" width="254" height="56" fill="#171918" />
+  <a href="#community" aria-label="Move forward together — community message">
+    <rect x="80" y="621" width="254" height="56" fill="#171918" />
+    <text x="101" y="656" fill="#f4f1e8" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="700">Move forward together</text>
+    <text x="310" y="656" text-anchor="middle" fill="#f4f1e8" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="23" font-weight="700">&#8594;</text>
+  </a>
+
+  <path d="M80 701.5h445" stroke="#171918" stroke-opacity=".22" />
+  <rect x="80" y="714" width="5" height="19" fill="#f2ca43" />
+  <text x="98" y="729" fill="#171918" font-family="DM Sans, Arial, sans-serif" font-size="12">The shirt is optional. Belonging comes from how we show up for one another.</text>
+
+  <svg x="777" y="182" width="743" height="606" viewBox="0 0 760 620" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Original illustration of three people progressing together beside a plain white shirt">
+    <rect width="760" height="620" fill="#f4f1e8" />
+    <path d="M22 22h716v546H22z" fill="none" stroke="#171918" stroke-width="2" />
+    <path d="M44 74h412" stroke="#171918" stroke-width="2" />
+    <text x="47" y="58" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="20" font-weight="700" letter-spacing="2">SHARED EFFORT</text>
+    <text x="454" y="58" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="15" font-weight="600" text-anchor="end" letter-spacing="1">PERSONAL GOALS</text>
+
+    <circle cx="455" cy="118" r="49" fill="#f2ca43" />
+    <circle cx="455" cy="118" r="30" fill="none" stroke="#171918" stroke-width="3" />
+    <path d="M455 100v36M437 118h36" stroke="#171918" stroke-width="3" />
+    <path d="M44 477 170 432l132-47 121-84 45-116" fill="none" stroke="#d83424" stroke-width="4" />
+    <path d="M421 193l48-20-10 51" fill="none" stroke="#d83424" stroke-width="4" stroke-linejoin="miter" />
+
+    <path d="M24 516h154v52H24zM178 462h154v106H178zM332 408h154v160H332z" fill="#f2ca43" stroke="#171918" stroke-width="3" />
+    <path d="M24 516h154M178 462h154M332 408h154" stroke="#171918" stroke-width="5" />
+    <path d="M28 528h144M182 474h144M336 420h144" stroke="#ffffff" stroke-width="3" stroke-dasharray="3 9" />
+
+    <use href="#person" xlink:href="#person" x="30" y="261" width="138" height="256" style="color:#b97855" />
+    <use href="#person" xlink:href="#person" x="184" y="207" width="138" height="256" style="color:#704a39" />
+    <use href="#person" xlink:href="#person" x="338" y="153" width="138" height="256" style="color:#d39a6b" />
+
+    <use href="#plain-shirt" xlink:href="#plain-shirt" x="511" y="211" width="194" height="218" />
+    <path d="M519 453h178" stroke="#171918" stroke-width="2" />
+    <text x="608" y="478" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="1">ONE SHIRT. YOUR WAY.</text>
+    <text x="47" y="594" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="16" font-weight="700" letter-spacing="1">WE MAKE ROOM FOR THE NEXT STEP</text>
+    <text x="712" y="594" fill="#28765e" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="18" font-weight="700" text-anchor="end">ASCEND / 03</text>
+  </svg>
+
+  <rect y="900" width="1600" height="112" fill="#f2ca43" />
+  <text x="80" y="969" fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="40" font-weight="800">DIFFERENT GOALS. SHARED DETERMINATION.</text>
+  <g fill="#171918" font-family="DM Sans, Arial, sans-serif" font-size="13">
+    <text x="950" y="951">An open invitation to encourage one another as we pursue our own goals. No</text>
+    <text x="950" y="972">membership claim or purchase is needed to take part.</text>
+  </g>
+
+  <g fill="#171918" font-family="Barlow Condensed, Arial Narrow, Impact, sans-serif" font-size="11" font-weight="600" letter-spacing=".66">
+    <text x="80" y="1040">ASCEND / KEEP MOVING FORWARD</text>
+    <text x="1520" y="1040" text-anchor="end">YOUR PATH. OUR ENCOURAGEMENT.</text>
+  </g>
+</svg>
