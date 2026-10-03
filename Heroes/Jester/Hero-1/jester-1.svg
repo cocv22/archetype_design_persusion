@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: Look Sharp. Stay Silly. — complete Jester advertisement</title>
+  <desc id="description">A complete ASCEND advertisement for a premium plain white shirt. It includes the cream masthead, playful four-line headline, supporting copy, CTA, original geometric shirt illustration, and a red band clearly labeling its numbered-run message as a fictional campaign concept.</desc>
+  <defs>
+    <symbol id="plain-tee" viewBox="0 0 354 350">
+      <path d="m80 25-55 28L0 130l57 21 20-36v210h200V115l20 36 57-21-25-77-55-28q-16 65-97 66t-97-66Z" fill="#fff" stroke="#171717" stroke-width="8" stroke-linejoin="round" />
+      <path d="M80 25q16 65 97 66 81-1 97-66M77 115v210m200-210v210" fill="none" stroke="#171717" stroke-width="4" stroke-linecap="round" />
+    </symbol>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f4efdf" />
+
+  <rect width="1600" height="82" fill="#fffdf7" />
+  <rect y="80" width="1600" height="2" fill="#17191d" />
+  <path d="M100 23H134v22.8L134 57H100Z" fill="#e64232" />
+  <text x="117" y="45" text-anchor="middle" fill="#fffdf7" font-family="Archivo Black, Arial Black, sans-serif" font-size="15" font-weight="700">A</text>
+  <text x="145" y="45" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing=".8">ASCEND</text>
+  <circle cx="1327" cy="40" r="6" fill="#f4cb38" stroke="#17191d" stroke-width="2" />
+  <text x="1343" y="44" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1">GOOD TASTE. BAD PUNS.</text>
+
+  <rect x="100" y="136" width="266" height="26" fill="#f4cb38" />
+  <rect x="108" y="144" width="9" height="9" fill="#e64232" transform="rotate(45 112.5 148.5)" />
+  <text x="124" y="153" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing=".99">FOR WHATEVER THE DAY GETS UP TO</text>
+
+  <g fill="#17191d" font-family="Archivo Black, Arial Black, sans-serif" font-size="100" font-weight="400">
+    <text x="100" y="262">LOOK</text>
+    <text x="100" y="353">SHARP.</text>
+  </g>
+  <g fill="#3159d7" font-family="Archivo Black, Arial Black, sans-serif" font-size="100" font-weight="400">
+    <text x="100" y="444">STAY</text>
+    <text x="100" y="535">SILLY.</text>
+  </g>
+
+  <g fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="500">
+    <text x="100" y="585">A premium plain white tee for big plans, bad puns, and</text>
+    <text x="100" y="609">spontaneous kitchen concerts. Clean enough to go anywhere;</text>
+    <text x="100" y="633">fun enough to make Tuesday interesting.</text>
+  </g>
+
+  <rect x="106" y="666" width="231" height="54" fill="#3159d7" />
+  <a href="#concept" aria-label="See the concept run">
+    <rect x="100" y="660" width="231" height="54" fill="#17191d" stroke="#17191d" stroke-width="2" />
+    <text x="120" y="693" fill="#fffdf7" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="800">SEE THE CONCEPT RUN</text>
+    <text x="303" y="696" text-anchor="middle" fill="#fffdf7" font-family="Archivo Black, Arial Black, sans-serif" font-size="25">&#8594;</text>
+  </a>
+
+  <text x="100" y="758" fill="#41434a" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="700">A good outfit should have range. So should your punchlines.</text>
+
+  <g transform="rotate(1 1136 442.5)">
+    <rect x="772" y="155" width="728" height="575" fill="#fffdf7" stroke="#17191d" stroke-width="2" />
+    <svg x="774" y="157" width="724" height="571" viewBox="0 0 760 600" preserveAspectRatio="xMidYMid meet" aria-label="Original geometric plain white shirt illustration">
+      <rect width="760" height="600" fill="#fffdf7" />
+      <circle cx="414" cy="294" r="211" fill="#f4cb38" />
+      <rect x="43" y="54" width="168" height="168" fill="#e64232" />
+      <path d="M604 393 725 533H483Z" fill="#3159d7" />
+      <rect x="72" y="460" width="136" height="30" fill="#18a6a0" />
+      <path d="M98 267h125v9H98zM112 292h82v9h-82z" fill="#17191d" />
+
+      <g stroke="#17191d" stroke-linejoin="round" stroke-linecap="round">
+        <path d="m306 148-91 47-57 124 83 37 38-67v231h270V289l38 67 83-37-57-124-91-47q-20 83-108 83t-108-83Z" fill="#fff" stroke-width="9" />
+        <path d="M306 148q20 82 108 83 88-1 108-83M279 289v231m270-231v231" fill="none" stroke-width="5" />
+        <path d="M414 79v33m-17-17h34" fill="none" stroke="#e64232" stroke-width="8" />
+        <circle cx="414" cy="95" r="3" fill="#17191d" stroke="none" />
+      </g>
+
+      <g stroke="#17191d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="649" cy="130" r="57" fill="#f4cb38" />
+        <circle cx="631" cy="122" r="5" fill="#17191d" />
+        <circle cx="666" cy="122" r="5" fill="#17191d" />
+        <path d="M631 144q18 22 36 0" fill="none" />
+        <path d="M588 80 566 62m100-9 7-23m42 68 23-6" fill="none" stroke="#e64232" stroke-width="8" />
+      </g>
+
+      <g fill="#17191d" font-family="Arial, sans-serif" font-weight="800">
+        <text x="55" y="253" font-size="15" letter-spacing="2">THE EVERYDAY</text>
+        <text x="55" y="278" font-size="15" letter-spacing="2">PLOT TWIST</text>
+        <text x="601" y="220" font-size="15" letter-spacing="2" transform="rotate(90 601 220)">SERIOUSLY SOFT</text>
+        <text x="502" y="563" font-size="14" letter-spacing="2" fill="#fffdf7">ASCEND / 01</text>
+      </g>
+      <path d="M36 550h74v4H36zm98 0h25v4h-25z" fill="#17191d" />
+    </svg>
+  </g>
+
+  <rect y="804" width="1600" height="96" fill="#e64232" />
+  <rect y="804" width="1600" height="2" fill="#17191d" />
+  <g fill="#fffdf7" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing=".8">
+    <text x="100" y="851">FICTIONAL CAMPAIGN</text>
+    <text x="100" y="866">CONCEPT ONLY</text>
+  </g>
+  <g fill="#fffdf7" font-family="Archivo Black, Arial Black, sans-serif" font-size="30" font-weight="400">
+    <text x="305" y="851">IMAGINED FIRST RUN: 100 NUMBERED</text>
+    <text x="305" y="882">TEES.</text>
+  </g>
+  <text x="978" y="859" fill="#fffdf7" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="600">Proposed one-time concept run. No actual inventory, release date, or availability is being claimed.</text>
+</svg>

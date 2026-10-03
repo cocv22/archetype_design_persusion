@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1457" viewBox="0 0 1600 1457" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: The Dress Code Is a Suggestion — complete Outlaw advertisement</title>
+  <desc id="description">The complete ASCEND Outlaw page: a premium plain white shirt in a reimagined classical arch, direct headline and CTA, an optional empty style-rule form, and product details.</desc>
+  <defs>
+    <pattern id="stone-grain" width="26" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="6" r="1.4" fill="#17191d" opacity=".24" />
+      <path d="M14 18h8" stroke="#17191d" stroke-width="1.5" opacity=".2" />
+    </pattern>
+    <pattern id="arch-lines" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(90)">
+      <path d="M0 0v12" stroke="#eee4d3" stroke-width="3" opacity=".22" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1457" fill="#eee4d3" />
+  <rect width="1600" height="900" fill="#eee4d3" />
+  <rect width="1600" height="74" fill="#17191d" />
+  <path d="M0 73h1600" stroke="#b52e27" stroke-width="2" />
+
+  <path d="m78 24 29-2-2 25-29 0Z" fill="#b52e27" transform="rotate(-4 93 36)" />
+  <text x="93" y="43" text-anchor="middle" fill="#fffdf8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="19">A</text>
+  <text x="118" y="41" fill="#eee4d3" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="1.1">ASCEND</text>
+  <text x="1520" y="41" text-anchor="end" fill="#d9c5a7" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1.2">THE DRESS CODE IS A SUGGESTION</text>
+
+  <svg x="0" y="74" width="864" height="826" viewBox="0 0 1000 760" preserveAspectRatio="xMidYMid meet" aria-label="ASCEND blank white shirt in a reimagined classical arch">
+    <rect width="1000" height="760" fill="#d9c5a7" />
+    <rect width="1000" height="760" fill="url(#stone-grain)" />
+
+    <path d="M60 760V350A390 390 0 0 1 840 350V760Z" fill="#17191d" />
+    <path d="M92 760V359A358 358 0 0 1 808 359V760Z" fill="#b52e27" />
+    <path d="M92 760V359A358 358 0 0 1 808 359V760Z" fill="url(#arch-lines)" />
+    <path d="M153 760V371A297 297 0 0 1 747 371V760Z" fill="#eee4d3" />
+
+    <path d="M60 350h102v37H60zm738 0h42v37h-42z" fill="#17191d" />
+    <path d="M81 379h67v359H81zm771 0h67v359h-67z" fill="#b52e27" stroke="#17191d" stroke-width="6" />
+    <path d="M98 397h33v330H98zm771 0h33v330h-33z" fill="url(#arch-lines)" />
+    <path d="M59 725h109v35H59zm727 0h109v35H786z" fill="#17191d" />
+    <path d="M44 758h141v19H44zm727 0h141v19H771z" fill="#b52e27" />
+
+    <path d="M44 110 261 66l-25 59-208 52Zm631-58 247 71-52 42-233-65Z" fill="#17191d" />
+    <path d="m0 243 217-52-11 31L0 277Zm815 306 185-43v57l-185 43Z" fill="#b52e27" />
+    <path d="M32 277 249 228M753 181l181 43" stroke="#eee4d3" stroke-width="8" stroke-linecap="square" />
+    <path d="m219 92 32-24-9 44m510 395 51 7-44 30m-661 63 37-16-5 40" fill="none" stroke="#17191d" stroke-width="7" stroke-linecap="square" />
+
+    <path d="M189 615h520" stroke="#17191d" stroke-width="4" />
+    <text x="209" y="652" fill="#17191d" font-family="Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="3">THE RULEBOOK IS UNDER REVISION</text>
+
+    <g stroke="#17191d" stroke-linejoin="round" stroke-linecap="round">
+      <path d="m381 240-84 43-52 111 73 34 34-60v224h296V368l34 60 73-34-52-111-84-43q-18 78-119 79-101-1-119-79Z" fill="#fffdf8" stroke-width="9" />
+      <path d="M381 240q18 78 119 79 101-1 119-79M352 368v224m296-224v224" fill="none" stroke-width="5" />
+    </g>
+
+    <path d="m192 206 106-26-15 39-107 26Z" fill="#b52e27" stroke="#17191d" stroke-width="4" />
+    <text x="205" y="213" fill="#fffdf8" font-family="Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2" transform="rotate(-13 205 213)">REWRITE IT</text>
+    <path d="m759 625 41-54 36 53-42 54Z" fill="#17191d" />
+  </svg>
+
+  <g transform="rotate(-2 1059 298)">
+    <rect x="924" y="262" width="262" height="32" fill="#b52e27" />
+    <rect x="928" y="259" width="262" height="32" fill="#b52e27" />
+    <text x="938" y="280" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1">A NOTE FROM THE NONCONFORMITY DESK</text>
+  </g>
+  <g fill="#17191d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="94">
+    <text x="928" y="392">THE DRESS CODE</text>
+  </g>
+  <text x="928" y="483" fill="#b52e27" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="94">IS A SUGGESTION.</text>
+  <g fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="15" font-weight="500">
+    <text x="928" y="546">Meet the ASCEND premium plain white shirt: no memo on</text>
+    <text x="928" y="570">who to be, no committee meeting about your outfit. Keep</text>
+    <text x="928" y="594">the tee simple. Make the rest your call.</text>
+  </g>
+
+  <rect x="933" y="620" width="217" height="52" fill="#b52e27" />
+  <a href="#rule" aria-label="Write your own rule">
+    <rect x="928" y="615" width="217" height="52" fill="#17191d" stroke="#17191d" stroke-width="2" />
+    <text x="947" y="647" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">WRITE YOUR OWN RULE</text>
+    <text x="1120" y="647" text-anchor="middle" fill="#fffdf8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="24">&#8594;</text>
+  </a>
+  <text x="928" y="693" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="700">Optional, editable, and not a purchase promise.</text>
+
+  <rect x="1398" y="764" width="109" height="83" fill="#eee4d3" stroke="#17191d" stroke-width="2" transform="rotate(5 1452.5 805.5)" />
+  <g fill="#17191d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="18" transform="rotate(5 1452.5 805.5)">
+    <text x="1452.5" y="790" text-anchor="middle">KEEP</text>
+    <text x="1452.5" y="807" text-anchor="middle">YOUR</text>
+    <text x="1452.5" y="824" text-anchor="middle">OWN RULES</text>
+  </g>
+
+  <rect y="900" width="1600" height="412" fill="#17191d" />
+  <rect y="900" width="1600" height="3" fill="#b52e27" />
+  <text x="128" y="986" fill="#d9c5a7" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1">ONE SMALL DECLARATION. YOURS TO EDIT.</text>
+  <g fill="#f2eadb" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="62">
+    <text x="128" y="1045">WRITE THE RULE</text>
+    <text x="128" y="1106">YOU WANT TO LIVE</text>
+    <text x="128" y="1167">BY.</text>
+  </g>
+  <g fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="13">
+    <text x="128" y="1207">A personal style rule can be a useful reminder to</text>
+    <text x="128" y="1228">dress on your own terms. Make it specific, keep it</text>
+    <text x="128" y="1249">light, and change it when it stops feeling like you.</text>
+  </g>
+
+  <text x="793" y="986" fill="#eee4d3" font-family="DM Sans, Arial, sans-serif" font-size="13" font-weight="800">Today, my rule is...</text>
+  <rect x="793" y="996" width="679" height="56" fill="#eee4d3" stroke="#eee4d3" stroke-width="2" />
+  <text x="809" y="1030" fill="#5b574f" font-family="DM Sans, Arial, sans-serif" font-size="14" font-weight="600">My style, my call.</text>
+
+  <rect x="793" y="1065" width="114" height="45" fill="#71251f" stroke="#71251f" stroke-width="2" />
+  <text x="850" y="1093" text-anchor="middle" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800">Put it in writing</text>
+  <rect x="917" y="1065" width="128" height="45" fill="none" stroke="#eee4d3" stroke-width="2" />
+  <text x="981" y="1093" text-anchor="middle" fill="#eee4d3" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800">Clear or change it</text>
+
+  <text x="793" y="1141" fill="#eee4d3" font-family="DM Sans, Arial, sans-serif" font-size="11">Rather skip the prompt?</text>
+  <text x="925" y="1141" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="800" text-decoration="underline">Meet the plain white tee.</text>
+  <text x="793" y="1168" fill="#d9c5a7" font-family="DM Sans, Arial, sans-serif" font-size="10">Your words stay in this page only; nothing is saved or sent. This choice is not a purchase, signup, or marketing consent.</text>
+
+  <rect y="1312" width="1600" height="145" fill="#b52e27" />
+  <rect y="1312" width="1600" height="3" fill="#17191d" />
+  <text x="128" y="1388" fill="#17191d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="28">ASCEND. THE BLANK CANVAS.</text>
+  <text x="128" y="1422" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="12">A premium plain white shirt, ready for your style and your own rules.</text>
+
+  <rect x="1264" y="1365" width="213" height="52" fill="#eee4d3" />
+  <rect x="1259" y="1360" width="213" height="52" fill="#17191d" stroke="#17191d" stroke-width="2" />
+  <text x="1274" y="1392" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">BACK TO THE MANIFESTO</text>
+  <text x="1450" y="1392" text-anchor="middle" fill="#fffdf8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="24">&#8593;</text>
+</svg>
