@@ -19,3 +19,7 @@ I was the leader of the group, I assigned others certain jobs and helped them wi
 - Creator: [Creator](../heroes/Creator)
 - Ruler: [Ruler](../heroes/Ruler)
 - Sage: [Sage](../heroes/Sage)
+
+## Issues
+
+- Had some trouble organizing tasks as everything was all over the place initially. However it became rather easy as we communicated.
