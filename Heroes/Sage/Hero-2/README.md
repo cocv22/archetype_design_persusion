@@ -6,6 +6,7 @@ Open [index.html](index.html) in a browser. The responsive page displays the ori
 
 ## Source artwork
 
-[sage_constructivism_unity_tshirt.svg](../sage_constructivism_unity_tshirt.svg)
+[sage_constructivism_unity_tshirt.svg](sage_constructivism_unity_tshirt.svg)
 
-The source SVG is retained in the archetype folder and embedded directly by the hero page; no artwork was redrawn or altered.
+The SVG is stored in this hero folder and embedded directly by the page; no artwork was redrawn or altered.
+
