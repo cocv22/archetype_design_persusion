@@ -23,3 +23,7 @@ I was the leader of the group, I assigned others certain jobs and helped them wi
 ## Issues
 
 - Had some trouble organizing tasks as everything was all over the place initially. However it became rather easy as we communicated.
+
+# Reflection
+
+This project taught me how stressful it can be to lead a group to do certain tasks. It also tested my git and github skills which I was able to enforce and better understand. This is an xperience that I will carry with me to bigger projects later on. No matter how stressful.
