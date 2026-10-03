@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6df3d">
+  <meta name="description" content="ASCEND's premium plain white shirt: a versatile foundation for your next goal, and every step we encourage one another to take." />
+  <title>ASCEND | Rise together</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #171717;
+      --paper: #fff9e9;
+      --yellow: #f6df3d;
+      --cyan: #55d4d8;
+      --pink: #f15b83;
+      --red: #ef493e;
+      --display: "Bowlby One SC", Impact, Haettenschweiler, sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--body); }
+
+    .page { width: min(100%, 1600px); margin-inline: auto; }
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 76px minmax(0, 1fr);
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background-color: var(--yellow);
+      background-image: radial-gradient(circle, rgba(23, 23, 23, .19) 1.15px, transparent 1.5px);
+      background-size: 13px 13px;
+    }
+
+    .masthead {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: var(--paper);
+      border-bottom: 3px solid var(--ink);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      font-size: 19px;
+      font-weight: 800;
+      text-decoration: none;
+      letter-spacing: .04em;
+    }
+
+    .brand-mark {
+      width: 35px;
+      height: 35px;
+      display: grid;
+      place-items: center;
+      background: var(--cyan);
+      border: 3px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      font: 28px/.9 var(--display);
+    }
+
+    .campaign-stamp {
+      padding: 8px 13px 7px;
+      background: var(--pink);
+      border: 2px solid var(--ink);
+      box-shadow: 3px 3px 0 var(--ink);
+      font: 17px/1 var(--display);
+      transform: rotate(2deg);
+    }
+
+    .hero-layout {
+      min-height: 0;
+      padding: 35px clamp(24px, 5vw, 80px) 42px;
+      display: grid;
+      grid-template-columns: minmax(0, .83fr) minmax(0, 1.17fr);
+      align-items: center;
+      gap: clamp(26px, 3.5vw, 56px);
+    }
+
+    .hero-copy { position: relative; z-index: 1; }
+    .eyebrow {
+      width: fit-content;
+      margin: 0 0 20px;
+      padding: 8px 12px 7px;
+      background: var(--cyan);
+      border: 2px solid var(--ink);
+      box-shadow: 4px 4px 0 var(--ink);
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(52px, 5.6vw, 90px)/.86 var(--display);
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .pink-word { color: var(--pink); text-shadow: 3px 3px 0 var(--ink); }
+    .supporting {
+      max-width: 430px;
+      margin: 21px 0 23px;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    .cta {
+      min-height: 54px;
+      padding: 0 19px 0 21px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      color: var(--paper);
+      background: var(--ink);
+      border: 3px solid var(--ink);
+      box-shadow: 6px 6px 0 var(--pink);
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+
+    .cta:hover { transform: translate(3px, 3px); box-shadow: 3px 3px 0 var(--pink); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--cyan); outline-offset: 5px; }
+    .cta-arrow { font: 28px/.7 var(--display); }
+
+    .together-note {
+      max-width: 395px;
+      margin: 21px 0 0;
+      padding-left: 13px;
+      border-left: 4px solid var(--red);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .artboard {
+      width: 100%;
+      aspect-ratio: 760 / 610;
+      overflow: hidden;
+      background: var(--cyan);
+      border: 4px solid var(--ink);
+      box-shadow: 10px 10px 0 var(--ink);
+      transform: rotate(1deg);
+      animation: rise-in .65s cubic-bezier(.15,.8,.25,1) both;
+    }
+
+    .artboard svg { display: block; width: 100%; height: 100%; }
+
+    .product-strip {
+      min-height: 88px;
+      padding: 16px clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 22px;
+      background: var(--pink);
+      border-top: 3px solid var(--ink);
+      scroll-margin-top: 12px;
+    }
+
+    .product-strip strong {
+      font: 24px/1 var(--display);
+      text-transform: uppercase;
+    }
+
+    .product-strip p { max-width: 500px; margin: 0; font-size: 12px; font-weight: 600; line-height: 1.5; }
+
+    @keyframes rise-in {
+      from { opacity: 0; transform: translateY(14px) rotate(1deg) scale(.97); }
+      to { opacity: 1; transform: translateY(0) rotate(1deg) scale(1); }
+    }
+
+    @media (max-width: 920px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 70px auto; }
+      .hero-layout { padding: 36px clamp(24px, 6vw, 62px) 42px; grid-template-columns: minmax(0, 1fr); gap: 30px; }
+      .hero-copy { max-width: 650px; min-width: 0; }
+      h1 { font-size: clamp(72px, 11vw, 100px); }
+      .artboard { width: min(100%, 690px); justify-self: center; }
+      .product-strip { align-items: flex-start; }
+    }
+
+    @media (max-width: 600px) {
+      .masthead { min-height: 63px; padding-inline: 18px; }
+      .brand { gap: 8px; font-size: 16px; }
+      .brand-mark { width: 30px; height: 30px; font-size: 24px; }
+      .campaign-stamp { padding: 7px 9px 6px; font-size: 14px; }
+      .hero-layout { padding: 28px 20px 31px; gap: 23px; }
+      .eyebrow { margin-bottom: 15px; font-size: 10px; }
+      h1 { font-size: clamp(44px, 13.5vw, 62px); }
+      .supporting { margin: 17px 0 19px; font-size: 14px; }
+      .cta { min-height: 49px; padding-inline: 14px; font-size: 11px; }
+      .together-note { margin-top: 19px; font-size: 11px; }
+      .artboard { border-width: 3px; box-shadow: 7px 7px 0 var(--ink); }
+      .product-strip { padding: 17px 20px; flex-direction: column; gap: 8px; }
+      .product-strip strong { font-size: 21px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND campaign hero">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="campaign-stamp">One climb. Many ways up.</span>
+      </header>
+
+      <div class="hero-layout" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">Make room for the next rise</p>
+          <h1><span>Rise</span><span class="pink-word">together.</span></h1>
+          <p class="supporting">Your next step is yours. The climb gets stronger when we make room, share the push, and celebrate every rise.</p>
+          <a class="cta" href="#shirt">Explore the white tee <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          <p class="together-note">Different goals. Shared grit. Bring your whole self, and help someone else move forward.</p>
+        </div>
+
+        <div class="artboard">
+          <svg viewBox="0 0 760 610" role="img" aria-labelledby="art-title art-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="art-title">A group moving upward together, with an ASCEND white tee in the foreground</title>
+            <desc id="art-desc">Original Pop Art illustration: three distinct people climb vivid steps, one reaching back to help another, behind a large plain white shirt product. A shared flag marks their progress.</desc>
+            <defs>
+              <pattern id="dots" width="13" height="13" patternUnits="userSpaceOnUse">
+                <circle cx="3" cy="3" r="1.7" fill="#171717" opacity=".24" />
+              </pattern>
+              <pattern id="small-dots" width="9" height="9" patternUnits="userSpaceOnUse">
+                <circle cx="2" cy="2" r="1.2" fill="#171717" opacity=".26" />
+              </pattern>
+              <clipPath id="scene-clip"><rect width="760" height="610" /></clipPath>
+            </defs>
+            <g clip-path="url(#scene-clip)" stroke="#171717" stroke-linejoin="round" stroke-linecap="round">
+              <rect width="760" height="610" fill="#55d4d8" stroke="none" />
+              <rect width="760" height="610" fill="url(#dots)" stroke="none" />
+              <path d="M0 430 118 302 165 363 255 214 302 281 375 153 433 221 511 95 564 167 675 47 760 129V0H0Z" fill="#f6df3d" stroke="none" />
+              <path d="M0 430 118 302 165 363 255 214 302 281 375 153 433 221 511 95 564 167 675 47 760 129V0H0Z" fill="url(#small-dots)" stroke="none" />
+              <path d="M594 110 674 72 728 106 650 144Z" fill="#f15b83" stroke-width="5" />
+              <path d="m594 110 56 34v143" fill="none" stroke-width="8" />
+              <path d="m577 104 13-20m18 26 13-25m16 32 13-23m17 30 13-22" fill="none" stroke="#ef493e" stroke-width="7" />
+              <path d="M60 488h115v-48h98v-53h99v-57h101v-60h116v-67h96v-51h57v386H60Z" fill="#f15b83" stroke-width="7" />
+              <path d="M60 488h115v-48h98v-53h99v-57h101v-60h116v-67h96v-51h57v386H60Z" fill="url(#small-dots)" stroke="none" />
+              <path d="M60 488h115m0-48h98m0-53h99m0-57h101m0-60h116m0-67h96m0-51h57" fill="none" stroke="#171717" stroke-width="7" />
+
+              <!-- The three climbers share the same route but keep their own color and stride. -->
+              <g stroke-width="6">
+                <circle cx="281" cy="274" r="29" fill="#a85c3c" />
+                <path d="M261 257q14-28 39-4" fill="none" stroke-width="10" />
+                <path d="m258 308 43-4 25 74-69 8Z" fill="#ef493e" />
+                <path d="m266 319-41 39-28-6m87-32 31-38 18 5" fill="none" stroke-width="12" />
+                <path d="m269 382-25 59-35 5m90-63 31 47 31 0" fill="none" stroke-width="16" />
+
+                <circle cx="429" cy="214" r="31" fill="#6f4532" />
+                <path d="M400 207q7-39 39-25l21 23" fill="#171717" stroke-width="6" />
+                <path d="m396 250 62-4 22 92-91 5Z" fill="#f6df3d" />
+                <path d="m405 262-39 33-37-1m100-37 51-37 19 8" fill="none" stroke-width="14" />
+                <path d="m407 338-22 72-41 16m110-89 26 50 40 2" fill="none" stroke-width="17" />
+
+                <circle cx="556" cy="306" r="27" fill="#d99a6c" />
+                <path d="M531 299q8-31 36-25l17 21" fill="#171717" stroke-width="6" />
+                <path d="m531 340 49-4 23 70-76 4Z" fill="#55d4d8" />
+                <path d="m539 349-33-22-39 4m100 10 36-30 16 7" fill="none" stroke-width="12" />
+                <path d="m540 409-18 55-32 8m74-63 22 40 32 0" fill="none" stroke-width="15" />
+              </g>
+
+              <!-- Featured product: a plain white tee, drawn as a crisp commercial cutout. -->
+              <g transform="translate(55 195) rotate(-5 117 174)" stroke-width="8">
+                <path d="m75 64-50 27-31 69 47 25 20-33v222h168V152l20 33 47-25-31-69-50-27q-10 42-70 42T75 64Z" fill="#fff" />
+                <path d="M75 64q11 41 63 42 54-1 70-42M61 152v222m168-222v222" fill="none" stroke-width="4" />
+                <path d="m124 112 13 17 13-17" fill="#f6df3d" stroke-width="5" />
+                <path d="M107 197h68" fill="none" stroke="#171717" stroke-width="4" />
+                <text x="141" y="222" text-anchor="middle" fill="#171717" stroke="none" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">ASCEND</text>
+              </g>
+
+              <g transform="translate(455 471) rotate(-3)">
+                <path d="M0 0h228v59H0z" fill="#fff9e9" stroke-width="5" />
+                <path d="M0 0h14v59H0z" fill="#ef493e" stroke="none" />
+                <text x="31" y="24" fill="#171717" stroke="none" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="1.2">THE EVERYDAY TEE</text>
+                <text x="31" y="43" fill="#171717" stroke="none" font-family="Arial, sans-serif" font-size="12" font-weight="600">A clean start. Your own direction.</text>
+              </g>
+
+              <path d="m384 91 10-26m23 33 23-21m-2 47 28-6" fill="none" stroke="#ef493e" stroke-width="8" />
+              <path d="m310 171-19-13m26-13-7-24" fill="none" stroke="#f15b83" stroke-width="8" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-strip" id="shirt" aria-label="Product details">
+      <strong>One simple shirt. Your own next step.</strong>
+      <p>ASCEND premium plain white shirt. Versatile by design, ready to go wherever your goals take you. The shirt is yours to wear; the encouragement is for everyone.</p>
+    </section>
+  </main>
+</body>
+</html>

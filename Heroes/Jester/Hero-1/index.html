@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efdf">
+  <meta name="description" content="ASCEND's premium plain white shirt: a clean, versatile starting point for serious style and completely unserious fun." />
+  <title>ASCEND | Look sharp. Stay silly.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #f4efdf;
+      --white: #fffdf7;
+      --ink: #17191d;
+      --red: #e64232;
+      --blue: #3159d7;
+      --yellow: #f4cb38;
+      --teal: #18a6a0;
+      --display: "Archivo Black", "Arial Black", sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); }
+
+    .page { width: min(100%, 1600px); margin-inline: auto; }
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 82px minmax(0, 1fr) 96px;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--paper);
+    }
+
+    .masthead {
+      padding-inline: clamp(24px, 6.25vw, 100px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--ink);
+      background: var(--white);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      font: 800 20px/1 var(--body);
+      letter-spacing: .04em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: var(--red);
+      color: var(--white);
+      font: 15px/1 var(--display);
+    }
+
+    .masthead-note {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .masthead-note::before {
+      width: 12px;
+      height: 12px;
+      content: "";
+      background: var(--yellow);
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+    }
+
+    .hero-layout {
+      min-height: 0;
+      padding: 34px clamp(24px, 6.25vw, 100px) 36px;
+      display: grid;
+      grid-template-columns: minmax(0, .91fr) minmax(0, 1.09fr);
+      align-items: center;
+      gap: clamp(26px, 4vw, 64px);
+    }
+
+    .hero-copy { min-width: 0; position: relative; z-index: 1; }
+    .eyebrow {
+      width: fit-content;
+      margin: 0 0 19px;
+      padding: 8px 10px 7px;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--yellow);
+      font-size: 11px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow-mark { width: 9px; height: 9px; background: var(--red); transform: rotate(45deg); }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(62px, 6.4vw, 100px)/.91 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .accent { color: var(--blue); }
+
+    .supporting {
+      max-width: 460px;
+      margin: 21px 0 22px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    .actions { display: flex; align-items: center; gap: 14px; }
+
+    .cta {
+      min-height: 54px;
+      padding: 0 18px 0 20px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      background: var(--ink);
+      color: var(--white);
+      border: 2px solid var(--ink);
+      font-size: 13px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: background-color .16s ease, transform .16s ease;
+    }
+
+    .cta:hover { background: var(--blue); transform: translateY(-2px); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--teal); outline-offset: 4px; }
+    .cta-arrow { font: 25px/.7 var(--display); }
+
+    .copy-aside {
+      max-width: 440px;
+      margin: 17px 0 0;
+      color: #41434a;
+      font-size: 11px;
+      font-weight: 700;
+      line-height: 1.5;
+    }
+
+    .artboard {
+      width: 100%;
+      aspect-ratio: 760 / 600;
+      overflow: hidden;
+      background: var(--white);
+      border: 2px solid var(--ink);
+      animation: assemble .65s cubic-bezier(.2,.8,.2,1) both;
+    }
+
+    .artboard svg { display: block; width: 100%; height: 100%; }
+
+    .concept-band {
+      min-height: 96px;
+      padding: 15px clamp(24px, 6.25vw, 100px);
+      display: grid;
+      grid-template-columns: minmax(152px, .28fr) minmax(0, 1fr) minmax(245px, .8fr);
+      align-items: center;
+      gap: 22px;
+      background: var(--red);
+      color: var(--white);
+      border-top: 2px solid var(--ink);
+      scroll-margin-top: 16px;
+    }
+
+    .concept-label {
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1.4;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .concept-label span { display: block; }
+    .concept-band h2 {
+      margin: 0;
+      font: 400 clamp(20px, 2vw, 30px)/1.05 var(--display);
+      text-transform: uppercase;
+    }
+
+    .concept-band p { margin: 0; font-size: 11px; font-weight: 600; line-height: 1.45; }
+
+    @keyframes assemble {
+      from { opacity: 0; transform: translateY(12px) scale(.985); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+
+    @media (max-width: 920px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 72px auto auto; }
+      .hero-layout { padding: 34px clamp(24px, 6vw, 60px) 40px; grid-template-columns: minmax(0, 1fr); gap: 30px; }
+      .hero-copy { max-width: 650px; }
+      h1 { font-size: clamp(70px, 10vw, 96px); }
+      .artboard { width: min(100%, 690px); justify-self: center; }
+      .concept-band { grid-template-columns: minmax(130px, .36fr) minmax(0, 1fr); }
+      .concept-band p { grid-column: 2; }
+    }
+
+    @media (max-width: 600px) {
+      .masthead { min-height: 64px; padding-inline: 18px; }
+      .brand { gap: 8px; font-size: 17px; }
+      .brand-mark { width: 30px; height: 30px; font-size: 13px; }
+      .masthead-note { gap: 7px; font-size: 9px; letter-spacing: .05em; }
+      .masthead-note::before { width: 9px; height: 9px; }
+      .hero-layout { padding: 27px 20px 30px; gap: 23px; }
+      .eyebrow { margin-bottom: 15px; font-size: 9px; }
+      h1 { font-size: clamp(54px, 14vw, 76px); }
+      .supporting { margin: 17px 0 19px; font-size: 14px; }
+      .cta { min-height: 49px; padding-inline: 13px; gap: 12px; font-size: 11px; }
+      .copy-aside { font-size: 10px; }
+      .artboard { border-width: 1px; }
+      .concept-band { padding: 16px 20px; grid-template-columns: 1fr; gap: 7px; }
+      .concept-label { display: flex; flex-wrap: wrap; gap: 0 5px; font-size: 9px; }
+      .concept-label span { display: inline; }
+      .concept-band h2 { font-size: 22px; }
+      .concept-band p { grid-column: auto; font-size: 10px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND Jester campaign concept">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="masthead-note">Good taste. Bad puns.</span>
+      </header>
+
+      <div class="hero-layout" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span>For whatever the day gets up to</p>
+          <h1><span>Look sharp.</span><span class="accent">Stay silly.</span></h1>
+          <p class="supporting">A premium plain white tee for big plans, bad puns, and spontaneous kitchen concerts. Clean enough to go anywhere; fun enough to make Tuesday interesting.</p>
+          <div class="actions">
+            <a class="cta" href="#concept">See the concept run <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          </div>
+          <p class="copy-aside">A good outfit should have range. So should your punchlines.</p>
+        </div>
+
+        <div class="artboard">
+          <svg viewBox="0 0 760 600" role="img" aria-labelledby="art-title art-desc" xmlns="http://www.w3.org/2000/svg">
+            <title id="art-title">ASCEND premium plain white shirt in a playful Bauhaus composition</title>
+            <desc id="art-desc">An original geometric composition featuring a prominent plain white shirt, primary-color circle, square and triangle, and a small smiling yellow circle character.</desc>
+            <rect width="760" height="600" fill="#fffdf7" />
+
+            <!-- Geometric fields organize the garment, motion and playful face. -->
+            <circle cx="414" cy="294" r="211" fill="#f4cb38" />
+            <rect x="43" y="54" width="168" height="168" fill="#e64232" />
+            <path d="M604 393 725 533H483Z" fill="#3159d7" />
+            <rect x="72" y="460" width="136" height="30" fill="#18a6a0" />
+            <path d="M98 267h125v9H98zM112 292h82v9h-82z" fill="#17191d" />
+
+            <!-- The shirt stays completely plain; its silhouette and seams carry the product image. -->
+            <g stroke="#17191d" stroke-linejoin="round" stroke-linecap="round">
+              <path d="m306 148-91 47-57 124 83 37 38-67v231h270V289l38 67 83-37-57-124-91-47q-20 83-108 83t-108-83Z" fill="#fff" stroke-width="9" />
+              <path d="M306 148q20 82 108 83 88-1 108-83M279 289v231m270-231v231" fill="none" stroke-width="5" />
+              <path d="M414 79v33m-17-17h34" fill="none" stroke="#e64232" stroke-width="8" />
+              <circle cx="414" cy="95" r="3" fill="#17191d" stroke="none" />
+            </g>
+
+            <!-- A separate geometric face adds Jester personality without decorating the plain tee. -->
+            <g stroke="#17191d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="649" cy="130" r="57" fill="#f4cb38" />
+              <circle cx="631" cy="122" r="5" fill="#17191d" />
+              <circle cx="666" cy="122" r="5" fill="#17191d" />
+              <path d="M631 144q18 22 36 0" fill="none" />
+              <path d="M588 80 566 62m100-9 7-23m42 68 23-6" fill="none" stroke="#e64232" stroke-width="8" />
+            </g>
+
+            <g font-family="Arial, sans-serif" font-weight="800" fill="#17191d">
+              <text x="55" y="253" font-size="15" letter-spacing="2">THE EVERYDAY</text>
+              <text x="55" y="278" font-size="15" letter-spacing="2">PLOT TWIST</text>
+              <text x="601" y="220" font-size="15" letter-spacing="2" transform="rotate(90 601 220)">SERIOUSLY SOFT</text>
+              <text x="502" y="563" font-size="14" letter-spacing="2" fill="#fffdf7">ASCEND / 01</text>
+            </g>
+
+            <path d="M36 550h74v4H36zm98 0h25v4h-25z" fill="#17191d" />
+          </svg>
+        </div>
+      </div>
+
+      <section class="concept-band" id="concept" aria-label="Fictional scarcity concept">
+        <div class="concept-label"><span>Fictional campaign</span><span>concept only</span></div>
+        <h2>Imagined first run: 100 numbered tees.</h2>
+        <p>Proposed one-time concept run. No actual inventory, release date, or availability is being claimed.</p>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

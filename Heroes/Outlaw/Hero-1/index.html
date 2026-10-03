@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17191d">
+  <meta name="description" content="ASCEND premium plain white shirt. Break the usual dress-code script with a free, practical style guide." />
+  <title>ASCEND | No uniform. No permission.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17191d;
+      --charcoal: #292c32;
+      --paper: #f2eadb;
+      --white: #fffdf8;
+      --red: #bd372e;
+      --rust: #7a2f1d;
+      --sand: #d9c5a7;
+      --display: "Anton", Impact, "Arial Narrow", sans-serif;
+      --body: "DM Sans", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--body); }
+
+    .page { width: min(100%, 1600px); margin-inline: auto; }
+    .hero-frame {
+      display: grid;
+      grid-template-rows: 74px minmax(0, 1fr);
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: var(--ink);
+    }
+
+    .masthead {
+      padding-inline: clamp(24px, 5vw, 80px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: var(--paper);
+      background: var(--ink);
+      border-bottom: 1px solid rgba(242, 234, 219, .28);
+      position: relative;
+      z-index: 2;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      color: inherit;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .06em;
+      text-decoration: none;
+    }
+
+    .brand-mark {
+      width: 30px;
+      height: 30px;
+      display: grid;
+      place-items: center;
+      background: var(--red);
+      color: var(--white);
+      font: 20px/.9 var(--display);
+      transform: skew(-8deg);
+    }
+
+    .masthead-note { color: var(--sand); font-size: 10px; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+
+    .hero-stage { min-height: 0; position: relative; overflow: hidden; background: var(--ink); }
+    .scene-art { position: absolute; inset: 0; width: 100%; height: 100%; }
+
+    .hero-copy {
+      width: min(45%, 660px);
+      position: absolute;
+      top: 14%;
+      left: clamp(28px, 6vw, 96px);
+      z-index: 1;
+      color: var(--paper);
+    }
+
+    .eyebrow {
+      width: fit-content;
+      margin: 0 0 17px;
+      padding: 7px 10px 6px;
+      color: var(--ink);
+      background: var(--sand);
+      font-size: 10px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      transform: rotate(-2deg);
+    }
+
+    h1 {
+      margin: 0;
+      font: 400 clamp(68px, 5.7vw, 92px)/.91 var(--display);
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1 span { display: block; }
+    h1 .accent { color: #e7614e; }
+
+    .supporting {
+      max-width: 440px;
+      margin: 18px 0 20px;
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    .cta {
+      min-height: 52px;
+      padding: 0 17px 0 19px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      color: var(--ink);
+      background: var(--paper);
+      border: 2px solid var(--paper);
+      box-shadow: 5px 5px 0 var(--red);
+      font-size: 12px;
+      font-weight: 800;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: transform .16s ease, box-shadow .16s ease;
+    }
+
+    .cta:hover { transform: translate(2px, 2px); box-shadow: 3px 3px 0 var(--red); }
+    .cta:focus-visible, .brand:focus-visible { outline: 3px solid var(--sand); outline-offset: 4px; }
+    .cta-arrow { font: 25px/.7 var(--display); }
+
+    .no-strings { margin: 12px 0 0; color: var(--sand); font-size: 10px; font-weight: 700; }
+    .product-skip { display: inline-block; margin-top: 14px; color: var(--white); font-size: 11px; font-weight: 700; text-underline-offset: 3px; }
+
+    .scene-stamp {
+      padding: 10px 12px 9px;
+      position: absolute;
+      right: 6%;
+      bottom: 7%;
+      z-index: 1;
+      color: var(--ink);
+      background: var(--paper);
+      border: 2px solid var(--ink);
+      font: 400 18px/.95 var(--display);
+      text-align: center;
+      transform: rotate(5deg);
+    }
+
+    .field-guide {
+      padding: 72px clamp(24px, 8vw, 128px) 64px;
+      background: var(--paper);
+      border-top: 3px solid var(--ink);
+      scroll-margin-top: 12px;
+    }
+
+    .guide-head { max-width: 760px; margin-bottom: 33px; }
+    .guide-kicker { margin: 0 0 11px; color: var(--red); font-size: 11px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .guide-head h2 { margin: 0 0 13px; font: 400 clamp(38px, 5vw, 64px)/.96 var(--display); text-transform: uppercase; }
+    .guide-head p:last-child { max-width: 640px; margin: 0; font-size: 14px; line-height: 1.6; }
+
+    .guide-steps {
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      list-style: none;
+      border-top: 2px solid var(--ink);
+      border-bottom: 2px solid var(--ink);
+    }
+
+    .guide-steps li { min-width: 0; padding: 20px 22px 22px 0; }
+    .guide-steps li + li { padding-left: 22px; border-left: 2px solid var(--ink); }
+    .step-number { display: block; margin-bottom: 11px; color: var(--red); font: 400 35px/1 var(--display); }
+    .guide-steps h3 { margin: 0 0 8px; font-size: 16px; font-weight: 800; }
+    .guide-steps p { margin: 0; font-size: 13px; line-height: 1.55; }
+
+    .guide-footer {
+      margin-top: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .guide-footer p { max-width: 520px; margin: 0; font-size: 12px; font-weight: 600; line-height: 1.5; }
+    .guide-footer .cta { color: var(--paper); background: var(--ink); border-color: var(--ink); }
+
+    .product-note {
+      min-height: 160px;
+      padding: 30px clamp(24px, 8vw, 128px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      color: var(--paper);
+      background: var(--red);
+      border-top: 3px solid var(--ink);
+      scroll-margin-top: 12px;
+    }
+
+    .product-note h2 { margin: 0 0 7px; font: 400 28px/1.05 var(--display); text-transform: uppercase; }
+    .product-note p { max-width: 560px; margin: 0; font-size: 12px; line-height: 1.55; }
+
+    @media (max-width: 1000px) {
+      .hero-frame { aspect-ratio: auto; grid-template-rows: 68px auto; }
+      .hero-stage { padding: 30px clamp(24px, 6vw, 64px) 26px; display: flex; flex-direction: column; }
+      .hero-copy { width: min(100%, 660px); position: relative; inset: auto; order: 1; }
+      h1 { font-size: clamp(68px, 9.5vw, 92px); }
+      .scene-art { width: 100%; height: auto; aspect-ratio: 840 / 826; position: relative; inset: auto; order: 2; margin-top: 20px; }
+      .scene-stamp { position: relative; right: auto; bottom: auto; align-self: flex-end; order: 3; margin: 11px 0 0; }
+      .field-guide { padding: 56px clamp(24px, 7vw, 76px); }
+    }
+
+    @media (max-width: 640px) {
+      .masthead { min-height: 62px; padding-inline: 18px; }
+      .brand { gap: 8px; font-size: 16px; }
+      .brand-mark { width: 27px; height: 27px; font-size: 17px; }
+      .masthead-note { max-width: 155px; font-size: 8px; letter-spacing: .06em; text-align: right; }
+      .hero-stage { padding: 26px 20px 22px; }
+      .eyebrow { margin-bottom: 14px; font-size: 9px; }
+      h1 { font-size: clamp(56px, 12.4vw, 78px); }
+      .supporting { margin: 15px 0 17px; font-size: 13px; }
+      .cta { min-height: 48px; padding-inline: 13px; gap: 11px; font-size: 10px; }
+      .no-strings { font-size: 9px; }
+      .scene-art { aspect-ratio: 780 / 826; margin-top: 18px; }
+      .scene-stamp { font-size: 15px; }
+      .field-guide { padding: 42px 20px 39px; }
+      .guide-head h2 { font-size: 40px; }
+      .guide-steps { grid-template-columns: minmax(0, 1fr); }
+      .guide-steps li { padding: 16px 0; }
+      .guide-steps li + li { padding-left: 0; border-left: 0; border-top: 1px solid var(--ink); }
+      .step-number { margin-bottom: 7px; font-size: 29px; }
+      .guide-steps p { font-size: 12px; }
+      .guide-footer { align-items: flex-start; flex-direction: column; gap: 14px; }
+      .product-note { min-height: 0; padding: 24px 20px; align-items: flex-start; flex-direction: column; gap: 12px; }
+      .product-note h2 { font-size: 24px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero-frame" aria-label="ASCEND Outlaw campaign">
+      <header class="masthead">
+        <a class="brand" href="#top" aria-label="ASCEND home"><span class="brand-mark" aria-hidden="true">A</span>ASCEND</a>
+        <span class="masthead-note">No uniform. No permission.</span>
+      </header>
+
+      <div class="hero-stage" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow">The usual rules can sit this one out</p>
+          <h1><span>No uniform.</span><span class="accent">No permission.</span></h1>
+          <p class="supporting">ASCEND's premium plain white shirt: no script, no logo, no committee meeting about your outfit. Keep the tee simple. Make the rest your call.</p>
+          <a class="cta" href="#field-guide">Get the free field notes <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+          <p class="no-strings">Three practical style prompts. No signup or purchase.</p>
+          <a class="product-skip" href="#product">Skip the notes and see the plain tee.</a>
+        </div>
+
+        <svg class="scene-art" id="scene-art" viewBox="0 0 1600 826" role="img" aria-labelledby="scene-title scene-desc" xmlns="http://www.w3.org/2000/svg">
+          <title id="scene-title">A plain white ASCEND shirt framed by broken geometric planes</title>
+          <desc id="scene-desc">Original deconstructivist-inspired composition: a clear blank white shirt set against split, angled panels, scratches, and a strong diagonal line.</desc>
+          <defs>
+            <pattern id="scratches" width="43" height="39" patternUnits="userSpaceOnUse" patternTransform="rotate(-13)">
+              <path d="M2 6h23M16 17h25M0 29h16" stroke="#f2eadb" stroke-width="2" opacity=".18" />
+              <path d="M28 3h7M5 22h5" stroke="#bd372e" stroke-width="3" opacity=".5" />
+            </pattern>
+            <pattern id="grain" width="29" height="31" patternUnits="userSpaceOnUse">
+              <circle cx="5" cy="8" r="1.5" fill="#17191d" opacity=".26" />
+              <circle cx="21" cy="22" r="1" fill="#17191d" opacity=".22" />
+            </pattern>
+          </defs>
+          <rect width="1600" height="826" fill="#292c32" />
+          <rect width="1600" height="826" fill="url(#scratches)" />
+
+          <path d="M0 0h812L498 826H0Z" fill="#17191d" />
+          <path d="m713 0 235 0-297 826H411Z" fill="#7a2f1d" />
+          <path d="m828 0 140 0-301 826H527Z" fill="#bd372e" />
+          <path d="M1001 0h599v826H739Z" fill="#d9c5a7" />
+          <path d="m1056 0 113 0-293 826H764Z" fill="#17191d" />
+          <path d="m1184 0 69 0-291 826h-69Z" fill="#bd372e" />
+          <path d="M1001 0h599v826H739Z" fill="url(#grain)" />
+
+          <path d="m864 104 278-104 97 0-320 170Z" fill="#17191d" />
+          <path d="m1380 189 220-111v133l-167 84Z" fill="#7a2f1d" />
+          <path d="m1420 540 180-79v190l-248 175h-113Z" fill="#17191d" />
+          <path d="m841 664 184-31-38 193H739Z" fill="#bd372e" />
+          <path d="M901 0 582 826" fill="none" stroke="#f2eadb" stroke-width="8" opacity=".78" />
+          <path d="M965 0 645 826" fill="none" stroke="#17191d" stroke-width="3" />
+          <path d="M752 127 604 515m517-330-87 228m314 46-76 182" fill="none" stroke="#f2eadb" stroke-width="5" stroke-dasharray="13 18" opacity=".7" />
+
+          <path d="m1308 118 33-39 29 38-31 40Z" fill="#bd372e" stroke="#17191d" stroke-width="5" />
+          <path d="m1466 340 43 39m0-39-43 39m-563 239 40 40m0-40-40 40" fill="none" stroke="#17191d" stroke-width="7" stroke-linecap="round" />
+          <circle cx="1483" cy="250" r="14" fill="#17191d" />
+          <circle cx="1355" cy="697" r="10" fill="#f2eadb" />
+
+          <g stroke="#17191d" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m1078 180-89 45-49 112 84 39 37-62v285h322V314l37 62 84-39-49-112-89-45q-22 91-104 92-82-1-104-92Z" fill="#fffdf8" stroke-width="10" />
+            <path d="M1078 180q22 91 104 92 82-1 104-92M1061 314v285m322-285v285" fill="none" stroke-width="5" />
+          </g>
+
+          <path d="m1044 633 183 0" stroke="#17191d" stroke-width="4" />
+          <text x="1044" y="663" fill="#17191d" font-family="Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="2">PLAIN ON PURPOSE</text>
+          <text x="1395" y="715" fill="#f2eadb" font-family="Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="2" transform="rotate(-12 1395 715)">OFF-SCRIPT</text>
+        </svg>
+
+        <div class="scene-stamp" aria-hidden="true">KEEP<br>YOUR<br>OWN RULES</div>
+      </div>
+    </section>
+
+    <section class="field-guide" id="field-guide" aria-labelledby="guide-title">
+      <div class="guide-head">
+        <p class="guide-kicker">Free field notes / no purchase required</p>
+        <h2 id="guide-title">Three ways to unlearn the uniform.</h2>
+        <p>A tiny style guide for making a plain tee feel like your choice, not somebody else's dress code. Take the ideas; leave the rest.</p>
+      </div>
+
+      <ol class="guide-steps">
+        <li>
+          <span class="step-number">01</span>
+          <h3>Change the silhouette</h3>
+          <p>Try it tucked, untucked, or with one sleeve casually rolled. Keep the version that feels like you.</p>
+        </li>
+        <li>
+          <span class="step-number">02</span>
+          <h3>Break one expectation</h3>
+          <p>Pick one detail you usually avoid and test it with what you already own. One switch can change the whole mood.</p>
+        </li>
+        <li>
+          <span class="step-number">03</span>
+          <h3>Retire the approval check</h3>
+          <p>Ask whether you feel good in it, not whether it follows an invisible rule. That's the whole test.</p>
+        </li>
+      </ol>
+
+      <div class="guide-footer">
+        <p>Keep these notes whether or not you buy anything. No email gate, no hidden ask.</p>
+        <a class="cta" href="#product">Now, meet the plain tee <span class="cta-arrow" aria-hidden="true">&#8594;</span></a>
+      </div>
+    </section>
+
+    <section class="product-note" id="product" aria-label="ASCEND product details">
+      <div>
+        <h2>ASCEND. The blank canvas.</h2>
+        <p>A premium plain white shirt, ready for your style and your own rules.</p>
+      </div>
+      <a class="cta" href="#top">Back to the manifesto <span class="cta-arrow" aria-hidden="true">&#8593;</span></a>
+    </section>
+  </main>
+
+  <script>
+    const sceneArt = document.querySelector("#scene-art");
+
+    const updateSceneView = () => {
+      sceneArt.setAttribute("viewBox", window.matchMedia("(max-width: 1000px)").matches ? "690 0 780 826" : "0 0 1600 826");
+    };
+
+    updateSceneView();
+    window.addEventListener("resize", updateSceneView);
+  </script>
+</body>
+</html>
