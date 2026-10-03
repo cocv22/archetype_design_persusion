@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1055" viewBox="0 0 1600 1055" role="img" aria-labelledby="title description">
+  <title id="title">ASCEND: Different Paths. Same Right to Choose. — complete Outlaw advertisement</title>
+  <desc id="description">The complete ASCEND Outlaw ad: a bright Bauhaus poster with a prominent plain white shirt framed by simple geometric routes, a shared-autonomy headline, product strip, and product note.</desc>
+  <defs>
+    <pattern id="micro-grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#fffdf8" stroke-width="1" opacity=".18" />
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="1055" fill="#f4f0e6" />
+  <rect width="1600" height="900" fill="#f4f0e6" />
+
+  <rect width="1600" height="74" fill="#fffdf8" />
+  <path d="M0 73h1600" stroke="#17191d" stroke-width="2" />
+  <path d="M80 24h29v18.8L96.8 53H80Z" fill="#d83b32" />
+  <text x="94.5" y="42" text-anchor="middle" fill="#fffdf8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="18">A</text>
+  <text x="116" y="41" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing=".9">ASCEND</text>
+  <text x="1520" y="41" text-anchor="end" fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="1">NO DRESS CODE AUTHORITY</text>
+
+  <g font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" fill="#17191d">
+    <circle cx="88" cy="202" r="6" fill="#f2cc42" stroke="#17191d" stroke-width="2" />
+    <text x="102" y="206" letter-spacing="1">FOR EVERYONE CHOOSING THEIR OWN WAY</text>
+  </g>
+
+  <g fill="#17191d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="96">
+    <text x="80" y="313">DIFFERENT PATHS.</text>
+  </g>
+  <g fill="#2850c6" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="96">
+    <text x="80" y="404">SAME RIGHT TO</text>
+    <text x="80" y="495">CHOOSE.</text>
+  </g>
+
+  <g fill="#3c4144" font-family="DM Sans, Arial, sans-serif" font-size="14" font-weight="500">
+    <text x="80" y="546">Your style is yours. ASCEND's premium plain white shirt is a clean</text>
+    <text x="80" y="569">starting point—not a uniform, club badge, or rule. Wear it your way, or</text>
+    <text x="80" y="592">don't.</text>
+  </g>
+
+  <rect x="85" y="612" width="230" height="52" fill="#d83b32" />
+  <a href="#product" aria-label="Meet the blank canvas">
+    <rect x="80" y="606" width="230" height="52" fill="#17191d" stroke="#17191d" stroke-width="2" />
+    <text x="99" y="638" fill="#fffefa" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">MEET THE BLANK CANVAS</text>
+    <text x="285" y="638" text-anchor="middle" fill="#fffefa" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="23">&#8594;</text>
+  </a>
+  <g fill="#50565a" font-family="DM Sans, Arial, sans-serif" font-size="11" font-weight="700">
+    <text x="80" y="691">Different people, different paths. The shared idea is simple: nobody else gets to</text>
+    <text x="80" y="708">assign your identity.</text>
+  </g>
+
+  <rect x="804" y="159" width="716" height="584" fill="#fffefa" stroke="#171a1d" stroke-width="2" />
+  <svg x="805" y="160" width="714" height="582" viewBox="0 0 760 620" preserveAspectRatio="xMidYMid meet" aria-label="Plain white ASCEND shirt on a geometric field of independent paths">
+    <rect width="760" height="620" fill="#2850c6" />
+    <rect width="760" height="620" fill="url(#micro-grid)" />
+
+    <rect x="0" y="0" width="152" height="114" fill="#d83b32" />
+    <circle cx="657" cy="108" r="62" fill="#f2cc42" stroke="#17191d" stroke-width="5" />
+    <path d="M56 532 128 410l72 122Z" fill="#f2cc42" stroke="#17191d" stroke-width="5" />
+    <rect x="604" y="464" width="112" height="112" fill="#21847c" stroke="#17191d" stroke-width="5" />
+    <path d="M604 464h56v56h-56z" fill="#fffdf8" />
+    <circle cx="96" cy="265" r="30" fill="#fffdf8" stroke="#17191d" stroke-width="5" />
+    <path d="M651 208v81m-13-81h26m-26 81h26" stroke="#fffdf8" stroke-width="4" />
+
+    <path d="M137 264h84m-84 0v93h73m340-198h72m-72 0v58h56M204 520h69m-69 0v-59h51m304 31h-55v-74" fill="none" stroke="#fffdf8" stroke-width="5" />
+    <path d="m212 352 16 5-16 5m335-235 16 5-16 5m-278 329 16 5-16 5m228-103 16 5-16 5" fill="none" stroke="#fffdf8" stroke-width="4" stroke-linecap="square" />
+
+    <g font-family="Arial, sans-serif" font-weight="800" letter-spacing="1.4">
+      <text x="21" y="31" fill="#fffdf8" font-size="11">A / YOUR OWN WAY</text>
+      <text x="613" y="196" fill="#fffdf8" font-size="10">B / YOUR OWN WAY</text>
+      <text x="535" y="599" fill="#fffdf8" font-size="10">C / YOUR OWN WAY</text>
+    </g>
+
+    <g stroke="#17191d" stroke-linejoin="round" stroke-linecap="round">
+      <path d="m277 152-74 39-42 98 69 31 33-55v211h228V265l33 55 69-31-42-98-74-39q-17 71-98 72-81-1-98-72Z" fill="#fffdf8" stroke-width="9" />
+      <path d="M277 152q17 71 98 72 81-1 98-72M261 265v211m228-211v211" fill="none" stroke-width="5" />
+    </g>
+
+    <path d="M235 511h280" stroke="#171a1d" stroke-width="2" />
+    <text x="235" y="536" fill="#fffdf8" font-family="Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">DIFFERENT PATHS / SAME RIGHT</text>
+    <path d="m558 373 22-12m-22 27 22-12m-373-27 22-12m-22 27 22-12" stroke="#f2cc42" stroke-width="5" />
+  </svg>
+
+  <text x="1520" y="855" text-anchor="end" fill="#171a1d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="19">NO DRESS CODE AUTHORITY</text>
+
+  <rect y="826" width="1600" height="74" fill="#17191d" />
+  <path d="M0 826h1600" stroke="#17191d" stroke-width="2" />
+  <text x="80" y="862" fill="#f4f0e6" font-family="DM Sans, Arial, sans-serif" font-size="9" font-weight="800" letter-spacing=".9">ASCEND / PLAIN WHITE SHIRT</text>
+  <text x="800" y="861" text-anchor="middle" fill="#f4f0e6" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="18">WEAR IT YOUR WAY.</text>
+  <text x="1520" y="861" text-anchor="end" fill="#f4f0e6" font-family="DM Sans, Arial, sans-serif" font-size="10" font-weight="800" text-decoration="underline">BACK TO THE TOP</text>
+
+  <rect y="900" width="1600" height="155" fill="#f2cc42" />
+  <path d="M0 900h1600" stroke="#17191d" stroke-width="2" />
+  <text x="128" y="972" fill="#17191d" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="27">SIMPLE SHIRT. YOUR CALL.</text>
+  <g fill="#17191d" font-family="DM Sans, Arial, sans-serif" font-size="12">
+    <text x="128" y="1000">ASCEND premium plain white shirt: a clean base for your style, whatever that looks like</text>
+    <text x="128" y="1019">today.</text>
+  </g>
+  <rect x="1264" y="958" width="213" height="52" fill="#d83b32" />
+  <rect x="1259" y="953" width="213" height="52" fill="#17191d" stroke="#17191d" stroke-width="2" />
+  <text x="1274" y="985" fill="#fffdf8" font-family="DM Sans, Arial, sans-serif" font-size="12" font-weight="800">BACK TO THE MANIFESTO</text>
+  <text x="1450" y="985" text-anchor="middle" fill="#fffdf8" font-family="Anton, Impact, Arial Narrow, sans-serif" font-size="24">&#8593;</text>
+</svg>
